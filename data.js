@@ -59,7 +59,7 @@ const CATALOG = [
         titulo: "Temporada 1",
         episodios: [
           { titulo: "Episódio 1", videoUrl: "https://ia800704.us.archive.org/26/items/it-bem-vindos-a-derry-ep-1x-8/IT_Bem_Vindos_a_Derry_EP_1x1.mp4" },
-          { titulo: "Episódio 2", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "https://ia800704.us.archive.org/26/items/it-bem-vindos-a-derry-ep-1x-8/IT_Bem_Vindos_a_Derry_EP_1x2.mp4" },
           { titulo: "Episódio 3", videoUrl: "" },
           { titulo: "Episódio 4", videoUrl: "" },
           { titulo: "Episódio 5", videoUrl: "" },
