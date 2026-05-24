@@ -131,7 +131,7 @@ const CATALOG = [
         numero: 1,
         titulo: "Temporada 1",
         episodios: [
-          { titulo: "Episódio 1",  videoUrl: "https://ia600509.us.archive.org/24/items/whats-app-video-2026-05-23-at-14.05.54/WhatsApp%20Video%202026-05-23%20at%2014.05.54.mp4" },
+          { titulo: "Episódio 1",  videoUrl: "" },
           { titulo: "Episódio 2",  videoUrl: "" },
           { titulo: "Episódio 3",  videoUrl: "" },
           { titulo: "Episódio 4",  videoUrl: "" },
