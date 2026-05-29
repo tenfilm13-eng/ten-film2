@@ -9,7 +9,10 @@ const CATALOG = [
     generos: ["Terror", "Mistério"],
     avaliacao: 7.0,
     poster: "https://i.pinimg.com/736x/44/3b/1f/443b1f799629085416970b1e6b199d8e.jpg",
-    videoUrl: "https://ia903201.us.archive.org/12/items/scream.-2022.1080p.-webrip.-1400-mb.-dd-2.0.x-264-galaxy-rg/Scream.2022.1080p.WEBRip.1400MB.DD2.0.x264-GalaxyRG.mp4",
+    videoUrl: "",
+    idiomas: ["Português", "Inglês"],
+    qualidade: "1080p",
+    trailer: "https://youtu.be/beToTslH17s?si=6WlY1dlbp2U7U1et",
     duracao: "1h 54min",
     pais: "EUA"
   },
@@ -23,13 +26,16 @@ const CATALOG = [
     generos: ["Terror", "Mistério"],
     avaliacao: 7.2,
     poster: "https://m.media-amazon.com/images/M/MV5BZDZkYzk3YTEtYTQ5MS00MzQ5LTg0NjUtOTgzODA5N2EyYTQ1XkEyXkFqcGc@._V1_.jpg",
-    videoUrl: "https://ia800405.us.archive.org/17/items/scream-6_202605/Scream.VI.2023.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mp4",
+    videoUrl: "",
+    idiomas: ["Português", "Inglês"],
+    qualidade: "1080p", 
+    trailer: "https://youtu.be/h74AXqw4Opc?si=t-6sSpJYAsQ4Ib3L",
     duracao: "2h 2min",
     pais: "EUA"
   },
 
   {
-    id: 5,
+    id: 3,
     tipo: "filme",
     titulo: "Scream 1",
     ano: 1996,
@@ -38,12 +44,15 @@ const CATALOG = [
     avaliacao: 7.4,
     poster: "https://i.redd.it/xweqes0z0wcc1.jpeg",
     videoUrl: "",
+    idiomas: ["Português", "Inglês"],
+    qualidade: "1080p",
+    trailer: "https://youtu.be/U0LETmDvuXc?si=tkrlpesZMXebtIVg",
     duracao: "1h 51min",
     pais: "EUA"
   },
 
   {
-    id: 3,
+    id: 4,
     tipo: "serie",
     titulo: "IT: Bem-vindos a Derry",
     ano: 2025,
@@ -52,14 +61,16 @@ const CATALOG = [
     avaliacao: 7.8,
     poster: "https://m.media-amazon.com/images/M/MV5BNDFmODE3NDktZGVhNS00M2NmLWI1NDAtNTgzOTA0ZGFhODFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     duracao: "1 temporada · 8 episódios",
+    qualidade: "1080p",
+    trailer: "https://youtu.be/K8BgHgL_pr8?si=ahbY_mMnjShHSg2s",
     pais: "EUA",
     temporadas: [
-      {
+       {
         numero: 1,
         titulo: "Temporada 1",
         episodios: [
-          { titulo: "Episódio 1", videoUrl: "https://ia800704.us.archive.org/26/items/it-bem-vindos-a-derry-ep-1x-8/IT_Bem_Vindos_a_Derry_EP_1x1.mp4" },
-          { titulo: "Episódio 2", videoUrl: "https://ia800704.us.archive.org/26/items/it-bem-vindos-a-derry-ep-1x-8/IT_Bem_Vindos_a_Derry_EP_1x2.mp4" },
+          { titulo: "Episódio 1", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "" },
           { titulo: "Episódio 3", videoUrl: "" },
           { titulo: "Episódio 4", videoUrl: "" },
           { titulo: "Episódio 5", videoUrl: "" },
@@ -72,7 +83,7 @@ const CATALOG = [
   },
 
   {
-    id: 4,
+    id: 5,
     tipo: "serie",
     titulo: "Elite",
     ano: 2018,
@@ -80,10 +91,12 @@ const CATALOG = [
     generos: ["Drama", "Thriller"],
     avaliacao: 7.1,
     poster: "https://br.web.img3.acsta.net/pictures/18/10/18/07/54/1893178.jpg",
-    duracao: "1 temporada · 8 episódios",
+    duracao: "2 temporadas · 8 episódios cada",
+    qualidade: "1080p",
+    trailer: "https://youtu.be/Oqv81BdRs7w?si=nKoXtGhtRT5JYZtw",
     pais: "Espanha",
     temporadas: [
-      {
+       {
         numero: 1,
         titulo: "Temporada 1",
         episodios: [
@@ -97,10 +110,93 @@ const CATALOG = [
           { titulo: "Episódio 8", videoUrl: "" }
         ]
       },
-
       {
         numero: 2,
         titulo: "Temporada 2",
+        episodios: [
+          { titulo: "Episódio 1", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "" },
+          { titulo: "Episódio 3", videoUrl: "" },
+          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 5", videoUrl: "" },
+          { titulo: "Episódio 6", videoUrl: "" },
+          { titulo: "Episódio 7", videoUrl: "" },
+          { titulo: "Episódio 8", videoUrl: "" }
+        ]
+      },
+      {
+        numero: 3,
+        titulo: "Temporada 3",
+        episodios: [
+          { titulo: "Episódio 1", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "" },
+          { titulo: "Episódio 3", videoUrl: "" },
+          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 5", videoUrl: "" },
+          { titulo: "Episódio 6", videoUrl: "" },
+          { titulo: "Episódio 7", videoUrl: "" },
+          { titulo: "Episódio 8", videoUrl: "" }
+        ]
+      },
+      {
+        numero: 4,
+        titulo: "Temporada 4",
+        episodios: [
+          { titulo: "Episódio 1", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "" },
+          { titulo: "Episódio 3", videoUrl: "" },
+          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 5", videoUrl: "" },
+          { titulo: "Episódio 6", videoUrl: "" },
+          { titulo: "Episódio 7", videoUrl: "" },
+          { titulo: "Episódio 8", videoUrl: "" }
+        ]
+      },
+      {
+        numero: 5,
+        titulo: "Temporada 5",
+        episodios: [
+          { titulo: "Episódio 1", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "" },
+          { titulo: "Episódio 3", videoUrl: "" },
+          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 5", videoUrl: "" },
+          { titulo: "Episódio 6", videoUrl: "" },
+          { titulo: "Episódio 7", videoUrl: "" },
+          { titulo: "Episódio 8", videoUrl: "" }
+        ]
+      },
+      {
+        numero: 6,
+        titulo: "Temporada 6",
+        episodios: [
+          { titulo: "Episódio 1", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "" },
+          { titulo: "Episódio 3", videoUrl: "" },
+          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 5", videoUrl: "" },
+          { titulo: "Episódio 6", videoUrl: "" },
+          { titulo: "Episódio 7", videoUrl: "" },
+          { titulo: "Episódio 8", videoUrl: "" }
+        ]
+      },
+      {
+        numero: 7,
+        titulo: "Temporada 7",
+        episodios: [
+          { titulo: "Episódio 1", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "" },
+          { titulo: "Episódio 3", videoUrl: "" },
+          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 5", videoUrl: "" },
+          { titulo: "Episódio 6", videoUrl: "" },
+          { titulo: "Episódio 7", videoUrl: "" },
+          { titulo: "Episódio 8", videoUrl: "" }
+        ]
+      },
+      {
+        numero: 8,
+        titulo: "Temporada 8",
         episodios: [
           { titulo: "Episódio 1", videoUrl: "" },
           { titulo: "Episódio 2", videoUrl: "" },
@@ -120,8 +216,10 @@ const CATALOG = [
     tipo: "serie",
     titulo: "Prison Break",
     ano: 2005,
-    sinopse: "Gira em torno de Michael Scofield, um engenheiro brilhante que arquiteta um plano audacioso para salvar seu irmão mais velho, Lincoln Burrows, do corredor da morte. Lincoln foi falsamente condenado por assassinar o irmão da vice-presidente dos EUA",
+    sinopse: "Gira em torno de Michael Scofield, um engenheiro brilhante que arquiteta um plano audacioso para salvar seu irmão mais velho, Lincoln Burrows, do corredor da morte.",
     generos: ["Drama", "Ação"],
+    qualidade: "1080p",
+    trailer: "https://youtu.be/C2ssQOyVJqQ?si=ltpRRHHM8PG6a6hM",
     avaliacao: 8.3,
     poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52b7VZ4ZvmrukOazrje-d2Nx50yF27QDDjQ&s",
     duracao: "5 temporadas",
@@ -131,91 +229,15 @@ const CATALOG = [
         numero: 1,
         titulo: "Temporada 1",
         episodios: [
-          { titulo: "Episódio 1",  videoUrl: "" },
-          { titulo: "Episódio 2",  videoUrl: "" },
-          { titulo: "Episódio 3",  videoUrl: "" },
-          { titulo: "Episódio 4",  videoUrl: "" },
-          { titulo: "Episódio 5",  videoUrl: "" },
-          { titulo: "Episódio 6",  videoUrl: "" },
-          { titulo: "Episódio 7",  videoUrl: "" },
-          { titulo: "Episódio 8",  videoUrl: "" },
-          { titulo: "Episódio 9",  videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          { titulo: "Episódio 16", videoUrl: "" },
-          { titulo: "Episódio 17", videoUrl: "" },
-          { titulo: "Episódio 18", videoUrl: "" },
-          { titulo: "Episódio 19", videoUrl: "" },
-          { titulo: "Episódio 20", videoUrl: "" },
-          { titulo: "Episódio 21", videoUrl: "" },
-          { titulo: "Episódio 22", videoUrl: "" }
-        ]
-      },
-      {
-        numero: 2,
-        titulo: "Temporada 2",
-        episodios: [
-          { titulo: "Episódio 1",  videoUrl: "" },
-          { titulo: "Episódio 2",  videoUrl: "" },
-          { titulo: "Episódio 3",  videoUrl: "" },
-          { titulo: "Episódio 4",  videoUrl: "" },
-          { titulo: "Episódio 5",  videoUrl: "" },
-          { titulo: "Episódio 6",  videoUrl: "" },
-          { titulo: "Episódio 7",  videoUrl: "" },
-          { titulo: "Episódio 8",  videoUrl: "" },
-          { titulo: "Episódio 9",  videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          { titulo: "Episódio 16", videoUrl: "" },
-          { titulo: "Episódio 17", videoUrl: "" },
-          { titulo: "Episódio 18", videoUrl: "" },
-          { titulo: "Episódio 19", videoUrl: "" },
-          { titulo: "Episódio 20", videoUrl: "" },
-          { titulo: "Episódio 21", videoUrl: "" },
-          { titulo: "Episódio 22", videoUrl: "" }
-        ]
-      },
-
-       {
-        numero: 3,
-        titulo: "Temporada 3",
-        episodios: [
-          { titulo: "Episódio 1",  videoUrl: "" },
-          { titulo: "Episódio 2",  videoUrl: "" },
-          { titulo: "Episódio 3",  videoUrl: "" },
-          { titulo: "Episódio 4",  videoUrl: "" },
-          { titulo: "Episódio 5",  videoUrl: "" },
-          { titulo: "Episódio 6",  videoUrl: "" },
-          { titulo: "Episódio 7",  videoUrl: "" },
-          { titulo: "Episódio 8",  videoUrl: "" },
-          { titulo: "Episódio 9",  videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-        ]
-      },
-      {
-        numero: 4,
-        titulo: "Temporada 4",
-        episodios: [
-          { titulo: "Episódio 1",  videoUrl: "" },
-          { titulo: "Episódio 2",  videoUrl: "" },
-          { titulo: "Episódio 3",  videoUrl: "" },
-          { titulo: "Episódio 4",  videoUrl: "" },
-          { titulo: "Episódio 5",  videoUrl: "" },
-          { titulo: "Episódio 6",  videoUrl: "" },
-          { titulo: "Episódio 7",  videoUrl: "" },
-          { titulo: "Episódio 8",  videoUrl: "" },
-          { titulo: "Episódio 9",  videoUrl: "" },
+          { titulo: "Episódio 1", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "" },
+          { titulo: "Episódio 3", videoUrl: "" },
+          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 5", videoUrl: "" },
+          { titulo: "Episódio 6", videoUrl: "" },
+          { titulo: "Episódio 7", videoUrl: "" },
+          { titulo: "Episódio 8", videoUrl: "" },
+          { titulo: "Episódio 9", videoUrl: "" },
           { titulo: "Episódio 10", videoUrl: "" },
           { titulo: "Episódio 11", videoUrl: "" },
           { titulo: "Episódio 12", videoUrl: "" },
@@ -229,27 +251,63 @@ const CATALOG = [
           { titulo: "Episódio 20", videoUrl: "" },
           { titulo: "Episódio 21", videoUrl: "" },
           { titulo: "Episódio 22", videoUrl: "" },
-          { titulo: "Episódio 23", videoUrl: "" },
-          { titulo: "Episódio 24", videoUrl: "" }
         ]
+      },
+      {
+        numero: 2,
+        titulo: "Temporada 2",
+        episodios: [
+          { titulo: "Episódio 1", videoUrl: "" },
+          { titulo: "Episódio 2", videoUrl: "" },
+          { titulo: "Episódio 3", videoUrl: "" },
+          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 5", videoUrl: "" },
+          { titulo: "Episódio 6", videoUrl: "" },
+          { titulo: "Episódio 7", videoUrl: "" },
+          { titulo: "Episódio 8", videoUrl: "" },
+          { titulo: "Episódio 9", videoUrl: "" },
+          { titulo: "Episódio 10", videoUrl: "" },
+          { titulo: "Episódio 11", videoUrl: "" },
+          { titulo: "Episódio 12", videoUrl: "" },
+          { titulo: "Episódio 13", videoUrl: "" },
+          { titulo: "Episódio 14", videoUrl: "" },
+          { titulo: "Episódio 15", videoUrl: "" },
+          { titulo: "Episódio 16", videoUrl: "" },
+          { titulo: "Episódio 17", videoUrl: "" },
+          { titulo: "Episódio 18", videoUrl: "" },
+          { titulo: "Episódio 19", videoUrl: "" },
+          { titulo: "Episódio 20", videoUrl: "" },
+          { titulo: "Episódio 21", videoUrl: "" },
+          { titulo: "Episódio 22", videoUrl: "" }
+        ]
+      },
+      {
+        numero: 3,
+        titulo: "Temporada 3",
+        episodios: Array.from({length: 13}, (_, i) => ({
+          titulo: `Episódio ${i+1}`,
+          videoUrl: `https://cdn-embed.com/serie/tt0455275/3/${i+1}`
+        }))
+      },
+      {
+        numero: 4,
+        titulo: "Temporada 4",
+        episodios: Array.from({length: 24}, (_, i) => ({
+          titulo: `Episódio ${i+1}`,
+          videoUrl: `https://cdn-embed.com/serie/tt0455275/4/${i+1}`
+        }))
       },
       {
         numero: 5,
         titulo: "Temporada 5",
-        episodios: [
-          { titulo: "Episódio 1",  videoUrl: "" },
-          { titulo: "Episódio 2",  videoUrl: "" },
-          { titulo: "Episódio 3",  videoUrl: "" },
-          { titulo: "Episódio 4",  videoUrl: "" },
-          { titulo: "Episódio 5",  videoUrl: "" },
-          { titulo: "Episódio 6",  videoUrl: "" },
-          { titulo: "Episódio 7",  videoUrl: "" },
-          { titulo: "Episódio 8",  videoUrl: "" },
-          { titulo: "Episódio 9",  videoUrl: "" },
-        ]
-      },
+        episodios: Array.from({length: 9}, (_, i) => ({
+          titulo: `Episódio ${i+1}`,
+          videoUrl: `https://cdn-embed.com/serie/tt0455275/5/${i+1}`
+        }))
+      }
     ]
   }
+
 
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
@@ -262,20 +320,12 @@ const CATALOG = [
        generos: ["Ação"],
        avaliacao: 8.0,
        poster: "https://...",
-       videoUrl: "https://archive.org/download/ID/ficheiro.mp4",
+       videoUrl: "https://cdn-embed.com/filme/ttXXXXXXX",
        duracao: "2h 00min",
        pais: "EUA"
      }
 
-     PARA ADICIONAR NOVA TEMPORADA A UMA SÉRIE EXISTENTE:
-     Adiciona um novo bloco dentro de "temporadas":
-     {
-       numero: 3,
-       titulo: "Temporada 3",
-       episodios: [
-         { titulo: "Episódio 1", videoUrl: "" },
-         ...
-       ]
-     }
+     PARA SÉRIE:
+     videoUrl episódio: "https://cdn-embed.com/serie/ttXXXXXXX/TEMPORADA/EPISODIO"
      ───────────────────────────────────────────────────────── */
 ];
