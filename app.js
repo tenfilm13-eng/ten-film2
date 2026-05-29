@@ -3,13 +3,19 @@
    =========================== */
 
 document.addEventListener('DOMContentLoaded', () => {
-  let localCatalog = [...CATALOG];
   let currentFilter = 'all';
   let currentSearch = '';
   let adTimer = null;
-  let pendingArchiveId = '';
+  let pendingImdb = '';
+  let pendingTipo = 'filme';
+  let pendingSeason = 1;
+  let pendingEpisode = 1;
   let pendingTitle = '';
+  let pendingLegendas = {};
   const AD_DURATION = 10;
+
+  // Ordem aleatória como a Netflix
+  const localCatalog = [...CATALOG].sort(() => Math.random() - 0.5);
 
   const grid         = document.getElementById('cardsGrid');
   const emptyState   = document.getElementById('emptyState');
@@ -21,21 +27,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Hero ──
   function setupHero() {
-    const item = localCatalog[0];
+    const item = CATALOG[0];
     if (!item) return;
     document.getElementById('heroTitle').textContent = item.titulo;
     document.getElementById('heroDesc').textContent  = item.sinopse || '';
-    const heroBg = document.getElementById('heroBg');
-    if (item.poster) {
-      heroBg.style.backgroundImage = `url('${item.poster}')`;
-      heroBg.style.opacity = '0.25';
-    }
-    document.getElementById('heroPlayBtn').onclick = () => openModal(item.id);
+    document.getElementById('heroActions').innerHTML =
+      `<button class="btn-play" onclick="openModal(${item.id})">▶ Ver Detalhes</button>`;
   }
 
   // ── Filtro + Pesquisa ──
   function getFiltered() {
-    return localCatalog.filter(item => {
+    return CATALOG.filter(item => {
       const matchFilter = currentFilter === 'all' || item.tipo === currentFilter;
       const q = currentSearch.toLowerCase().trim();
       const matchSearch = !q ||
@@ -73,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const posterHTML = item.poster
       ? `<img class="card-poster" src="${item.poster}" alt="${escHtml(item.titulo)}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'card-no-poster\\'><span>🎬</span><span>${escHtml(item.titulo)}</span></div>'">`
       : `<div class="card-no-poster"><span>🎬</span><span>${escHtml(item.titulo)}</span></div>`;
-    const ratingHTML = item.avaliacao ? `<div class="rating-badge">★ ${item.avaliacao.toFixed(1)}</div>` : '';
+    const ratingHTML = item.avaliacao ? `<div class="rating-badge">★ ${item.avaliacao}</div>` : '';
     card.innerHTML = `
       ${posterHTML}
       <span class="badge ${badgeClass}">${badgeLabel}</span>
@@ -91,26 +93,27 @@ document.addEventListener('DOMContentLoaded', () => {
     return card;
   }
 
-  // ── Open Modal (filme ou série) ──
+  // ── Modal Detalhes ──
   window.openModal = function(id) {
-    const item = localCatalog.find(x => x.id === id);
+    const item = CATALOG.find(x => x.id === id);
     if (!item) return;
 
-    // Se for série com episódios ou temporadas → abre modal de episódios
-    if (item.tipo === 'serie' && (item.temporadas || item.episodios)) {
+    // Série com temporadas
+    if (item.tipo === 'serie' && item.temporadas) {
       openEpisodesModal(item);
       return;
     }
 
-    // Filme normal
     document.getElementById('modalType').textContent = item.tipo === 'filme' ? 'Filme' : 'Série';
     document.getElementById('modalType').className   = `modal-type ${item.tipo}`;
     document.getElementById('modalTitle').textContent    = item.titulo;
     document.getElementById('modalSynopsis').textContent = item.sinopse || 'Sem sinopse disponível.';
+
     const posterEl = document.getElementById('modalPoster');
     posterEl.innerHTML = item.poster
       ? `<img src="${item.poster}" alt="${escHtml(item.titulo)}" onerror="this.parentElement.innerHTML='<div class=\\'modal-poster-empty\\'>🎬</div>'">`
       : `<div class="modal-poster-empty">🎬</div>`;
+
     const meta = [];
     if (item.ano)       meta.push(`<strong>${item.ano}</strong>`);
     if (item.duracao)   meta.push(`<span>${item.duracao}</span>`);
@@ -118,18 +121,40 @@ document.addEventListener('DOMContentLoaded', () => {
     if (item.avaliacao) meta.push(`<span>★ ${item.avaliacao}/10</span>`);
     document.getElementById('modalMeta').innerHTML = meta.join('<span>·</span>');
     document.getElementById('modalGenres').innerHTML = (item.generos || []).map(g => `<span class="genre-tag">${g}</span>`).join('');
+
+    // Idiomas e Qualidade
+    const extraEl = document.getElementById('modalExtra');
+    const extraItems = [];
+    if (item.idiomas && item.idiomas.length) {
+      extraItems.push(`<span class="extra-tag">🗣️ ${item.idiomas.join(' / ')}</span>`);
+    }
+    if (item.qualidade) {
+      extraItems.push(`<span class="extra-tag">📺 ${item.qualidade}</span>`);
+    }
+    extraEl.innerHTML = extraItems.join('');
+
+    // Trailer
+    const trailerBtn = document.getElementById('modalTrailerBtn');
+    if (item.trailer) {
+      trailerBtn.href = item.trailer;
+      trailerBtn.style.display = 'inline-flex';
+    } else {
+      trailerBtn.style.display = 'none';
+    }
+
     const watchBtn = document.getElementById('modalWatchBtn');
     if (item.videoUrl && item.videoUrl.trim() !== '') {
       watchBtn.disabled = false;
       watchBtn.className = 'btn-watch';
       watchBtn.textContent = '▶ Assistir Agora';
-      watchBtn.onclick = () => { closeModal(); openAd(item.videoUrl, item.titulo); };
+      watchBtn.onclick = () => { closeModal(); openAd(item.videoUrl, 'filme', 1, 1, item.titulo, item.legendas || {}); };
     } else {
       watchBtn.disabled = false;
       watchBtn.className = 'btn-watch btn-request-film';
       watchBtn.textContent = '📩 Queres assistir? Pede por email!';
       watchBtn.onclick = () => { closeModal(); openRequestModal(); };
     }
+
     document.getElementById('modalOverlay').classList.add('open');
     document.body.style.overflow = 'hidden';
   };
@@ -145,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ══════════════════════════════════════════════
-  //  MODAL DE EPISÓDIOS
+  //  MODAL EPISÓDIOS
   // ══════════════════════════════════════════════
 
   function openEpisodesModal(item) {
@@ -166,79 +191,62 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('epGenres').innerHTML = (item.generos || []).map(g => `<span class="genre-tag">${g}</span>`).join('');
 
     const list = document.getElementById('episodesList');
-    const temporadas = item.temporadas || [{ numero: 1, titulo: 'Temporada 1', episodios: item.episodios || [] }];
 
-    // Função para mostrar episódios de uma temporada
-    function showEpisodes(temp) {
-      list.innerHTML = '';
-
-      // Botão voltar para temporadas (só se tiver mais de 1 temporada)
-      if (temporadas.length > 1) {
-        const backBtn = document.createElement('button');
-        backBtn.className = 'season-back-btn';
-        backBtn.innerHTML = `← Voltar às Temporadas`;
-        backBtn.onclick = () => showSeasons();
-        list.appendChild(backBtn);
-      }
-
-      // Label da temporada
-      const label = document.createElement('div');
-      label.className = 'season-label';
-      label.innerHTML = `📺 ${temp.titulo}`;
-      list.appendChild(label);
-
-      // Episódios
-      temp.episodios.forEach((ep, i) => {
-        const btn = document.createElement('button');
-        btn.className = 'episode-btn';
-        const hasVideo = ep.videoUrl && ep.videoUrl.trim() !== '';
-        btn.innerHTML = `
-          <span class="ep-number">EP ${i + 1}</span>
-          <span class="ep-name">${escHtml(ep.titulo)}</span>
-          <span class="ep-play">${hasVideo ? '▶' : '📩'}</span>
-        `;
-        if (hasVideo) {
-          btn.onclick = () => {
-            closeEpisodesModal();
-            openAd(ep.videoUrl, `${item.titulo} — ${temp.titulo} EP ${i + 1}`);
-          };
-        } else {
-          btn.style.opacity = '0.6';
-          btn.style.cursor = 'pointer';
-          btn.onclick = () => {
-            closeEpisodesModal();
-            openRequestModal();
-          };
-        }
-        list.appendChild(btn);
-      });
-    }
-
-    // Função para mostrar lista de temporadas
     function showSeasons() {
       list.innerHTML = '';
-
       const label = document.createElement('div');
       label.className = 'season-label';
-      label.innerHTML = `🎬 Escolhe a Temporada`;
+      label.innerHTML = '🎬 Escolhe a Temporada';
       list.appendChild(label);
-
-      temporadas.forEach(temp => {
+      item.temporadas.forEach(temp => {
         const btn = document.createElement('button');
         btn.className = 'episode-btn season-btn';
-        btn.innerHTML = `
-          <span class="ep-number">T${temp.numero}</span>
-          <span class="ep-name">${escHtml(temp.titulo)}</span>
-          <span class="ep-play">▶</span>
-        `;
+        btn.innerHTML = `<span class="ep-number">T${temp.numero}</span><span class="ep-name">${escHtml(temp.titulo)}</span><span class="ep-play">▶</span>`;
         btn.onclick = () => showEpisodes(temp);
         list.appendChild(btn);
       });
     }
 
-    // Se só tiver 1 temporada, vai directo para episódios
-    if (temporadas.length === 1) {
-      showEpisodes(temporadas[0]);
+    function showEpisodes(temp) {
+      list.innerHTML = '';
+      if (item.temporadas.length > 1) {
+        const backBtn = document.createElement('button');
+        backBtn.className = 'season-back-btn';
+        backBtn.textContent = '← Voltar às Temporadas';
+        backBtn.onclick = () => showSeasons();
+        list.appendChild(backBtn);
+      }
+      const label = document.createElement('div');
+      label.className = 'season-label';
+      label.innerHTML = `📺 ${temp.titulo}`;
+      list.appendChild(label);
+      temp.episodios.forEach((ep, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'episode-btn';
+        const hasVideo = ep.videoUrl && ep.videoUrl.trim() !== '' && !ep.videoUrl.includes('cdn-embed.com');
+        btn.innerHTML = `
+          <span class="ep-number">EP ${i + 1}</span>
+          <span class="ep-name">${escHtml(ep.titulo)}</span>
+          <span class="ep-play">${hasVideo ? '▶' : '📩'}</span>
+        `;
+        if (!hasVideo) {
+          btn.title = 'Não tem vídeo — clica para pedir por email';
+          btn.style.opacity = '0.6';
+        }
+        btn.onclick = () => {
+          closeEpisodesModal();
+          if (hasVideo) {
+            openAd(ep.videoUrl, 'serie', temp.numero, i + 1, `${item.titulo} — T${temp.numero} EP${i + 1}`, ep.legendas || {});
+          } else {
+            openRequestModal();
+          }
+        };
+        list.appendChild(btn);
+      });
+    }
+
+    if (item.temporadas.length === 1) {
+      showEpisodes(item.temporadas[0]);
     } else {
       showSeasons();
     }
@@ -261,61 +269,61 @@ document.addEventListener('DOMContentLoaded', () => {
   //  SISTEMA DE ANÚNCIO (AD)
   // ══════════════════════════════════════════════
 
-  function openAd(archiveId, titulo) {
-    pendingArchiveId = archiveId;
-    pendingTitle = titulo;
+  function openAd(videoUrl, tipo, season, episode, titulo, legendas) {
+    pendingImdb     = videoUrl;
+    pendingTipo     = tipo;
+    pendingSeason   = season;
+    pendingEpisode  = episode;
+    pendingTitle    = titulo;
+    pendingLegendas = legendas || {};
 
-    const countdown    = document.getElementById('adCountdown');
     const skipBtn      = document.getElementById('adSkipBtn');
     const progressFill = document.getElementById('adProgressFill');
+    const timerWrap    = document.getElementById('adTimerWrap');
 
-    countdown.textContent = AD_DURATION;
+    // Botão bloqueado no início
     skipBtn.disabled = true;
     progressFill.style.transition = 'none';
     progressFill.style.width = '0%';
 
+    // Mensagem inicial
+    timerWrap.innerHTML = `<span class="ad-timer-text" style="color:#f0eee8;">📢 Clica no anúncio, entra no site e volta aqui</span>`;
+
     document.getElementById('adOverlay').classList.add('open');
     document.body.style.overflow = 'hidden';
 
-    void progressFill.getBoundingClientRect();
-    progressFill.style.transition = `width ${AD_DURATION}s linear`;
-    progressFill.style.width = '100%';
-
-    let remaining = AD_DURATION;
-    clearInterval(adTimer);
-    adTimer = setInterval(() => {
-      remaining--;
-      countdown.textContent = remaining;
-      if (remaining <= 0) {
-        clearInterval(adTimer);
-        skipBtn.disabled = false;
-        document.getElementById('adTimerWrap').innerHTML =
-          '<span class="ad-timer-text" style="color:var(--accent)">Pronto! Podes assistir.</span>';
-      }
-    }, 1000);
+    // Detecta quando pessoa clica na área do anúncio
+    const adMedia = document.getElementById('adMedia');
+    function onAdClick() {
+      adMedia.removeEventListener('click', onAdClick);
+      // Desbloqueia botão saltar
+      skipBtn.disabled = false;
+      timerWrap.innerHTML = `<span class="ad-timer-text" style="color:var(--accent)">✅ Boa! Podes assistir.</span>`;
+      // Barra de progresso completa
+      progressFill.style.transition = 'width .5s ease';
+      progressFill.style.width = '100%';
+    }
+    adMedia.addEventListener('click', onAdClick);
 
     skipBtn.onclick = () => {
+      adMedia.removeEventListener('click', onAdClick);
       clearInterval(adTimer);
       document.getElementById('adOverlay').classList.remove('open');
-      document.getElementById('adTimerWrap').innerHTML = `
-        <span class="ad-timer-text">O vídeo abre em</span>
-        <span class="ad-countdown" id="adCountdown">10</span>
-        <span class="ad-timer-text">s</span>
-      `;
-      openPlayer(pendingArchiveId, pendingTitle);
+      timerWrap.innerHTML = `<span class="ad-timer-text">📢 Clica no anúncio, entra no site e volta aqui</span>`;
+      openPlayer(pendingImdb, pendingTipo, pendingSeason, pendingEpisode, pendingTitle, pendingLegendas);
     };
   }
 
   // ══════════════════════════════════════════════
-  //  PLAYER ARCHIVE.ORG
+  //  PLAYER VIDSRC
   // ══════════════════════════════════════════════
 
-  function openPlayer(videoUrl, titulo) {
+  function openPlayer(videoUrl, tipo, season, episode, titulo, legendas) {
     document.getElementById('playerTitle').textContent = titulo || '';
     const video = document.getElementById('playerVideo');
     video.src = videoUrl;
     video.load();
-    video.play();
+    video.play().catch(() => {});
     document.getElementById('playerOverlay').classList.add('open');
     document.body.style.overflow = 'hidden';
   }
@@ -328,7 +336,120 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   }
 
+  // ══════════════════════════════════════════════
+  //  SISTEMA DE LEGENDAS POR CIMA DO IFRAME
+  // ══════════════════════════════════════════════
+
+  let subtitleTimer = null;
+  let currentSubtitles = [];
+  let currentLang = 'none';
+  let playerStartTime = null;
+
+  function parseVTT(text) {
+    const cues = [];
+    const blocks = text.trim().split(/\n\n+/);
+    for (const block of blocks) {
+      const lines = block.split('\n');
+      const timeLine = lines.find(l => l.includes('-->'));
+      if (!timeLine) continue;
+      const [start, end] = timeLine.split('-->').map(t => {
+        const parts = t.trim().replace(',', '.').split(':');
+        if (parts.length === 3) return parseFloat(parts[0])*3600 + parseFloat(parts[1])*60 + parseFloat(parts[2]);
+        return parseFloat(parts[0])*60 + parseFloat(parts[1]);
+      });
+      const text = lines.slice(lines.indexOf(timeLine) + 1).join(' ').replace(/<[^>]+>/g, '');
+      if (text.trim()) cues.push({ start, end, text: text.trim() });
+    }
+    return cues;
+  }
+
+  async function loadSubtitles(url) {
+    if (!url) return [];
+    try {
+      const res = await fetch(url);
+      const text = await res.text();
+      return parseVTT(text);
+    } catch {
+      return [];
+    }
+  }
+
+  function startSubtitleSync() {
+    clearInterval(subtitleTimer);
+    if (currentLang === 'none' || !currentSubtitles.length) {
+      document.getElementById('subtitleOverlay').innerHTML = '';
+      return;
+    }
+    playerStartTime = Date.now();
+    subtitleTimer = setInterval(() => {
+      const elapsed = (Date.now() - playerStartTime) / 1000;
+      const cue = currentSubtitles.find(c => elapsed >= c.start && elapsed <= c.end);
+      const overlay = document.getElementById('subtitleOverlay');
+      overlay.innerHTML = cue ? `<span class="subtitle-line">${cue.text}</span>` : '';
+    }, 200);
+  }
+
+  document.querySelectorAll('.sub-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      currentLang = btn.dataset.lang;
+      document.querySelectorAll('.sub-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('subtitleOverlay').innerHTML = '';
+      clearInterval(subtitleTimer);
+      if (currentLang === 'none') return;
+      const legendas = window._currentLegendas || {};
+      const url = legendas[currentLang] || '';
+      currentSubtitles = await loadSubtitles(url);
+      if (currentSubtitles.length) {
+        playerStartTime = Date.now();
+        startSubtitleSync();
+      } else {
+        document.getElementById('subtitleOverlay').innerHTML =
+          '<span class="subtitle-line" style="color:#e8b84b">Legenda não disponível para este título</span>';
+        setTimeout(() => { document.getElementById('subtitleOverlay').innerHTML = ''; }, 3000);
+      }
+    });
+  });
+
   document.getElementById('playerBack').addEventListener('click', closePlayer);
+
+  // ══════════════════════════════════════════════
+  //  PEDIDO DE FILME
+  // ══════════════════════════════════════════════
+
+  window.openRequestModal = function() {
+    document.getElementById('requestOverlay').classList.add('open');
+    document.getElementById('requestSuccess').classList.remove('show');
+    document.querySelector('.request-form').style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  };
+
+  function closeRequestModal() {
+    document.getElementById('requestOverlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  if (document.getElementById('requestClose')) {
+    document.getElementById('requestClose').addEventListener('click', closeRequestModal);
+    document.getElementById('requestOverlay').addEventListener('click', e => {
+      if (e.target === e.currentTarget) closeRequestModal();
+    });
+    document.getElementById('btnSendRequest').addEventListener('click', () => {
+      const titulo  = document.getElementById('reqTitle').value.trim();
+      const email   = document.getElementById('reqEmail').value.trim();
+      const message = document.getElementById('reqMessage').value.trim();
+      if (!titulo) { alert('Por favor escreve o nome do filme ou série!'); return; }
+      if (!email)  { alert('Por favor escreve o teu email!'); return; }
+      const subject = encodeURIComponent(`[Ten Film] Pedido: ${titulo}`);
+      const body = encodeURIComponent(`Olá!\n\nGostaria de pedir:\n\n🎬 Título: ${titulo}\n📧 Email: ${email}\n💬 Mensagem: ${message || 'Sem mensagem.'}\n\n— Ten Film`);
+      window.location.href = `mailto:doriotramos88@gmail.com?subject=${subject}&body=${body}`;
+      document.querySelector('.request-form').style.display = 'none';
+      document.getElementById('requestSuccess').classList.add('show');
+      document.getElementById('reqTitle').value = '';
+      document.getElementById('reqEmail').value = '';
+      document.getElementById('reqMessage').value = '';
+    });
+  }
 
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') { closeModal(); closePlayer(); closeEpisodesModal(); }
@@ -353,58 +474,6 @@ document.addEventListener('DOMContentLoaded', () => {
   function escHtml(str) {
     return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
-
-  // ══════════════════════════════════════════════
-  //  SISTEMA DE PEDIDO DE FILME
-  // ══════════════════════════════════════════════
-
-  window.openRequestModal = function() {
-    document.getElementById('requestOverlay').classList.add('open');
-    document.getElementById('requestSuccess').classList.remove('show');
-    document.getElementById('requestOverlay').querySelector('.request-form').style.display = 'flex';
-    document.body.style.overflow = 'hidden';
-  };
-
-  function closeRequestModal() {
-    document.getElementById('requestOverlay').classList.remove('open');
-    document.body.style.overflow = '';
-  }
-
-  document.getElementById('requestClose').addEventListener('click', closeRequestModal);
-  document.getElementById('requestOverlay').addEventListener('click', e => {
-    if (e.target === e.currentTarget) closeRequestModal();
-  });
-
-  document.getElementById('btnSendRequest').addEventListener('click', () => {
-    const titulo  = document.getElementById('reqTitle').value.trim();
-    const email   = document.getElementById('reqEmail').value.trim();
-    const message = document.getElementById('reqMessage').value.trim();
-
-    if (!titulo) { alert('Por favor escreve o nome do filme ou série!'); return; }
-    if (!email)  { alert('Por favor escreve o teu email!'); return; }
-
-    // Abre o cliente de email com os dados preenchidos
-    const subject = encodeURIComponent(`[Ten Film] Pedido: ${titulo}`);
-    const body = encodeURIComponent(
-      `Olá!\n\nGostaria de pedir o seguinte conteúdo:\n\n` +
-      `🎬 Título: ${titulo}\n` +
-      `📧 O meu email: ${email}\n` +
-      `💬 Mensagem: ${message || 'Sem mensagem adicional.'}\n\n` +
-      `Por favor avisa-me quando estiver disponível. Obrigado!\n\n` +
-      `— Pedido enviado pelo site Ten Film`
-    );
-
-    window.location.href = `mailto:doriotramos88@gmail.com?subject=${subject}&body=${body}`;
-
-    // Mostra mensagem de sucesso
-    document.getElementById('requestOverlay').querySelector('.request-form').style.display = 'none';
-    document.getElementById('requestSuccess').classList.add('show');
-
-    // Limpa os campos
-    document.getElementById('reqTitle').value = '';
-    document.getElementById('reqEmail').value = '';
-    document.getElementById('reqMessage').value = '';
-  });
 
   setupHero();
   render();
