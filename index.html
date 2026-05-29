@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TEN Film - Cinema Gratuito</title>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet" />
+  <title>TEN Film</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -19,24 +19,22 @@
       <button class="nav-btn" data-filter="filme">Filmes</button>
       <button class="nav-btn" data-filter="serie">Séries</button>
     </nav>
-    <div class="header-actions">
-      <div class="search-wrap">
-        <input type="text" id="searchInput" placeholder="Pesquisar…" />
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      </div>
-      <button class="btn-request-header" onclick="openRequestModal()">📩 Pedir</button>
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Pesquisar…" />
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
     </div>
+    <button class="btn-request-header" onclick="openRequestModal()">📩 Pedir</button>
   </header>
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-bg"></div>
     <div class="hero-content">
       <p class="hero-tag">Em destaque</p>
-      <h1 class="hero-title" id="heroTitle">Carregando...</h1>
+      <h1 class="hero-title" id="heroTitle">Bem-vindo ao Ten Film</h1>
       <p class="hero-desc" id="heroDesc">O teu espaço para descobrir filmes e séries incríveis. Gratuito, sempre.</p>
       <div class="hero-actions" id="heroActions">
-        <button class="btn-play" id="heroPlayBtn">▶ Ver Detalhes</button>
+        <button class="btn-play" onclick="scrollToGrid()">▶ Explorar</button>
       </div>
     </div>
     <div class="hero-overlay"></div>
@@ -56,38 +54,7 @@
     </div>
   </main>
 
-  <!-- MODAL PEDIDO DE FILME -->
-  <div class="modal-overlay" id="requestOverlay">
-    <div class="modal request-modal">
-      <button class="modal-close" id="requestClose">✕</button>
-      <div class="request-content">
-        <div class="request-icon">📩</div>
-        <h2 class="request-title">Pedir Filme ou Série</h2>
-        <p class="request-desc">Não encontraste o que queres? Envia-nos um pedido! Vamos tentar adicionar em até <strong>48 horas</strong>. Receberás um email quando estiver disponível.</p>
-        <div class="request-form">
-          <div class="form-group">
-            <label>Nome do Filme/Série</label>
-            <input type="text" id="reqTitle" placeholder="Ex: Avatar, Breaking Bad..." />
-          </div>
-          <div class="form-group">
-            <label>O teu Email (para te avisar)</label>
-            <input type="email" id="reqEmail" placeholder="exemplo@email.com" />
-          </div>
-          <div class="form-group">
-            <label>Mensagem (opcional)</label>
-            <textarea id="reqMessage" placeholder="Ano, temporada, ou qualquer detalhe extra..." rows="3"></textarea>
-          </div>
-          <button class="btn-send-request" id="btnSendRequest">📩 Enviar Pedido</button>
-        </div>
-        <div class="request-success" id="requestSuccess">
-          <div style="font-size:2.5rem;">✅</div>
-          <p>Pedido enviado com sucesso!<br/>Aguarda até <strong>48 horas</strong>.<br/>Receberás um email quando o filme estiver disponível.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- MODAL DETALHES (FILME) -->
+  <!-- MODAL DETALHES -->
   <div class="modal-overlay" id="modalOverlay">
     <div class="modal">
       <button class="modal-close" id="modalClose">✕</button>
@@ -98,6 +65,8 @@
         <div class="modal-meta" id="modalMeta"></div>
         <p class="modal-synopsis" id="modalSynopsis"></p>
         <div class="modal-genres" id="modalGenres"></div>
+        <div class="modal-extra" id="modalExtra"></div>
+        <a class="btn-trailer" id="modalTrailerBtn" href="#" target="_blank" style="display:none;">🎬 Ver Trailer</a>
         <button class="btn-watch" id="modalWatchBtn">▶ Assistir Agora</button>
       </div>
     </div>
@@ -122,24 +91,50 @@
     </div>
   </div>
 
-  <!-- MODAL ANÚNCIO (AD) -->
+  <!-- MODAL PEDIDO DE FILME -->
+  <div class="modal-overlay" id="requestOverlay">
+    <div class="modal request-modal">
+      <button class="modal-close" id="requestClose">✕</button>
+      <div class="request-content">
+        <div class="request-icon">📩</div>
+        <h2 class="request-title">Pedir Filme ou Série</h2>
+        <p class="request-desc">🎬 Este episódio/filme ainda não está disponível.<br/>Envia um pedido e adicionamos em até <strong>48 horas</strong>! Receberás um email quando estiver disponível.</p>
+        <div class="request-form">
+          <div class="form-group">
+            <label>Nome do Filme/Série</label>
+            <input type="text" id="reqTitle" placeholder="Ex: Avatar, Breaking Bad..." />
+          </div>
+          <div class="form-group">
+            <label>O teu Email</label>
+            <input type="email" id="reqEmail" placeholder="exemplo@email.com" />
+          </div>
+          <div class="form-group">
+            <label>Mensagem (opcional)</label>
+            <textarea id="reqMessage" placeholder="Ano, temporada, ou detalhes..." rows="3"></textarea>
+          </div>
+          <button class="btn-send-request" id="btnSendRequest">📩 Enviar Pedido</button>
+        </div>
+        <div class="request-success" id="requestSuccess">
+          <div style="font-size:2.5rem;">✅</div>
+          <p>Pedido enviado!<br/>Aguarda até <strong>48 horas</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="ad-overlay" id="adOverlay">
     <div class="ad-box">
       <div class="ad-top-bar">
         <span class="ad-label">ANÚNCIO</span>
         <div class="ad-timer-wrap" id="adTimerWrap">
-          <span class="ad-timer-text">O vídeo abre em</span>
+          <span class="ad-timer-text">O filme abre em</span>
           <span class="ad-countdown" id="adCountdown">10</span>
           <span class="ad-timer-text">s</span>
         </div>
         <button class="ad-skip-btn" id="adSkipBtn" disabled>Saltar anúncio ▶</button>
       </div>
       <div class="ad-media" id="adMedia">
-        <div class="ad-placeholder">
-          <div class="ad-placeholder-icon">📢</div>
-          <p class="ad-placeholder-title">Espaço Publicitário</p>
-          <p class="ad-placeholder-sub">Coloca aqui o teu anúncio no ficheiro <code>index.html</code></p>
-        </div>
+        <script async="async" data-cfasync="false" src="https://pl29542069.effectivecpmnetwork.com/276bf7e470948e32b554da2bcad15343/invoke.js"></script>
+        <div id="container-276bf7e470948e32b554da2bcad15343"></div>
       </div>
       <div class="ad-progress-bar">
         <div class="ad-progress-fill" id="adProgressFill"></div>
@@ -147,7 +142,7 @@
     </div>
   </div>
 
-  <!-- PLAYER TEN FILM (sem marca d'água) -->
+  <!-- PLAYER TEN FILM -->
   <div class="player-overlay" id="playerOverlay">
     <div class="player-header">
       <button class="player-back-btn" id="playerBack">← Voltar</button>
@@ -155,8 +150,13 @@
       <span class="player-logo"><span class="logo-ten">TEN</span><span class="logo-film">FILM</span></span>
     </div>
     <div class="player-body">
-      <video id="playerVideo" controls autoplay controlslist="nodownload" oncontextmenu="return false;">
-        O teu browser não suporta vídeo HTML5.
+      <video
+        id="playerVideo"
+        controls
+        autoplay
+        controlslist="nodownload"
+        oncontextmenu="return false;"
+        playsinline>
       </video>
     </div>
   </div>
