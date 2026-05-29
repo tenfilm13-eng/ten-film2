@@ -423,7 +423,7 @@ body {
   background: #111116;
   border: 1px solid rgba(255,255,255,.1);
   border-radius: 14px;
-  width: 100%; max-width: 720px;
+  width: 100%; max-width: 480px;
   overflow: hidden;
   transform: translateY(24px) scale(.97);
   transition: transform .35s cubic-bezier(.4,0,.2,1);
@@ -476,14 +476,15 @@ body {
 /* ── Área do anúncio ── */
 .ad-media {
   width: 100%;
-  min-height: 300px;
+  min-height: 180px;
+  max-height: 250px;
   display: flex; align-items: center; justify-content: center;
   background: #0a0a0c;
   overflow: hidden;
 }
 .ad-media img  { width: 100%; height: 100%; object-fit: cover; display: block; }
 .ad-media video { width: 100%; display: block; }
-.ad-media iframe { width: 100%; min-height: 300px; border: none; display: block; }
+.ad-media iframe { width: 100%; min-height: 180px; border: none; display: block; }
 
 /* Placeholder (remove quando tiveres o anúncio real) */
 .ad-placeholder {
@@ -795,3 +796,182 @@ body {
 .btn-request-film:hover {
   background: rgba(232,184,75,.1) !important;
 }
+
+/* ── Subtitle Bar ── */
+.subtitle-bar {
+  display: flex; align-items: center; gap: .5rem;
+  padding: .5rem 1rem;
+  background: rgba(0,0,0,.8);
+  flex-shrink: 0;
+}
+.subtitle-label {
+  font-size: .75rem; color: var(--muted);
+  letter-spacing: .08em; text-transform: uppercase;
+  margin-right: .3rem;
+}
+.sub-btn {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.15);
+  color: var(--muted);
+  font-family: 'DM Sans', sans-serif;
+  font-size: .75rem; font-weight: 500;
+  padding: .3rem .8rem;
+  border-radius: 99px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.sub-btn:hover { color: var(--text); border-color: rgba(255,255,255,.3); }
+.sub-btn.active { background: var(--accent); color: #000; border-color: var(--accent); }
+
+#playerVideo {
+  width: 100%; flex: 1;
+  background: #000;
+  display: block;
+  outline: none;
+}
+
+.player-body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  overflow: hidden;
+}
+
+/* ── Cobre marca d'água Archive.org ── */
+.player-cover-logo {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  width: 180px;
+  height: 50px;
+  background: #000;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.player-body {
+  position: relative;
+}
+
+.player-body iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* ── Subtitle Overlay ── */
+.subtitle-overlay {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  pointer-events: none;
+  text-align: center;
+  max-width: 80%;
+}
+
+.subtitle-line {
+  display: inline-block;
+  background: rgba(0,0,0,.75);
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: .3rem .8rem;
+  border-radius: 4px;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.9);
+}
+
+/* ── Cobre título e marca d'água do Archive.org ── */
+.player-body {
+  position: relative;
+  flex: 1;
+  background: #000;
+  overflow: hidden;
+}
+
+.player-body iframe {
+  position: absolute;
+  top: -45px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 90px);
+  border: none;
+}
+
+.player-cover-logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  background: #000;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.player-cover-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background: #000;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* ── Cobre barra inferior do Archive.org ── */
+.player-cover-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background: #000;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* ── Player Video HTML5 ── */
+#playerVideo {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: block;
+  outline: none;
+}
+
+/* ── Extra Info (Idiomas, Qualidade) ── */
+.modal-extra {
+  display: flex; flex-wrap: wrap; gap: .4rem;
+  margin-bottom: .8rem;
+}
+.extra-tag {
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.12);
+  font-size: .75rem; padding: .25rem .7rem;
+  border-radius: 99px; color: var(--text);
+}
+
+/* ── Botão Trailer ── */
+.btn-trailer {
+  display: inline-flex; align-items: center; gap: .4rem;
+  background: transparent;
+  border: 1px solid rgba(232,184,75,.4);
+  color: var(--accent);
+  font-family: 'DM Sans', sans-serif;
+  font-size: .82rem; font-weight: 500;
+  padding: .55rem 1.2rem;
+  border-radius: 99px;
+  text-decoration: none;
+  margin-bottom: .6rem;
+  transition: var(--transition);
+  margin-right: .5rem;
+}
+.btn-trailer:hover { background: rgba(232,184,75,.1); }
