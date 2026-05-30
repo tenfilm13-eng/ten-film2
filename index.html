@@ -26,19 +26,6 @@
     <button class="btn-request-header" onclick="openRequestModal()">📩 Pedir</button>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-content">
-      <p class="hero-tag">Em destaque</p>
-      <h1 class="hero-title" id="heroTitle">Bem-vindo ao Ten Film</h1>
-      <p class="hero-desc" id="heroDesc">O teu espaço para descobrir filmes e séries incríveis. Gratuito, sempre.</p>
-      <div class="hero-actions" id="heroActions">
-        <button class="btn-play" onclick="scrollToGrid()">▶ Explorar</button>
-      </div>
-    </div>
-    <div class="hero-overlay"></div>
-  </section>
 
   <!-- GRID -->
   <main class="content-section">
@@ -66,13 +53,24 @@
         <p class="modal-synopsis" id="modalSynopsis"></p>
         <div class="modal-genres" id="modalGenres"></div>
         <div class="modal-extra" id="modalExtra"></div>
-        <a class="btn-trailer" id="modalTrailerBtn" href="#" target="_blank" style="display:none;">🎬 Ver Trailer</a>
+        <button class="btn-trailer" id="modalTrailerBtn" style="display:none;">🎬 Ver Trailer</button>
         <button class="btn-watch" id="modalWatchBtn">▶ Assistir Agora</button>
       </div>
     </div>
   </div>
 
-  <!-- MODAL EPISÓDIOS (SÉRIE) -->
+  <!-- MODAL TRAILER -->
+  <div class="modal-overlay" id="trailerOverlay">
+    <div class="modal trailer-modal">
+      <button class="modal-close" id="trailerClose">✕</button>
+      <div class="trailer-body">
+        <h2 class="trailer-title" id="trailerTitle"></h2>
+        <div class="trailer-frame-wrap">
+          <iframe id="trailerFrame" src="" allowfullscreen frameborder="0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="modal-overlay" id="episodesOverlay">
     <div class="modal episodes-modal">
       <button class="modal-close" id="episodesClose">✕</button>
