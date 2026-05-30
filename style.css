@@ -975,3 +975,36 @@ body {
   margin-right: .5rem;
 }
 .btn-trailer:hover { background: rgba(232,184,75,.1); }
+
+/* ── Trailer Modal ── */
+.trailer-modal {
+  flex-direction: column !important;
+  max-width: 800px !important;
+  gap: 0 !important;
+  padding: 1rem !important;
+}
+
+.trailer-body { width: 100%; }
+
+.trailer-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.4rem; letter-spacing: .06em;
+  margin-bottom: .8rem;
+  color: var(--text);
+}
+
+.trailer-frame-wrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.trailer-frame-wrap iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: none;
+}
