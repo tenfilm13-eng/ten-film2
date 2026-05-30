@@ -26,18 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('footerYear').textContent = new Date().getFullYear();
 
   // ── Hero ──
-  function setupHero() {
-    const item = CATALOG[0];
-    if (!item) return;
-    document.getElementById('heroTitle').textContent = item.titulo;
-    document.getElementById('heroDesc').textContent  = item.sinopse || '';
-    document.getElementById('heroActions').innerHTML =
-      `<button class="btn-play" onclick="openModal(${item.id})">▶ Ver Detalhes</button>`;
-  }
-
   // ── Filtro + Pesquisa ──
   function getFiltered() {
-    return CATALOG.filter(item => {
+    return localCatalog.filter(item => {
       const matchFilter = currentFilter === 'all' || item.tipo === currentFilter;
       const q = currentSearch.toLowerCase().trim();
       const matchSearch = !q ||
@@ -95,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Modal Detalhes ──
   window.openModal = function(id) {
-    const item = CATALOG.find(x => x.id === id);
+    const item = localCatalog.find(x => x.id === id);
     if (!item) return;
 
     // Série com temporadas
@@ -136,8 +127,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Trailer
     const trailerBtn = document.getElementById('modalTrailerBtn');
     if (item.trailer) {
-      trailerBtn.href = item.trailer;
       trailerBtn.style.display = 'inline-flex';
+      trailerBtn.onclick = () => {
+        closeModal();
+        openTrailerModal(item.titulo, item.trailer);
+      };
     } else {
       trailerBtn.style.display = 'none';
     }
@@ -337,7 +331,32 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ══════════════════════════════════════════════
-  //  SISTEMA DE LEGENDAS POR CIMA DO IFRAME
+  //  TRAILER MODAL
+  // ══════════════════════════════════════════════
+
+  function openTrailerModal(titulo, youtubeUrl) {
+    document.getElementById('trailerTitle').textContent = `🎬 Trailer — ${titulo}`;
+    // Converte link YouTube para embed
+    let embedUrl = youtubeUrl;
+    const ytMatch = youtubeUrl.match(/(?:v=|youtu\.be\/)([^&\?]+)/);
+    if (ytMatch) {
+      embedUrl = `https://www.youtube.com/embed/${ytMatch[1]}?autoplay=1`;
+    }
+    document.getElementById('trailerFrame').src = embedUrl;
+    document.getElementById('trailerOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeTrailerModal() {
+    document.getElementById('trailerOverlay').classList.remove('open');
+    document.getElementById('trailerFrame').src = '';
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('trailerClose').addEventListener('click', closeTrailerModal);
+  document.getElementById('trailerOverlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeTrailerModal();
+  });
   // ══════════════════════════════════════════════
 
   let subtitleTimer = null;
@@ -452,7 +471,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') { closeModal(); closePlayer(); closeEpisodesModal(); }
+    if (e.key === 'Escape') { closeModal(); closePlayer(); closeEpisodesModal(); closeTrailerModal(); }
   });
 
   // ── Nav filter ──
@@ -475,6 +494,5 @@ document.addEventListener('DOMContentLoaded', () => {
     return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
-  setupHero();
   render();
 });
