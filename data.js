@@ -44,7 +44,7 @@ const CATALOG = [
     avaliacao: 7.4,
     poster: "https://i.redd.it/xweqes0z0wcc1.jpeg",
     videoUrl: "https://ia600808.us.archive.org/23/items/scream-1996-720p/Scream%201996%20720p.mp4",
-    idiomas: ["Português", "Inglês"],
+    idiomas: ["Inglês"],
     qualidade: "720p",
     trailer: "https://youtu.be/U0LETmDvuXc?si=tkrlpesZMXebtIVg",
     duracao: "1h 51min",
@@ -61,6 +61,7 @@ const CATALOG = [
     avaliacao: 7.8,
     poster: "https://m.media-amazon.com/images/M/MV5BNDFmODE3NDktZGVhNS00M2NmLWI1NDAtNTgzOTA0ZGFhODFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     duracao: "1 temporada · 8 episódios",
+    idiomas: ["Português"],
     qualidade: "1080p",
     trailer: "https://youtu.be/K8BgHgL_pr8?si=ahbY_mMnjShHSg2s",
     pais: "EUA",
@@ -69,14 +70,14 @@ const CATALOG = [
         numero: 1,
         titulo: "Temporada 1",
         episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 1", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x1.mp4" },
+          { titulo: "Episódio 2", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x2.mp4" },
+          { titulo: "Episódio 3", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x3.mp4" },
+          { titulo: "Episódio 4", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x4.mp4" },
           { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" }
+          { titulo: "Episódio 6", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x6.mp4" },
+          { titulo: "Episódio 7", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x7.mp4" },
+          { titulo: "Episódio 8", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x8.mp4" }
         ]
       }
     ]
@@ -368,7 +369,7 @@ const CATALOG = [
     generos: ["Thriller/", " Drama "],
     avaliacao: 6.3,
     poster: "https://m.media-amazon.com/images/M/MV5BZmQwODM5NTctYzRkMi00MmIwLWFjODAtMTFiMWY2OWE3MGQyXkEyXkFqcGc@._V1_.jpg",
-    videoUrl: "https://archive.org/download/nowhere-2023-1080p/Nowhere%202023%201080p.mkv",
+    videoUrl: "",
     idiomas: ["Português", "Inglês"],
     qualidade: "1080p",
     trailer: "https://youtu.be/KDUtdcU10YA?si=ItxHLZeotTd4vqG5",
