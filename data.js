@@ -101,14 +101,14 @@ const CATALOG = [
         numero: 1,
         titulo: "Temporada 1",
         episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
+          { titulo: "Episódio 1", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x1.mp4" },
+          { titulo: "Episódio 2", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x2.mp4" },
+          { titulo: "Episódio 3", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x3.mp4" },
+          { titulo: "Episódio 4", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x4.mp4" },
           { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" }
+          { titulo: "Episódio 6", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x6.mp4" },
+          { titulo: "Episódio 7", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x7.mp4" },
+          { titulo: "Episódio 8", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x8.mp4" }
         ]
       },
       {
