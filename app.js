@@ -184,6 +184,33 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('epMeta').innerHTML = meta.join('<span>·</span>');
     document.getElementById('epGenres').innerHTML = (item.generos || []).map(g => `<span class="genre-tag">${g}</span>`).join('');
 
+    // Idiomas e Qualidade
+    const epExtraEl = document.getElementById('epExtra');
+    if (epExtraEl) {
+      const extraItems = [];
+      if (item.idiomas && item.idiomas.length) {
+        extraItems.push(`<span class="extra-tag">🗣️ ${item.idiomas.join(' / ')}</span>`);
+      }
+      if (item.qualidade) {
+        extraItems.push(`<span class="extra-tag">📺 ${item.qualidade}</span>`);
+      }
+      epExtraEl.innerHTML = extraItems.join('');
+    }
+
+    // Trailer
+    const epTrailerBtn = document.getElementById('epTrailerBtn');
+    if (epTrailerBtn) {
+      if (item.trailer) {
+        epTrailerBtn.style.display = 'inline-flex';
+        epTrailerBtn.onclick = () => {
+          closeEpisodesModal();
+          openTrailerModal(item.titulo, item.trailer);
+        };
+      } else {
+        epTrailerBtn.style.display = 'none';
+      }
+    }
+
     const list = document.getElementById('episodesList');
 
     function showSeasons() {
@@ -461,7 +488,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!email)  { alert('Por favor escreve o teu email!'); return; }
       const subject = encodeURIComponent(`[Ten Film] Pedido: ${titulo}`);
       const body = encodeURIComponent(`Olá!\n\nGostaria de pedir:\n\n🎬 Título: ${titulo}\n📧 Email: ${email}\n💬 Mensagem: ${message || 'Sem mensagem.'}\n\n— Ten Film`);
-      window.location.href = `mailto:doriotramos88@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:tenfilm13@gmail.com?subject=${subject}&body=${body}`;
       document.querySelector('.request-form').style.display = 'none';
       document.getElementById('requestSuccess').classList.add('show');
       document.getElementById('reqTitle').value = '';
