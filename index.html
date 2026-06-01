@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,33 +15,32 @@
       <span class="logo-ten">TEN</span><span class="logo-film">FILM</span>
     </div>
     <nav class="main-nav">
-      <button class="nav-btn active" data-filter="all">Tudo</button>
-      <button class="nav-btn" data-filter="filme">Filmes</button>
-      <button class="nav-btn" data-filter="serie">Séries</button>
+      <button class="nav-btn active" data-filter="all">All</button>
+      <button class="nav-btn" data-filter="filme">Movies</button>
+      <button class="nav-btn" data-filter="serie">Series</button>
     </nav>
     <div class="search-wrap">
-      <input type="text" id="searchInput" placeholder="Pesquisar…" />
+      <input type="text" id="searchInput" placeholder="Search…" />
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
     </div>
-    <button class="btn-request-header" onclick="openRequestModal()">📩 Pedir</button>
+    <button class="btn-request-header" onclick="openRequestModal()">📩 Request</button>
   </header>
-
 
   <!-- GRID -->
   <main class="content-section">
     <div class="section-header">
-      <h2 class="section-title" id="sectionTitle">Catálogo Completo</h2>
-      <span class="section-count" id="sectionCount">0 títulos</span>
+      <h2 class="section-title" id="sectionTitle">Full Catalogue</h2>
+      <span class="section-count" id="sectionCount">0 titles</span>
     </div>
     <div class="cards-grid" id="cardsGrid"></div>
     <div class="empty-state" id="emptyState">
       <div class="empty-icon">🎬</div>
-      <p>Não encontraste o que procuras?</p>
-      <button class="btn-request" onclick="openRequestModal()">📩 Pedir este filme/série</button>
+      <p>Didn't find what you're looking for?</p>
+      <button class="btn-request" onclick="openRequestModal()">📩 Request this movie/series</button>
     </div>
   </main>
 
-  <!-- MODAL DETALHES -->
+  <!-- DETAILS MODAL -->
   <div class="modal-overlay" id="modalOverlay">
     <div class="modal">
       <button class="modal-close" id="modalClose">✕</button>
@@ -53,13 +52,13 @@
         <p class="modal-synopsis" id="modalSynopsis"></p>
         <div class="modal-genres" id="modalGenres"></div>
         <div class="modal-extra" id="modalExtra"></div>
-        <button class="btn-trailer" id="modalTrailerBtn" style="display:none;">🎬 Ver Trailer</button>
-        <button class="btn-watch" id="modalWatchBtn">▶ Assistir Agora</button>
+        <button class="btn-trailer" id="modalTrailerBtn" style="display:none;">🎬 Watch Trailer</button>
+        <button class="btn-watch" id="modalWatchBtn">▶ Watch Now</button>
       </div>
     </div>
   </div>
 
-  <!-- MODAL TRAILER -->
+  <!-- TRAILER MODAL -->
   <div class="modal-overlay" id="trailerOverlay">
     <div class="modal trailer-modal">
       <button class="modal-close" id="trailerClose">✕</button>
@@ -71,66 +70,70 @@
       </div>
     </div>
   </div>
+
+  <!-- EPISODES MODAL -->
   <div class="modal-overlay" id="episodesOverlay">
     <div class="modal episodes-modal">
       <button class="modal-close" id="episodesClose">✕</button>
       <div class="modal-poster" id="epPoster"></div>
       <div class="modal-info">
-        <span class="modal-type serie" id="epType">Série</span>
+        <span class="modal-type serie" id="epType">Series</span>
         <h2 class="modal-title" id="epTitle"></h2>
         <div class="modal-meta" id="epMeta"></div>
         <p class="modal-synopsis" id="epSynopsis"></p>
         <div class="modal-genres" id="epGenres"></div>
         <div class="modal-extra" id="epExtra"></div>
-        <button class="btn-trailer" id="epTrailerBtn" style="display:none;">🎬 Ver Trailer</button>
+        <button class="btn-trailer" id="epTrailerBtn" style="display:none;">🎬 Watch Trailer</button>
         <div class="episodes-section">
-          <h3 class="episodes-label">Escolhe o Episódio</h3>
+          <h3 class="episodes-label">Choose an Episode</h3>
           <div class="episodes-list" id="episodesList"></div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- MODAL PEDIDO DE FILME -->
+  <!-- REQUEST MODAL -->
   <div class="modal-overlay" id="requestOverlay">
     <div class="modal request-modal">
       <button class="modal-close" id="requestClose">✕</button>
       <div class="request-content">
         <div class="request-icon">📩</div>
-        <h2 class="request-title">Pedir Filme ou Série</h2>
-        <p class="request-desc">🎬 Este episódio/filme ainda não está disponível.<br/>Envia um pedido e adicionamos em até <strong>48 horas</strong>! Receberás um email quando estiver disponível.</p>
+        <h2 class="request-title">Request a Movie or Series</h2>
+        <p class="request-desc">🎬 This episode/movie isn't available yet.<br/>Send a request and we'll add it within <strong>48 hours</strong>! You'll receive an email when it's ready.</p>
         <div class="request-form">
           <div class="form-group">
-            <label>Nome do Filme/Série</label>
-            <input type="text" id="reqTitle" placeholder="Ex: Avatar, Breaking Bad..." />
+            <label>Movie/Series Title</label>
+            <input type="text" id="reqTitle" placeholder="E.g: Avatar, Breaking Bad..." />
           </div>
           <div class="form-group">
-            <label>O teu Email</label>
-            <input type="email" id="reqEmail" placeholder="exemplo@email.com" />
+            <label>Your Email</label>
+            <input type="email" id="reqEmail" placeholder="example@email.com" />
           </div>
           <div class="form-group">
-            <label>Mensagem (opcional)</label>
-            <textarea id="reqMessage" placeholder="Ano, temporada, ou detalhes..." rows="3"></textarea>
+            <label>Message (optional)</label>
+            <textarea id="reqMessage" placeholder="Year, season, or other details..." rows="3"></textarea>
           </div>
-          <button class="btn-send-request" id="btnSendRequest">📩 Enviar Pedido</button>
+          <button class="btn-send-request" id="btnSendRequest">📩 Send Request</button>
         </div>
         <div class="request-success" id="requestSuccess">
           <div style="font-size:2.5rem;">✅</div>
-          <p>Pedido enviado!<br/>Aguarda até <strong>48 horas</strong>.</p>
+          <p>Request sent!<br/>Please wait up to <strong>48 hours</strong>.</p>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- AD OVERLAY -->
   <div class="ad-overlay" id="adOverlay">
     <div class="ad-box">
       <div class="ad-top-bar">
-        <span class="ad-label">ANÚNCIO</span>
+        <span class="ad-label">AD</span>
         <div class="ad-timer-wrap" id="adTimerWrap">
-          <span class="ad-timer-text">O filme abre em</span>
+          <span class="ad-timer-text">Movie opens in</span>
           <span class="ad-countdown" id="adCountdown">10</span>
           <span class="ad-timer-text">s</span>
         </div>
-        <button class="ad-skip-btn" id="adSkipBtn" disabled>Saltar anúncio ▶</button>
+        <button class="ad-skip-btn" id="adSkipBtn" disabled>Skip ad ▶</button>
       </div>
       <div class="ad-media" id="adMedia">
         <script async="async" data-cfasync="false" src="https://pl29542069.effectivecpmnetwork.com/276bf7e470948e32b554da2bcad15343/invoke.js"></script>
@@ -142,10 +145,10 @@
     </div>
   </div>
 
-  <!-- PLAYER TEN FILM -->
+  <!-- TEN FILM PLAYER -->
   <div class="player-overlay" id="playerOverlay">
     <div class="player-header">
-      <button class="player-back-btn" id="playerBack">← Voltar</button>
+      <button class="player-back-btn" id="playerBack">← Back</button>
       <span class="player-title" id="playerTitle"></span>
       <span class="player-logo"><span class="logo-ten">TEN</span><span class="logo-film">FILM</span></span>
     </div>
@@ -158,12 +161,22 @@
         oncontextmenu="return false;"
         playsinline>
       </video>
+      <iframe
+        id="playerFrame"
+        src=""
+        allowfullscreen
+        webkitallowfullscreen
+        mozallowfullscreen
+        allow="autoplay; fullscreen"
+        frameborder="0"
+        style="display:none;width:100%;height:100%;border:none;">
+      </iframe>
     </div>
   </div>
 
   <!-- FOOTER -->
   <footer class="site-footer">
-    <p><span class="logo-ten">TEN</span><span class="logo-film">FILM</span> &nbsp;·&nbsp; Totalmente gratuito &nbsp;·&nbsp; <span id="footerYear"></span></p>
+    <p><span class="logo-ten">TEN</span><span class="logo-film">FILM</span> &nbsp;·&nbsp; Completely free &nbsp;·&nbsp; <span id="footerYear"></span></p>
   </footer>
 
   <script src="data.js"></script>
