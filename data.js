@@ -1,17 +1,14 @@
 const CATALOG = [
-
-  {
+   {
     id: 1,
     tipo: "filme",
     titulo: "Scream 5",
     ano: 2022,
-    sinopse: "Vinte e cinco anos após uma série de assassinatos brutais que abalaram a pacata cidade de Woodsboro, um novo assassino mascarado surge e começa a perseguir um grupo de adolescentes.",
+    sinopse: "Twenty-five years after a series of brutal murders rocked the quiet town of Woodsboro, a new masked killer emerges and begins stalking a group of teenagers.",
     generos: ["Terror", "Mistério"],
     avaliacao: 7.0,
     poster: "https://i.pinimg.com/736x/44/3b/1f/443b1f799629085416970b1e6b199d8e.jpg",
-    videoUrl: "",
-    idiomas: ["Português", "Inglês"],
-    qualidade: "1080p",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt11245972",
     trailer: "https://youtu.be/beToTslH17s?si=6WlY1dlbp2U7U1et",
     duracao: "1h 54min",
     pais: "EUA"
@@ -22,13 +19,11 @@ const CATALOG = [
     tipo: "filme",
     titulo: "Scream 6",
     ano: 2023,
-    sinopse: "Após os eventos de Woodsboro, os sobreviventes mudam-se para Nova Iorque. Mas o Ghostface segue-os até à cidade.",
+    sinopse: "Following the events in Woodsboro, the survivors move to New York City. But Ghostface follows them to the city.",
     generos: ["Terror", "Mistério"],
     avaliacao: 7.2,
     poster: "https://m.media-amazon.com/images/M/MV5BZDZkYzk3YTEtYTQ5MS00MzQ5LTg0NjUtOTgzODA5N2EyYTQ1XkEyXkFqcGc@._V1_.jpg",
-    videoUrl: "",
-    idiomas: ["Português", "Inglês"],
-    qualidade: "1080p", 
+    videoUrl: "https://streamimdb.ru/embed/movie/tt17663992",
     trailer: "https://youtu.be/h74AXqw4Opc?si=t-6sSpJYAsQ4Ib3L",
     duracao: "2h 2min",
     pais: "EUA"
@@ -39,13 +34,11 @@ const CATALOG = [
     tipo: "filme",
     titulo: "Scream 1",
     ano: 1996,
-    sinopse: "Segue Sidney Prescott, uma adolescente aterrorizada pelo assassino mascarado Ghostface.",
+    sinopse: "It follows Sidney Prescott, a teenage girl terrorized by the masked killer Ghostface.",
     generos: ["Terror", "Mistério"],
     avaliacao: 7.4,
     poster: "https://i.redd.it/xweqes0z0wcc1.jpeg",
-    videoUrl: "https://ia600808.us.archive.org/23/items/scream-1996-720p/Scream%201996%20720p.mp4",
-    idiomas: ["Inglês"],
-    qualidade: "720p",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0117571",
     trailer: "https://youtu.be/U0LETmDvuXc?si=tkrlpesZMXebtIVg",
     duracao: "1h 51min",
     pais: "EUA"
@@ -61,26 +54,9 @@ const CATALOG = [
     avaliacao: 7.8,
     poster: "https://m.media-amazon.com/images/M/MV5BNDFmODE3NDktZGVhNS00M2NmLWI1NDAtNTgzOTA0ZGFhODFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     duracao: "1 temporada · 8 episódios",
-    idiomas: ["Português"],
-    qualidade: "1080p",
     trailer: "https://youtu.be/K8BgHgL_pr8?si=ahbY_mMnjShHSg2s",
     pais: "EUA",
-    temporadas: [
-       {
-        numero: 1,
-        titulo: "Temporada 1",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x1.mp4" },
-          { titulo: "Episódio 2", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x2.mp4" },
-          { titulo: "Episódio 3", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x3.mp4" },
-          { titulo: "Episódio 4", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x4.mp4" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x6.mp4" },
-          { titulo: "Episódio 7", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x7.mp4" },
-          { titulo: "Episódio 8", videoUrl: "https://archive.org/download/it-bem-vindos-a-derry-ep-1x-8_202605/IT_Bem_Vindos_a_Derry_EP_1x8.mp4" }
-        ]
-      }
-    ]
+    videoUrl:"https://streamimdb.ru/embed/tv/tt19244304"
   },
 
   {
@@ -88,128 +64,14 @@ const CATALOG = [
     tipo: "serie",
     titulo: "Elite",
     ano: 2018,
-    sinopse: "A trama acompanha o choque cultural e os conflitos explosivos que surgem quando três estudantes da classe trabalhadora são transferidos para a escola através de uma bolsa de estudos.",
+    sinopse: "The plot follows the culture clash and explosive conflicts that arise when three working-class students transfer to the school on scholarships.",
     generos: ["Drama", "Thriller"],
     avaliacao: 7.1,
     poster: "https://br.web.img3.acsta.net/pictures/18/10/18/07/54/1893178.jpg",
     duracao: "2 temporadas · 8 episódios",
-    qualidade: "1080p",
     trailer: "https://youtu.be/Oqv81BdRs7w?si=nKoXtGhtRT5JYZtw",
     pais: "Espanha",
-    temporadas: [
-       {
-        numero: 1,
-        titulo: "Temporada 1",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x1.mp4" },
-          { titulo: "Episódio 2", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x2.mp4" },
-          { titulo: "Episódio 3", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x3.mp4" },
-          { titulo: "Episódio 4", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x4.mp4" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x6.mp4" },
-          { titulo: "Episódio 7", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x7.mp4" },
-          { titulo: "Episódio 8", videoUrl: "https://archive.org/download/elite-ep-1x-1/Elite%20EP%201x8.mp4" }
-        ]
-      },
-      {
-        numero: 2,
-        titulo: "Temporada 2",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" }
-        ]
-      },
-      {
-        numero: 3,
-        titulo: "Temporada 3",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" }
-        ]
-      },
-      {
-        numero: 4,
-        titulo: "Temporada 4",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" }
-        ]
-      },
-      {
-        numero: 5,
-        titulo: "Temporada 5",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" }
-        ]
-      },
-      {
-        numero: 6,
-        titulo: "Temporada 6",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" }
-        ]
-      },
-      {
-        numero: 7,
-        titulo: "Temporada 7",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" }
-        ]
-      },
-      {
-        numero: 8,
-        titulo: "Temporada 8",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" }
-        ]
-      }
-    ]
+    videoUrl: "https://streamimdb.ru/embed/tv/tt7134908"
   },
 
   {
@@ -217,96 +79,14 @@ const CATALOG = [
     tipo: "serie",
     titulo: "Prison Break",
     ano: 2005,
-    sinopse: "Gira em torno de Michael Scofield, um engenheiro brilhante que arquiteta um plano audacioso para salvar seu irmão mais velho, Lincoln Burrows, do corredor da morte.",
+    sinopse: "It revolves around Michael Scofield, a brilliant engineer who devises a daring plan to save his older brother, Lincoln Burrows, from death row.",
     generos: ["Drama", "Ação"],
-    qualidade: "1080p",
     trailer: "https://youtu.be/C2ssQOyVJqQ?si=ltpRRHHM8PG6a6hM",
     avaliacao: 8.3,
     poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52b7VZ4ZvmrukOazrje-d2Nx50yF27QDDjQ&s",
     duracao: "5 temporadas",
     pais: "EUA",
-    temporadas: [
-      {
-        numero: 1,
-        titulo: "Temporada 1",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E01%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 2", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E02%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 3", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E03%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 4", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E04%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 5", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E05%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 6", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E06%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 7", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E07%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 8", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E08%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 9", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E09%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 10", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E10%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "https://archive.org/download/prison-break-s-01-e-14-720p-blu-ray-x-264-aac-vr-56/Prison%20Break%20S01%20E14%20720p%20BluRay%20x264%20AAC%5BVR56%5D.mkv" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          { titulo: "Episódio 16", videoUrl: "" },
-          { titulo: "Episódio 17", videoUrl: "" },
-          { titulo: "Episódio 18", videoUrl: "" },
-          { titulo: "Episódio 19", videoUrl: "" },
-          { titulo: "Episódio 20", videoUrl: "" },
-          { titulo: "Episódio 21", videoUrl: "" },
-          { titulo: "Episódio 22", videoUrl: "" },
-        ]
-      },
-      {
-        numero: 2,
-        titulo: "Temporada 2",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          { titulo: "Episódio 16", videoUrl: "" },
-          { titulo: "Episódio 17", videoUrl: "" },
-          { titulo: "Episódio 18", videoUrl: "" },
-          { titulo: "Episódio 19", videoUrl: "" },
-          { titulo: "Episódio 20", videoUrl: "" },
-          { titulo: "Episódio 21", videoUrl: "" },
-          { titulo: "Episódio 22", videoUrl: "" }
-        ]
-      },
-      {
-        numero: 3,
-        titulo: "Temporada 3",
-        episodios: Array.from({length: 13}, (_, i) => ({
-          titulo: `Episódio ${i+1}`,
-          videoUrl: `https://cdn-embed.com/serie/tt0455275/3/${i+1}`
-        }))
-      },
-      {
-        numero: 4,
-        titulo: "Temporada 4",
-        episodios: Array.from({length: 24}, (_, i) => ({
-          titulo: `Episódio ${i+1}`,
-          videoUrl: `https://cdn-embed.com/serie/tt0455275/4/${i+1}`
-        }))
-      },
-      {
-        numero: 5,
-        titulo: "Temporada 5",
-        episodios: Array.from({length: 9}, (_, i) => ({
-          titulo: `Episódio ${i+1}`,
-          videoUrl: `https://cdn-embed.com/serie/tt0455275/5/${i+1}`
-        }))
-      }
-    ]
+    videoUrl: "https://streamimdb.ru/embed/tv/tt0455275"
   },
 
   {
@@ -314,13 +94,11 @@ const CATALOG = [
     tipo: "filme",
     titulo: "3096 dias de cativeiro",
     ano: 2011,
-    sinopse: "O filme é baseado na história real de Natascha Kampusch, uma menina austríaca de 10 anos que foi sequestrada em 1998 por Wolfgang Priklopil. Ela permaneceu em cativeiro por mais de oito anos (3.096 dias), sofrendo isolamento e controle psicológico, até conseguir escapar em 2006. O filme retrata sua luta pela sobrevivência durante o período em que esteve presa.",
+    sinopse: "The film is based on the true story of Natascha Kampusch, a 10-year-old Austrian girl who was kidnapped in 1998 by Wolfgang Priklopil. She remained in captivity for over eight years (3,096 days), suffering isolation and psychological control, until she managed to escape in 2006. The film portrays her struggle for survival during her captivity.",
     generos: [" Ficção policial", "Drama"],
     avaliacao: 7.3,
     poster: "https://m.media-amazon.com/images/M/MV5BMjE2NjI0ZDUtNWZhMy00OWMxLTllMzAtZWZlM2Q4YmEyNGIxXkEyXkFqcGc@._V1_.jpg",
-    videoUrl: "",
-    idiomas: ["Português", "Inglês"],
-    qualidade: "1080p",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1667355",
     trailer: "https://youtu.be/XwO1a306dwg?si=Ntd6EXnwk18KCGsE",
     duracao: "1h 51min",
     pais: "Alemanha"
@@ -331,13 +109,11 @@ const CATALOG = [
     tipo: "filme",
     titulo: " Os Pinguins de Madagáscar 5",
     ano: 2014,
-    sinopse: "são um famoso grupo de espionagem formado por quatro aves — Capitão, Kowalski, Rico e Recruta",
+    sinopse: "They are a famous spy group made up of four birds — Skipper, Kowalski, Rico, and Private.",
     generos: ["Infantil/", "Aventura "],
     avaliacao: 6.7,
     poster: "https://play-lh.googleusercontent.com/vwhjRgQiVtokPOiYM11XCOVHSRuUBeTtir35DTshjPqrTFUzXEZazao01f-0EtkrZDw",
-    videoUrl: "",
-    idiomas: ["Português", "Inglês"],
-    qualidade: "1080p",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1911658",
     trailer: "https://youtu.be/i6ZYyAa03p0?si=N_jq6voNUXIEuBCJ",
     duracao: "1h 32min",
     pais: "EUA"
@@ -348,13 +124,11 @@ const CATALOG = [
     tipo: "filme",
     titulo: "Madagascar",
     ano: 2005,
-    sinopse: "acompanha quatro animais mimados do zoológico de Nova York — Alex (leão), Marty (zebra), Melman (girafa) e Glória (hipopótamo). Após uma tentativa de fuga, eles são capturados e enviados para uma reserva na África. O navio sofre um acidente, e eles acabam naufragando na ilha de Madagascar",
+    sinopse: "The film follows four pampered animals from the New York Zoo — Alex (lion), Marty (zebra), Melman (giraffe), and Gloria (hippopotamus). After an escape attempt, they are captured and sent to a reserve in Africa. The ship suffers an accident, and they end up shipwrecked on the island of Madagascar.",
     generos: ["Infantil/", "Comédia "],
     avaliacao: 6.9,
     poster: "https://br.web.img2.acsta.net/medias/nmedia/18/91/54/02/20150796.jpg",
-    videoUrl: "https://ia903102.us.archive.org/22/items/madagascar-2005.1080p.-br-rip.x-264.-yify_202605/Madagascar%202005.1080p.BrRip.x264.YIFY.mp4",
-    idiomas: ["Português", "Inglês"],
-    qualidade: "1080p",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0351283",
     trailer: "https://youtu.be/orAqhC-Hp_o?si=9d2MPtR9l59YdBLW",
     duracao: "1h 26min",
     pais: "EUA"
@@ -365,13 +139,11 @@ const CATALOG = [
     tipo: "filme",
     titulo: "Nowhere",
     ano: 2023,
-    sinopse: "A trama acompanha Mia (Anna Castillo), uma jovem grávida que foge de um país totalitário e em guerra com o seu marido, Nico. Para escapar, eles escondem-se dentro de contentores marítimos num navio de carga",
+    sinopse: "The plot follows Mia (Anna Castillo), a young pregnant woman who flees a totalitarian country at war with her husband, Nico. To escape, they hide inside shipping containers on a cargo ship.",
     generos: ["Thriller/", " Drama "],
     avaliacao: 6.3,
     poster: "https://m.media-amazon.com/images/M/MV5BZmQwODM5NTctYzRkMi00MmIwLWFjODAtMTFiMWY2OWE3MGQyXkEyXkFqcGc@._V1_.jpg",
-    videoUrl: "",
-    idiomas: ["Português", "Inglês"],
-    qualidade: "1080p",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt15789472",
     trailer: "https://youtu.be/KDUtdcU10YA?si=ItxHLZeotTd4vqG5",
     duracao: " 1h 49min",
     pais: "EUA"
@@ -382,101 +154,14 @@ const CATALOG = [
     tipo: "serie",
     titulo: "La Casa de Papel",
     ano: 2017,
-    sinopse: "Acompanha um grupo de criminosos liderados por um gênio conhecido como O Professor. Eles planejam e executam assaltos meticulosos à Fábrica Nacional de Moeda e Timbre e ao Banco Central da Espanha, focando em imprimir o próprio dinheiro e desestabilizar o sistema financeiro com um toque de rebeldia",
+    sinopse: "It follows a group of criminals led by a genius known as The Professor. They plan and execute meticulous heists at the Royal Mint and the Bank of Spain, focusing on printing their own money and destabilizing the financial system with a rebellious edge.",
     generos: ["Thriller"],
-    qualidade: "1080p",
     trailer: "https://youtu.be/jkzl8ZAppqE?si=fMdPri9VhVUPfE45",
     avaliacao: 8.3,
     poster: "https://static.wikia.nocookie.net/dublagem/images/c/ca/La_Casa_de_Papel.jpg/revision/latest?cb=20210906003054&path-prefix=pt-br",
     duracao: "5 temporadas",
     pais: "EUA",
-    temporadas: [
-      {
-        numero: 1,
-        titulo: "Temporada 1",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-         
-        ]
-      },
-      {
-        numero: 2,
-        titulo: "Temporada 2",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-         
-        ]
-      },
-      {
-        numero: 3,
-        titulo: "Temporada 3",
-       episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-         
-         
-        ]
-      },
-      {
-        numero: 4,
-        titulo: "Temporada 4",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-        
-         
-        ]
-      },
-      {
-        numero: 5,
-        titulo: "Temporada 5",
-       episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-         
-        ]
-      }
-    ]
+    videoUrl: "https://streamimdb.ru/embed/tv/tt6468322"
   },
 
   {
@@ -484,187 +169,14 @@ const CATALOG = [
     tipo: "serie",
     titulo: "Fear the Walking Dead.",
     ano: 2015,
-    sinopse: "Focado em mostrar o colapso da sociedade e o início do apocalipse zumbi sob a perspectiva de uma família disfuncional em Los Angeles",
+    sinopse: "Focused on depicting the collapse of society and the beginning of the zombie apocalypse from the perspective of a dysfunctional family in Los Angeles.",
     generos: ["Terror"],
-    qualidade: "1080p",
     trailer: "https://youtu.be/yzXglr5bc3w?si=26Y8qH9w2VvvM-Z3",
     avaliacao: 6.8,
     poster: "https://br.web.img2.acsta.net/c_310_420/pictures/19/10/15/00/15/4502728.jpg",
     duracao: "8 temporadas",
     pais: "EUA",
-    temporadas: [
-      {
-        numero: 1,
-        titulo: "Temporada 1",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-         
-        ]
-      },
-      {
-        numero: 2,
-        titulo: "Temporada 2",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          
-        ]
-      },
-      {
-        numero: 3,
-        titulo: "Temporada 3",
-       episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          { titulo: "Episódio 16", videoUrl: "" },
-          
-         
-         
-        ]
-      },
-      {
-        numero: 4,
-        titulo: "Temporada 4",
-        episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" }, 
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          { titulo: "Episódio 16", videoUrl: "" },
-        
-         
-        ]
-      },
-      {
-        numero: 5,
-        titulo: "Temporada 5",
-       episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          { titulo: "Episódio 16", videoUrl: "" },
-         
-        ]
-      },
-      {
-        numero: 6,
-        titulo: "Temporada 6",
-       episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          { titulo: "Episódio 16", videoUrl: "" },
-         
-        ]
-      },
-      {
-        numero: 7,
-        titulo: "Temporada 7",
-       episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-          { titulo: "Episódio 13", videoUrl: "" },
-          { titulo: "Episódio 14", videoUrl: "" },
-          { titulo: "Episódio 15", videoUrl: "" },
-          { titulo: "Episódio 16", videoUrl: "" },
-         
-        ]
-      },
-      {
-        numero: 8,
-        titulo: "Temporada 8",
-       episodios: [
-          { titulo: "Episódio 1", videoUrl: "" },
-          { titulo: "Episódio 2", videoUrl: "" },
-          { titulo: "Episódio 3", videoUrl: "" },
-          { titulo: "Episódio 4", videoUrl: "" },
-          { titulo: "Episódio 5", videoUrl: "" },
-          { titulo: "Episódio 6", videoUrl: "" },
-          { titulo: "Episódio 7", videoUrl: "" },
-          { titulo: "Episódio 8", videoUrl: "" },
-          { titulo: "Episódio 9", videoUrl: "" },
-          { titulo: "Episódio 10", videoUrl: "" },
-          { titulo: "Episódio 11", videoUrl: "" },
-          { titulo: "Episódio 12", videoUrl: "" },
-        ]
-      }
-    ]
+    videoUrl: "https://streamimdb.ru/embed/tv/tt3743822"
   },
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
