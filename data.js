@@ -53,7 +53,7 @@ const CATALOG = [
     generos: ["Terror"],
     avaliacao: 7.8,
     poster: "https://m.media-amazon.com/images/M/MV5BNDFmODE3NDktZGVhNS00M2NmLWI1NDAtNTgzOTA0ZGFhODFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    duracao: "1 temporada · 8 episódios",
+    duracao: "1 temporada",
     trailer: "https://youtu.be/K8BgHgL_pr8?si=ahbY_mMnjShHSg2s",
     pais: "EUA",
     videoUrl:"https://streamimdb.ru/embed/tv/tt19244304"
@@ -68,7 +68,7 @@ const CATALOG = [
     generos: ["Drama", "Thriller"],
     avaliacao: 7.1,
     poster: "https://br.web.img3.acsta.net/pictures/18/10/18/07/54/1893178.jpg",
-    duracao: "2 temporadas · 8 episódios",
+    duracao: "8 temporadas",
     trailer: "https://youtu.be/Oqv81BdRs7w?si=nKoXtGhtRT5JYZtw",
     pais: "Espanha",
     videoUrl: "https://streamimdb.ru/embed/tv/tt7134908"
@@ -178,6 +178,112 @@ const CATALOG = [
     pais: "EUA",
     videoUrl: "https://streamimdb.ru/embed/tv/tt3743822"
   },
+
+   {
+    id: 13,
+    tipo: "filme",
+    titulo: "Goat: O Maior de Todos",
+    ano: 2026,
+    sinopse: "Sony Pictures' animated film about Will, a little goat who dreams of becoming the greatest roarball player.",
+    generos: [" Esporte/Comédia"],
+    avaliacao: 6.7,
+    poster: "https://m.media-amazon.com/images/M/MV5BODI4NGRlODgtZGMwMi00ZmE5LWExNWItZjYzYTkyYWVkNDdiXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt27613895",
+    trailer: "https://youtu.be/WzSsj2ULbbE?si=9wXu3EfGJrtxwLmQ",
+    duracao: " 1h 40min",
+    pais: "EUA"
+  },
+
+  {
+    id: 14,
+    tipo: "filme",
+    titulo: "Máquina de Guerra",
+    ano: 2026,
+    sinopse: "The plot follows Mia (Anna Castillo), a young pregnant woman who flees a totalitarian country at war with her husband, Nico. To escape, they hide inside shipping containers on a cargo ship.",
+    generos: [" Ação/Ficção científica"],
+    avaliacao: 6.7,
+    poster: "https://m.media-amazon.com/images/M/MV5BMmM1ZTc5ZTYtOTM2My00MjBmLWE5NzktYzkyYzdlYWE3ZDAzXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt15940132",
+    trailer: "https://youtu.be/mBenb7O8Hnc?si=2GmeDdTZU0NfTxIP",
+    duracao: " 1h 47min",
+    pais: "EUA"
+  },
+
+  {
+  id: 15,
+  tipo: "filme",
+  titulo: "The Predator's Game",
+  ano: 2026,
+  sinopse: "When an adrenaline junkie sets out to conquer a dangerous river, she discovers that nature is not the only thing out for blood.",
+  generos: ["Action", "Thriller", "Psychological Thriller"],
+  avaliacao: 6.1,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7w0wacTCJaxLbO0ysv1iKMDe8n_MZHvV_IA&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt16431404",
+  trailer: "https://youtu.be/W6OJhuH7PD0?si=7O_DjcCJVfIgFJfE",
+  duracao: "1h 35min",
+  pais: "Australia"
+},
+
+{
+  id: 16,
+  tipo: "filme",
+  titulo: "Until Dawn",
+  ano: 2025,
+  sinopse: "A group of friends trapped in a time loop must survive relentless horrors and deadly killers until dawn in order to escape.",
+  generos: ["Terror", "Suspense"],
+  avaliacao: 5.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnClp75SKoKN5R_lntDarDeMO6zTW0wpccFw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt30955489",
+  trailer: "https://youtu.be/W--kUNMg1-E?si=b9VQ9fodaMKvJiNE",
+  duracao: "1h 43min",
+  pais: "Estados Unidos"
+},
+
+{
+  id: 17,
+  tipo: "filme",
+  titulo: "The Babysitter",
+  ano: 2017,
+  sinopse: "A boy discovers that his seemingly perfect babysitter is part of a deadly satanic cult and must fight to survive the night.",
+  generos: ["Comedy", "Horror", "Thriller"],
+  avaliacao: 6.4,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTY0MDUwNzg5OV5BMl5BanBnXkFtZTgwNTY4NjU3MzI@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt4225622",
+  trailer: "https://youtu.be/8WzUYkzRgBE?si=ZVOkMiNrDBYkqfqH",
+  duracao: "1h 25min",
+  pais: "United States"
+},
+
+{
+  id: 18,
+  tipo: "serie",
+  titulo: "Chucky",
+  ano: 2021,
+  sinopse: "After a vintage Chucky doll turns up at a suburban yard sale, a series of horrifying murders begins to expose the town’s dark secrets.",
+  generos: ["Horror", "Thriller", "Comedy"],
+  avaliacao: 7.2,
+  poster: "https://cinepop.com.br/wp-content/uploads/2017/09/cultodechucky_10.jpg",
+  duracao: "3 temporadas",
+  trailer: "https://youtu.be/BDSa0JhIUMI?si=Y_mdVKleHQJbudl7",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt8388390"
+},
+
+{
+  id: 19,
+  tipo: "serie",
+  titulo: "Breaking Bad",
+  ano: 2008,
+  sinopse: "A high school chemistry teacher diagnosed with cancer turns to manufacturing methamphetamine in order to secure his family's future.",
+  generos: ["Crime", "Drama", "Thriller"],
+  avaliacao: 9.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqhGRPHbiT9WRbp4Mc7kKgT6LHSPHrDiWfEg&s",
+  duracao: "5 temporadas",
+  trailer: "https://youtu.be/HhesaQXLuRY?si=LAQrNX2S1Fw8DrB9",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt0903747"
+},
+
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
