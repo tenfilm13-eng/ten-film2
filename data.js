@@ -92,7 +92,7 @@ const CATALOG = [
   {
     id: 7,
     tipo: "filme",
-    titulo: "3096 dias de cativeiro",
+    titulo: "3096 Days",
     ano: 2011,
     sinopse: "The film is based on the true story of Natascha Kampusch, a 10-year-old Austrian girl who was kidnapped in 1998 by Wolfgang Priklopil. She remained in captivity for over eight years (3,096 days), suffering isolation and psychological control, until she managed to escape in 2006. The film portrays her struggle for survival during her captivity.",
     generos: [" Ficção policial", "Drama"],
@@ -107,7 +107,7 @@ const CATALOG = [
   {
     id: 8,
     tipo: "filme",
-    titulo: " Os Pinguins de Madagáscar 5",
+    titulo: " Penguins of Madagascar",
     ano: 2014,
     sinopse: "They are a famous spy group made up of four birds — Skipper, Kowalski, Rico, and Private.",
     generos: ["Infantil/", "Aventura "],
@@ -182,7 +182,7 @@ const CATALOG = [
    {
     id: 13,
     tipo: "filme",
-    titulo: "Goat: O Maior de Todos",
+    titulo: "Goat: The Greatest of All",
     ano: 2026,
     sinopse: "Sony Pictures' animated film about Will, a little goat who dreams of becoming the greatest roarball player.",
     generos: [" Esporte/Comédia"],
@@ -197,7 +197,7 @@ const CATALOG = [
   {
     id: 14,
     tipo: "filme",
-    titulo: "Máquina de Guerra",
+    titulo: "War Machine",
     ano: 2026,
     sinopse: "The plot follows Mia (Anna Castillo), a young pregnant woman who flees a totalitarian country at war with her husband, Nico. To escape, they hide inside shipping containers on a cargo ship.",
     generos: [" Ação/Ficção científica"],
@@ -212,14 +212,14 @@ const CATALOG = [
   {
   id: 15,
   tipo: "filme",
-  titulo: "The Predator's Game",
+  titulo: "Apex",
   ano: 2026,
   sinopse: "When an adrenaline junkie sets out to conquer a dangerous river, she discovers that nature is not the only thing out for blood.",
   generos: ["Action", "Thriller", "Psychological Thriller"],
   avaliacao: 6.1,
-  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7w0wacTCJaxLbO0ysv1iKMDe8n_MZHvV_IA&s",
+  poster: "https://m.media-amazon.com/images/M/MV5BNjUzODE2ZWYtMDdiMS00ZTA0LWI4MzEtNDkyODNiNmIwMWY1XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
   videoUrl: "https://streamimdb.ru/embed/movie/tt16431404",
-  trailer: "https://youtu.be/W6OJhuH7PD0?si=7O_DjcCJVfIgFJfE",
+  trailer: "https://youtu.be/kgv8jf_8dm0?si=i67i5vRLJxLTVnt1",
   duracao: "1h 35min",
   pais: "Australia"
 },
@@ -284,6 +284,275 @@ const CATALOG = [
   videoUrl: "https://streamimdb.ru/embed/tv/tt0903747"
 },
 
+{
+  id: 20,
+  tipo: "filme",
+  titulo: "The Platform",
+  ano: 2019,
+  sinopse: "In a vertical prison where food is distributed from the top down, a man tries to change a brutal system that leaves those below starving.",
+  generos: ["Sci-Fi", "Thriller", "Horror"],
+  avaliacao: 7.0,
+  poster: "https://resizing.flixster.com/XwTNbjwSHIWCpRygYzSgcGgxivE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzUzMzNmMjRjLTc2YzgtNGRhMS1hMDJkLTM1MjZmYzQ4OGFjZi53ZWJw",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt8228288",
+  trailer: "https://youtu.be/RlfooqeZcdY?si=TU1Ld_ROcRC9fjHh",
+  duracao: "1h 34min",
+  pais: "Spain"
+},
+
+{
+  id:21,
+  tipo: "serie",
+  titulo: "The 100",
+  ano: 2014,
+  sinopse: "Ninety-seven years after a nuclear apocalypse, one hundred juvenile delinquents are sent back to Earth to determine whether the planet is habitable.",
+  generos: ["Sci-Fi", "Drama", "Mystery"],
+  avaliacao: 7.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BNDdmZGYwOWEtN2FkZC00Y2ExLWJkY2UtNzFlODVlNzc3MGIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  duracao: "7 temporadas",
+  trailer: "https://youtu.be/aDrsItJ_HU4?si=otXrCzspotiCFe-S",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt2661044"
+},
+
+{
+  id:22,
+  tipo: "filme",
+  titulo: "Split",
+  ano: 2016,
+  sinopse: "Three teenage girls are kidnapped by a man with twenty-three distinct personalities, while a terrifying new personality begins to emerge.",
+  generos: ["Thriller", "Horror", "Drama"],
+  avaliacao: 7.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTJjYjAxZGYtYTUxNy00YzllLThjNzUtNTQzNzhmNGU3NTZjXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt4972582",
+  trailer: "https://youtu.be/7l4SzfMstLE?si=_HqTd8hQc3MlGrGG",
+  duracao: "1h 57min",
+  pais: "United States"
+},
+
+{
+  id:23,
+  tipo: "serie",
+  titulo: "The Boys",
+  ano: 2019,
+  sinopse: "A group of vigilantes sets out to take down corrupt superheroes who abuse their powers and influence.",
+  generos: ["Action", "Crime", "Drama"],
+  avaliacao: 8.6,
+  poster: "https://m.media-amazon.com/images/M/MV5BZjU4OWNiYzQtMzc1NS00NjZlLTgyYTctZWY4ZmEzMTkxYjA4XkEyXkFqcGc@._V1_.jpg",
+  duracao: "4 temporadas",
+  trailer: "https://youtu.be/PXXPpFCxnkQ?si=FE0jPRIAgTVkwbAB",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1190634"
+},
+
+{
+  id:24,
+  tipo: "filme",
+  titulo: "Scream 2",
+  ano: 1997,
+  sinopse: "Two years after the Woodsboro murders, Sidney Prescott faces a new Ghostface killer targeting students at her college.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 6.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BODE5YWJkMDMtN2ZiNC00MjI5LTkxYTgtOTkyZjUwMjU0YThiXkEyXkFqcGc@._V1_QL75_UY281_CR0,0,190,281_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0120082",
+  trailer: "https://youtu.be/Eng1njONZ-Q?si=78b48QUlmfGxhIYa",
+  duracao: "2h 00min",
+  pais: "United States"
+},
+
+{
+  id: 25,
+  tipo: "filme",
+  titulo: "Scream 3",
+  ano: 2000,
+  sinopse: "While the cast of a horror movie based on the Woodsboro murders is being targeted by a new Ghostface killer, Sidney Prescott is drawn back into the nightmare.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 5.6,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTI0NmIwZDUtNzkxMS00OTNmLTg0N2UtZmJkNzJmNDAwZmQwXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0134084",
+  trailer: "https://youtu.be/WFyhTIqJgis?si=wqL_GSZRsXfrx2TE",
+  duracao: "1h 56min",
+  pais: "United States"
+},
+
+{
+  id: 26,
+  tipo: "filme",
+  titulo: "Scream 4",
+  ano: 2011,
+  sinopse: "Sidney Prescott returns to Woodsboro on the anniversary of the original murders, only to find herself targeted by a new Ghostface killer.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 6.2,
+  poster: "https://m.media-amazon.com/images/I/61nQR9fZltL._AC_UF1000,1000_QL80_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1262416",
+  trailer: "https://youtu.be/JKRtyVLWV-E?si=xnneyPCuB8cdResx",
+  duracao: "1h 51min",
+  pais: "United States"
+},
+
+{
+  id: 27,
+  tipo: "filme",
+  titulo: "Scream 7",
+  ano: 2026,
+  sinopse: "When a new Ghostface killer emerges in the town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 5.6,
+  poster: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Scream_7_%28poster%29.jpg/250px-Scream_7_%28poster%29.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt27047903",
+  trailer: "https://youtu.be/UJrghaPJ0RY?si=4PRP43gppyIP_ykv",
+  duracao: "1h 54min",
+  pais: "United States"
+},
+
+{
+  id: 28,
+  tipo: "filme",
+  titulo: "The Fast and the Furious",
+  ano: 2001,
+  sinopse: "An undercover police officer infiltrates a street racing crew suspected of hijacking high-value trucks in Los Angeles.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 6.8,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT-430AbxL6QGtJdysHKk5wsGFWKDdT35Dwg&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0232500",
+  trailer: "https://youtu.be/DXc8tiB8TBI?si=QOXBQXIsdY3OvyYq",
+  duracao: "1h 46min",
+  pais: "United States"
+},
+
+{
+  id: 29,
+  tipo: "filme",
+  titulo: "2 Fast 2 Furious",
+  ano: 2003,
+  sinopse: "Former cop Brian O'Conner teams up with his childhood friend to bring down a powerful drug lord while clearing his criminal record.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 5.9,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/2/20/2_Fast_2_Furious_2003.jpg/250px-2_Fast_2_Furious_2003.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0322259",
+  trailer: "https://youtu.be/Hc6lgMQVKQg?si=R_vUsKeqms1I4c6c",
+  duracao: "1h 47min",
+  pais: "United States"
+},
+
+{
+  id: 30,
+  tipo: "filme",
+  titulo: "The Fast and the Furious: Tokyo Drift",
+  ano: 2006,
+  sinopse: "A rebellious teenager is sent to live in Tokyo, where he discovers the world of drift racing and becomes involved with dangerous rivals.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 6.0,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/f/f1/TFF-TokyoDrift-p%C3%B4ster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0463985",
+  trailer: "https://youtu.be/p8HQ2JLlc4E?si=CVUyiwypFdhvg2yk",
+  duracao: "1h 44min",
+  pais: "United States"
+},
+
+{
+  id: 31,
+  tipo: "filme",
+  titulo: "Fast & Furious",
+  ano: 2009,
+  sinopse: "Brian O'Conner and Dominic Toretto reunite to bring down a heroin importer while seeking justice for a personal loss.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 6.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BYWFhNmM0ZTEtYmU2ZC00ZWYwLWFhMGYtMDUwZDU2YTNmNzVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1013752",
+  trailer: "https://youtu.be/3j3Mre4MsX4?si=Wa3DucxHgbCXVdEb",
+  duracao: "1h 47min",
+  pais: "United States"
+},
+
+{
+  id: 32,
+  tipo: "filme",
+  titulo: "Fast Five",
+  ano: 2011,
+  sinopse: "Dominic Toretto and his crew plan a massive heist in Rio de Janeiro while being pursued by a relentless federal agent.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 7.3,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ89Wa9bdPGajKTFRxe3RoZFsLlQLGKxgtRaA&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1596343",
+  trailer: "https://youtu.be/E1owNxw0cz0?si=h-EeYWalmGw3FzXV",
+  duracao: "2h 10min",
+  pais: "United States"
+},
+
+{
+  id: 33,
+  tipo: "filme",
+  titulo: "Fast & Furious 6",
+  ano: 2013,
+  sinopse: "Hobbs asks Dominic Toretto and his team to help take down a skilled mercenary organization in exchange for full pardons.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 7.0,
+  poster: "https://m.media-amazon.com/images/M/MV5BZjg0NzBjMjEtMzRmNi00NzNjLWIzM2QtZTE0NDM4NzBmYjQwXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1905041",
+  trailer: "https://youtu.be/G2hscSRaTm8?si=66Ry1FZgdltgO4TS",
+  duracao: "2h 10min",
+  pais: "United States"
+},
+
+{
+  id: 34,
+  tipo: "filme",
+  titulo: "Furious 7",
+  ano: 2015,
+  sinopse: "Dominic Toretto and his crew face a deadly assassin seeking revenge against them while securing a powerful surveillance program.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 7.1,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvOwuEakTXawv8nVPMlgE1MpjVlGsGEZpvbg&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2820852",
+  trailer: "https://youtu.be/3wGDiIT-rO0?si=C1EqspXBlC3f0aUY",
+  duracao: "2h 17min",
+  pais: "United States"
+},
+
+{
+  id: 35,
+  tipo: "filme",
+  titulo: "The Fate of the Furious",
+  ano: 2017,
+  sinopse: "When a mysterious cyberterrorist forces Dom to betray his team, the crew must reunite to stop a global threat and bring him home.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 6.6,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBNp4agmZEAXF9KyLeTyDNbY9b6rrAZX8e-Q&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt4630562",
+  trailer: "https://youtu.be/Uem6VTKNnhc?si=fXCGyLv58FnXtzPi",
+  duracao: "2h 16min",
+  pais: "United States"
+},
+
+{
+  id: 36,
+  tipo: "filme",
+  titulo: "F9: The Fast Saga",
+  ano: 2021,
+  sinopse: "Dom Toretto and his team must confront a dangerous plot led by his estranged brother, a highly skilled assassin and driver.",
+  generos: ["Action", "Adventure", "Crime"],
+  avaliacao: 5.2,
+  poster: "https://br.web.img3.acsta.net/pictures/21/04/14/19/06/3385237.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt5433138",
+  trailer: "https://youtu.be/jP1ASkk6cJc?si=e-JdCpfsTtQRlPsz",
+  duracao: "2h 23min",
+  pais: "United States"
+},
+
+{
+  id: 37,
+  tipo: "filme",
+  titulo: "Fast X",
+  ano: 2023,
+  sinopse: "Dom Toretto and his family become the targets of a vengeful enemy seeking revenge for the events of the Rio heist years earlier.",
+  generos: ["Action", "Adventure", "Crime"],
+  avaliacao: 5.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD7LRaBxVcnUDtN_6maXWOeWG04-3OyilTOw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt5433140",
+  trailer: "https://youtu.be/N-3_SkgrfSY?si=aSEf1kk-JOrIXJyN",
+  duracao: "2h 21min",
+  pais: "United States"
+},
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
