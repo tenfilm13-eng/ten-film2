@@ -43,9 +43,16 @@ body {
 }
 
 .logo {
-  font-size: 1.7rem;
   flex-shrink: 0;
   user-select: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-svg {
+  height: 42px;
+  width: auto;
+  display: block;
 }
 
 .main-nav {
