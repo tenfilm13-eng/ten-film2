@@ -553,6 +553,156 @@ const CATALOG = [
   duracao: "2h 21min",
   pais: "United States"
 },
+
+{
+  id: 38,
+  tipo: "filme",
+  titulo: "The Nun",
+  ano: 2018,
+  sinopse: "A priest and a novice are sent to investigate the mysterious death of a nun at a remote abbey, where they encounter a demonic force.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 5.3,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhDzGtU45I69_d7WAwZ4MujSoz_OcCEfyPQQ&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt5814060",
+  trailer: "https://youtu.be/pzD9zGcUNrw?si=L8PY6mBHW1BvVGQe",
+  duracao: "1h 36min",
+  pais: "United States"
+},
+
+{
+  id: 39,
+  tipo: "filme",
+  titulo: "The Nun II",
+  ano: 2023,
+  sinopse: "When a priest is murdered and evil begins to spread, Sister Irene once again comes face to face with the demonic force Valak.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 5.6,
+  poster: "https://m.media-amazon.com/images/M/MV5BZmNhODU5Y2YtYTNmYi00YTRiLWE5MjUtMmQzMGM5YjliZjRhXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt10160976",
+  trailer: "https://youtu.be/QF-oyCwaArU?si=vS3I-Up8zSm91SE1",
+  duracao: "1h 50min",
+  pais: "United States"
+},
+
+{
+  id: 40,
+  tipo: "filme",
+  titulo: "Annabelle",
+  ano: 2014,
+  sinopse: "A couple begins to experience terrifying supernatural events involving a vintage doll after their home is invaded by cultists.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 5.4,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKVzciRLKmmUNYTuhuSdsKkVeWy0WrXtmNVQ&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3322940",
+  trailer: "https://youtu.be/paFgQNPGlsg?si=dDthmLe2iIp1DgfK",
+  duracao: "1h 39min",
+  pais: "United States"
+},
+
+{
+  id: 41,
+  tipo: "filme",
+  titulo: "Annabelle: Creation",
+  ano: 2017,
+  sinopse: "A dollmaker and his wife welcome a group of orphan girls into their home, where a sinister doll becomes the center of terrifying events.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 6.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBaokHGlPLdRnSEhVTOQbT0YrY-sprcgA1cQ&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt5140878",
+  trailer: "https://youtu.be/EjZkJa6Z-SY?si=kvQsG3AKuv2J4UG9",
+  duracao: "1h 49min",
+  pais: "United States"
+},
+
+{
+  id: 42,
+  tipo: "filme",
+  titulo: "Annabelle Comes Home",
+  ano: 2019,
+  sinopse: "While the Warrens are away, the possessed Annabelle doll awakens evil spirits in their artifact room, putting their daughter and her friends in danger.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 5.9,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBpZJmbtpZ9oK889b5uFQ7fF5IQRFhB4RJpg&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt8350360",
+  trailer: "https://youtu.be/bCxm7cTpBAs?si=iRrxazhYK-TyRNFy",
+  duracao: "1h 46min",
+  pais: "United States"
+},
+
+{
+  id: 43,
+  tipo: "filme",
+  titulo: "The Conjuring",
+  ano: 2013,
+  sinopse: "Paranormal investigators Ed and Lorraine Warren help a family terrorized by a dark presence in their farmhouse.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 7.5,
+  poster: "https://br.web.img2.acsta.net/pictures/210/166/21016629_2013062820083878.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1457767",
+  trailer: "https://youtu.be/k10ETZ41q5o?si=iIVNuTWlLBU-vTZw",
+  duracao: "1h 52min",
+  pais: "United States"
+},
+
+{
+  id: 44,
+  tipo: "filme",
+  titulo: "The Conjuring 2",
+  ano: 2016,
+  sinopse: "Ed and Lorraine Warren travel to England to help a single mother and her children who are being haunted by a malicious supernatural entity.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 7.3,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIm6ZrG_TLc7NIAR8stb1Hg9wrft7BR8m46w&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3065204",
+  trailer: "https://youtu.be/VFsmuRPClr4?si=KdrBBUJQHgG1e3rK",
+  duracao: "2h 14min",
+  pais: "United States"
+},
+
+{
+  id: 45,
+  tipo: "filme",
+  titulo: "The Conjuring: The Devil Made Me Do It",
+  ano: 2021,
+  sinopse: "Ed and Lorraine Warren investigate a shocking murder case linked to a demonic possession, uncovering one of the most sensational cases of their careers.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 6.3,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaCJfcXO5u5wP0_MbRizRd4-EcH5AveeOQug&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt7069210",
+  trailer: "https://youtu.be/h9Q4zZS2v1k?si=pNoUdxDBB8JVlcj2",
+  duracao: "1h 52min",
+  pais: "United States"
+},
+
+{
+  id: 46,
+  tipo: "filme",
+  titulo: "The Conjuring: Last Rites",
+  ano: 2025,
+  sinopse: "Paranormal investigators Ed and Lorraine Warren take on one last terrifying case involving mysterious entities they must confront.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 6.2,
+  poster: "https://br.web.img3.acsta.net/img/28/7d/287dbd3c843903f3519952c0af589baf.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt22898462",
+  trailer: "https://youtu.be/bMgfsdYoEEo?si=C9Niv7uKvRthguU9",
+  duracao: "2h 15min",
+  pais: "United States"
+},
+
+{
+  id: 47,
+  tipo: "filme",
+  titulo: "Sahara",
+  ano: 2005,
+  sinopse: "Explorer Dirk Pitt and his team travel to West Africa in search of a lost Civil War battleship while investigating a deadly epidemic.",
+  generos: ["Action", "Adventure", "Comedy"],
+  avaliacao: 6.1,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Sk0I5apBaRWE_FUtSB6uxvIp_EAQ8DpTFQ&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0318649",
+  trailer: "https://youtu.be/2Z9zVJ6zgXc?si=zvV7uQLWPqfQOC3Q",
+  duracao: "2h 04min",
+  pais: "United States"
+},
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
