@@ -341,7 +341,7 @@ const CATALOG = [
   duracao: "4 temporadas",
   trailer: "https://youtu.be/PXXPpFCxnkQ?si=FE0jPRIAgTVkwbAB",
   pais: "United States",
-  videoUrl: "https://streamimdb.ru/embed/movie/tt1190634"
+  videoUrl: "https://streamimdb.ru/embed/tv/tt1190634"
 },
 
 {
