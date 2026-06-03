@@ -703,6 +703,351 @@ const CATALOG = [
   duracao: "2h 04min",
   pais: "United States"
 },
+
+{
+  id:48 ,
+  tipo: "filme",
+  titulo: "Ghost Rider",
+  ano: 2007,
+  sinopse: "A motorcycle stunt performer makes a deal with the Devil and becomes the Ghost Rider, a supernatural bounty hunter with a fiery skull.",
+  generos: ["Action", "Fantasy", "Thriller"],
+  avaliacao: 5.3,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rXqNzHhNqjG0FqY1NNXKoEtafu2aXuaS9A&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0259324",
+  trailer: "https://youtu.be/nu6R7ypaz5g?si=b3Wd3fhfEf3F7x0T",
+  duracao: "1h 50min",
+  pais: "United States"
+},
+
+{
+  id: 49,
+  tipo: "filme",
+  titulo: "Ghost Rider: Spirit of Vengeance",
+  ano: 2011,
+  sinopse: "Johnny Blaze struggles with his curse as the Ghost Rider while trying to protect a young boy from the forces of the Devil.",
+  generos: ["Action", "Fantasy", "Thriller"],
+  avaliacao: 4.3,
+  poster: "https://preview.redd.it/what-are-your-thoughts-on-the-ghost-rider-movies-v0-kll26um2navc1.png?width=1400&format=png&auto=webp&s=b9998a3b05e53b493ef6cd025adc9a1807094327",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1071875",
+  trailer: "https://youtu.be/UUObgxCoUgA?si=0nXfMuUDM1pYUHC_",
+  duracao: "1h 36min",
+  pais: "United States"
+},
+
+{
+  id:50,
+  tipo: "filme",
+  titulo: "Kick-Ass",
+  ano: 2010,
+  sinopse: "An ordinary teenager decides to become a real-life superhero despite having no powers, training, or experience.",
+  generos: ["Action", "Comedy", "Crime"],
+  avaliacao: 7.6,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrDm3nzZIdGOx4aZ942RsGXE_0Liyw9LuhMg&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1250777",
+  trailer: "https://youtu.be/2rpXHqnGDXo?si=zLSqlSsyN3ilI7Ki",
+  duracao: "1h 57min",
+  pais: "United Kingdom"
+},
+
+{
+  id: 51,
+  tipo: "filme",
+  titulo: "Kick-Ass 2",
+  ano: 2013,
+  sinopse: "As Kick-Ass joins a team of amateur superheroes, a vengeful enemy known as The Motherfucker assembles his own league of villains.",
+  generos: ["Action", "Comedy", "Crime"],
+  avaliacao: 6.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6jtl1_rYoJ0sbMuO9cP5xebPhiCxcuYfk1A&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1650554",
+  trailer: "https://youtu.be/Td921lYSBIA?si=eo5f08e54xB5pniQ",
+  duracao: "1h 43min",
+  pais: "United Kingdom"
+},
+
+{
+  id: 52,
+  tipo: "filme",
+  titulo: "The Flash",
+  ano: 2023,
+  sinopse: "Barry Allen uses his super speed to travel back in time, but altering the past creates unexpected consequences that threaten the future.",
+  generos: ["Action", "Adventure", "Sci-Fi"],
+  avaliacao: 6.6,
+  poster: "https://pt.wikipedia.org/wiki/Ficheiro:The_Flash_%28filme%29_capa.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0439572",
+  trailer: "https://youtu.be/hebWYacbdvc?si=00cbcnU9a0sLO7t1",
+  duracao: "2h 24min",
+  pais: "United States"
+},
+
+{
+  id: 53,
+  tipo: "serie",
+  titulo: "Spider-Noir",
+  ano: 2026,
+  sinopse: "An aging private investigator in 1930s New York is forced to confront his past as the city's only superhero when old threats resurface.",
+  generos: ["Action", "Adventure", "Crime"],
+  avaliacao: 8.2,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_stmna8_UKNYPWmWyVr1EZArRhm7a4YzGJA&s",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/HgMbkitzhEM?si=kXjXBZ4euJGn8Mci",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt30460310"
+},
+
+{
+  id: 54,
+  tipo: "serie",
+  titulo: "Game of Thrones",
+  ano: 2011,
+  sinopse: "Nine noble families wage war against each other in order to gain control over the mythical land of Westeros while an ancient enemy returns.",
+  generos: ["Action", "Adventure", "Drama"],
+  avaliacao: 9.2,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiCtTwp9bSRc7VltVNvfhXkbJCS0Kc8b3jtA&s",
+  duracao: "8 temporadas",
+  trailer: "https://youtu.be/bjqEWgDVPe0?si=7HvjRVeS6Tr0Caeb",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt0944947"
+},
+
+{
+  id: 55,
+  tipo: "serie",
+  titulo: "Lost",
+  ano: 2004,
+  sinopse: "The survivors of a plane crash find themselves stranded on a mysterious island filled with secrets, dangers, and supernatural phenomena.",
+  generos: ["Adventure", "Drama", "Mystery"],
+  avaliacao: 8.3,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq8b8zHS5f4KtIN8vFW36ytm1BYcUHG_uUIA&s",
+  duracao: "6 temporadas",
+  trailer: "https://youtu.be/oOCaBPbm7KE?si=w6npi0FsFowwuP5A",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt0411008"
+},
+
+{
+  id: 56,
+  tipo: "serie",
+  titulo: "The Walking Dead",
+  ano: 2010,
+  sinopse: "A sheriff's deputy awakens from a coma to find the world overrun by zombies and must lead a group of survivors through a dangerous new reality.",
+  generos: ["Drama", "Horror", "Thriller"],
+  avaliacao: 8.1,
+  poster: "",
+  duracao: "11 temporadas",
+  trailer: "https://youtu.be/cu2ApTImBKc?si=O5hGbGt3BUoC9zeQ",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt1520211"
+},
+
+{
+  id: 57,
+  tipo: "serie",
+  titulo: "Stranger Things",
+  ano: 2016,
+  sinopse: "When a young boy vanishes, a group of friends uncovers secret experiments, supernatural forces, and a mysterious girl with extraordinary powers.",
+  generos: ["Drama", "Fantasy", "Horror"],
+  avaliacao: 8.6,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/2/29/Stranger_Things_Temporada_1_Poster.jpg/250px-Stranger_Things_Temporada_1_Poster.jpg",
+  duracao: "5 temporadas",
+  trailer: "https://youtu.be/RMmGQNNl164?si=TOnErMuUeIjSMCo2",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt4574334"
+},
+
+{
+  id: 58,
+  tipo: "serie",
+  titulo: "The Punisher",
+  ano: 2017,
+  sinopse: "After the murder of his family, Frank Castle uncovers a conspiracy that reaches far beyond New York's criminal underworld and becomes a ruthless vigilante.",
+  generos: ["Action", "Crime", "Drama"],
+  avaliacao: 8.4,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfJiOQfNBwHYZZhts9-n_ty4zCNAmX8NXKjw&s",
+  duracao: "2 temporadas",
+  trailer: "https://youtu.be/THB2nAJUFC8?si=P4cv8XPX0MFYGOw3",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt5675620"
+},
+
+{
+  id: 59,
+  tipo: "serie",
+  titulo: "The Last Kingdom",
+  ano: 2015,
+  sinopse: "Born a Saxon but raised by Vikings, Uhtred of Bebbanburg seeks to reclaim his ancestral home while navigating the conflict between the two worlds.",
+  generos: ["Action", "Drama", "History"],
+  avaliacao: 8.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabnAnQUlzY8TVFxSDVt9oaw40OuF0NCZDmA&s",
+  duracao: "5 temporadas",
+  trailer: "https://youtu.be/WxPApTGWwas?si=ge4nnOg-vqOOmBr2",
+  pais: "United Kingdom",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt4179452"
+},
+
+{
+  id: 60,
+  tipo: "serie",
+  titulo: "Vikings",
+  ano: 2013,
+  sinopse: "The legendary Norse hero Ragnar Lothbrok rises from farmer to king as he leads daring raids and explores new lands.",
+  generos: ["Action", "Adventure", "Drama"],
+  avaliacao: 8.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRldnzKpV-OjHLnWvEDB-SI_lVofRLFpCXAXA&s",
+  duracao: "6 temporadas",
+  trailer: "https://youtu.be/9GgxinPwAGc?si=_4SdBOMhwwSzm5NR",
+  pais: "Canada",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt2306299"
+},
+
+{
+  id: 61,
+  tipo: "serie",
+  titulo: "Squid Game",
+  ano: 2021,
+  sinopse: "Hundreds of financially desperate players accept an invitation to compete in deadly children's games for a massive cash prize.",
+  generos: ["Action", "Drama", "Thriller"],
+  avaliacao: 8.0,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv8KSEsS_J8Ml3Gu3s8z-eaMeB5mr1tWmbhQ&s",
+  duracao: "3 temporadas",
+  trailer: "https://youtu.be/oqxAJKy0ii4?si=3NY0v-TjQf1XvECA",
+  pais: "South Korea",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt10919420"
+},
+
+{
+  id: 62,
+  tipo: "serie",
+  titulo: "Outer Banks",
+  ano: 2020,
+  sinopse: "A group of teenagers from the Outer Banks embarks on a dangerous treasure hunt linked to the disappearance of their leader's father.",
+  generos: ["Action", "Adventure", "Drama"],
+  avaliacao: 7.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_hNsfam-qR5Gs23iFF0bz121SsUhNqoyU0g&s",
+  duracao: "4 temporadas",
+  trailer: "https://youtu.be/pfY3j-3uQhk?si=P9VLdAJskoIP9Sfi",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt10293938"
+},
+
+{
+  id: 63,
+  tipo: "serie",
+  titulo: "Peaky Blinders",
+  ano: 2013,
+  sinopse: "A notorious gang led by the ambitious Tommy Shelby rises to power in post-World War I Birmingham through crime, politics, and strategy.",
+  generos: ["Crime", "Drama"],
+  avaliacao: 8.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJHhlgnygBMBQHi9y6UfMcjoUg4Lz1yUaFXg&s",
+  duracao: "6 temporadas",
+  trailer: "https://youtu.be/lcvUGs3xaDM?si=OwO1pfbQYjZuckJ3",
+  pais: "United Kingdom",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt2442560"
+},
+
+{
+  id: 64,
+  tipo: "serie",
+  titulo: "House of the Dragon",
+  ano: 2022,
+  sinopse: "The Targaryen dynasty is at the height of its power, but a brutal civil war begins when rival factions fight for the Iron Throne.",
+  generos: ["Action", "Adventure", "Drama"],
+  avaliacao: 8.3,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwNMFIdfKxeR3eqLvBNVL0na5Hz7xjoAQpTg&s",
+  duracao: "2 temporadas",
+  trailer: "https://youtu.be/DotnJ7tTA34?si=HzBwtia54Yja8A3R",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt11198330"
+},
+
+{
+  id: 65,
+  tipo: "serie",
+  titulo: "Better Call Saul",
+  ano: 2015,
+  sinopse: "The story follows Jimmy McGill, a struggling lawyer who gradually transforms into the morally flexible attorney Saul Goodman.",
+  generos: ["Crime", "Drama"],
+  avaliacao: 9.0,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRimEHbz4Blzqgcu0-qbS9jHLEKoeuxb7VwXg&s",
+  duracao: "6 temporadas",
+  trailer: "https://youtu.be/HN4oydykJFc?si=KL-KsyNW3fhVGpzN",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt3032476"
+},
+
+{
+  id: 66,
+  tipo: "serie",
+  titulo: "Mr. Robot",
+  ano: 2015,
+  sinopse: "A cybersecurity engineer and hacker suffering from social anxiety is recruited by a mysterious anarchist to help bring down powerful corporations.",
+  generos: ["Crime", "Drama", "Thriller"],
+  avaliacao: 8.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0o3rx7pHe_U0cmxSqA4r9YKGqsytUJTA4nw&s",
+  duracao: "4 temporadas",
+  trailer: "https://youtu.be/xIBiJ_SzJTA?si=jhSw8FSUARaiEGDJ",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt4158110"
+},
+
+{
+  id: 67,
+  tipo: "serie",
+  titulo: "Dark",
+  ano: 2017,
+  sinopse: "When two children disappear in a small German town, four families uncover a mystery involving time travel, secrets, and interconnected destinies.",
+  generos: ["Crime", "Drama", "Mystery"],
+  avaliacao: 8.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp_bENpN8S0GenzWI2aZU62ZYzJKUwg2NAEg&s",
+  duracao: "3 temporadas",
+  trailer: "https://youtu.be/YBNbXiYc8-s?si=mxZgPA20lIvbWqwF",
+  pais: "Germany",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt5753856"
+},
+
+{
+  id: 68,
+  tipo: "serie",
+  titulo: "The Sopranos",
+  ano: 1999,
+  sinopse: "New Jersey mob boss Tony Soprano struggles to balance the demands of his crime family with the challenges of his personal life.",
+  generos: ["Crime", "Drama"],
+  avaliacao: 9.2,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7twwYO2p3-f0txUFn9ZgUPCCX5--12gUdLQ&s",
+  duracao: "6 temporadas",
+  trailer: "https://youtu.be/KMx4iFcozK0?si=X73GFMI89NBEb0iu",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt0141842"
+},
+
+{
+  id: 69,
+  tipo: "serie",
+  titulo: "Friends",
+  ano: 1994,
+  sinopse: "Follows the personal and professional lives of six friends living in New York City as they navigate relationships, careers, and everyday challenges.",
+  generos: ["Comedy", "Romance"],
+  avaliacao: 8.9,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6gIu9FC5mW5oJaTmEwdN3DN0vaFuwuxV1HG2uF2j1nPJLvDo5jp6X_8gwO71me4kD5IrTk1yLgOmtDS-wIanzv1tcISK-OUU6jU6O7hY&s=10",
+  duracao: "10 temporadas",
+  trailer: "https://youtu.be/Zg2LCD5QOJs?si=m9kjPMBW85nWPbwY",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt0108778"
+},
+
+{
+  id: 70,
+  tipo: "serie",
+  titulo: "Teen Wolf",
+  ano: 2011,
+  sinopse: "A high school student’s life changes forever after he is bitten by a werewolf and becomes involved in a world of supernatural creatures.",
+  generos: ["Action", "Drama", "Fantasy"],
+  avaliacao: 7.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRcjOlFfZ7ofbVBveLIh9gyjJ66-0IGek1rw&s",
+  duracao: "6 temporadas",
+  trailer: "https://youtu.be/20lbPxwKR6Q?si=-6jrp9WxNTSpuFlD",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt1567432"
+},
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
