@@ -341,7 +341,7 @@ const CATALOG = [
   duracao: "4 temporadas",
   trailer: "https://youtu.be/PXXPpFCxnkQ?si=FE0jPRIAgTVkwbAB",
   pais: "United States",
-  videoUrl: "https://streamimdb.ru/embed/tv/tt1190634"
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1190634"
 },
 
 {
@@ -772,7 +772,7 @@ const CATALOG = [
   sinopse: "Barry Allen uses his super speed to travel back in time, but altering the past creates unexpected consequences that threaten the future.",
   generos: ["Action", "Adventure", "Sci-Fi"],
   avaliacao: 6.6,
-  poster: "https://pt.wikipedia.org/wiki/Ficheiro:The_Flash_%28filme%29_capa.jpg",
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0tiL200NmugsHyVpjYrjCx_-4uGB2x9XIuw&s",
   videoUrl: "https://streamimdb.ru/embed/movie/tt0439572",
   trailer: "https://youtu.be/hebWYacbdvc?si=00cbcnU9a0sLO7t1",
   duracao: "2h 24min",
@@ -832,7 +832,7 @@ const CATALOG = [
   sinopse: "A sheriff's deputy awakens from a coma to find the world overrun by zombies and must lead a group of survivors through a dangerous new reality.",
   generos: ["Drama", "Horror", "Thriller"],
   avaliacao: 8.1,
-  poster: "",
+  poster: "https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_.jpg",
   duracao: "11 temporadas",
   trailer: "https://youtu.be/cu2ApTImBKc?si=O5hGbGt3BUoC9zeQ",
   pais: "United States",
@@ -1047,6 +1047,1251 @@ const CATALOG = [
   trailer: "https://youtu.be/20lbPxwKR6Q?si=-6jrp9WxNTSpuFlD",
   pais: "United States",
   videoUrl: "https://streamimdb.ru/embed/tv/tt1567432"
+},
+
+{
+  id: 71,
+  tipo: "filme",
+  titulo: "Big Hero 6",
+  ano: 2014,
+  sinopse: "A young robotics prodigy and his inflatable healthcare companion Baymax team up with friends to form a band of high-tech heroes.",
+  generos: ["Animation", "Action", "Adventure"],
+  avaliacao: 7.8,
+  poster: "https://lumiere-a.akamaihd.net/v1/images/p_bighero6_19753_20bd6206.jpeg?region=0%2C0%2C540%2C810",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2245084",
+  trailer: "https://youtu.be/z3biFxZIJOQ?si=0UtL7ZiLFNwvO1iu",
+  duracao: "1h 42min",
+  pais: "United States"
+},
+
+{
+  id: 72,
+  tipo: "filme",
+  titulo: "The Good Dinosaur",
+  ano: 2015,
+  sinopse: "In a world where dinosaurs never became extinct, a young Apatosaurus named Arlo forms an unlikely friendship with a human boy.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsfYcaIeloEqvS7PmWA60lCxhCtKi_e3nC3Q&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1979388",
+  trailer: "https://youtu.be/O-RgquKVTPE?si=3HNcjLs-CXHTs_WW",
+  duracao: "1h 33min",
+  pais: "United States"
+},
+
+{
+  id: 73,
+  tipo: "filme",
+  titulo: "Tangled",
+  ano: 2010,
+  sinopse: "A spirited princess with magical long hair escapes her tower with the help of a charming thief and discovers the world beyond her confinement.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.7,
+  poster: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Tangled_poster.jpg/250px-Tangled_poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0398286",
+  trailer: "https://youtu.be/ycoY201RTRo?si=8mX-G4FR3V9KXHKr",
+  duracao: "1h 40min",
+  pais: "United States"
+},
+
+{
+  id: 74,
+  tipo: "filme",
+  titulo: "WALL·E",
+  ano: 2008,
+  sinopse: "A lonely waste-collecting robot on an abandoned Earth embarks on a journey across space after meeting a sleek probe robot named EVE.",
+  generos: ["Animation", "Adventure", "Family"],
+  avaliacao: 8.4,
+  poster: "https://upload.wikimedia.org/wikipedia/en/4/4c/WALL-E_poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0910970",
+  trailer: "https://youtu.be/CZ1CATNbXg0?si=baALLwzwGA9q6Acs",
+  duracao: "1h 38min",
+  pais: "United States"
+},
+
+{
+  id: 75,
+  tipo: "filme",
+  titulo: "The Incredibles",
+  ano: 2004,
+  sinopse: "A family of undercover superheroes is forced back into action to save the world from a dangerous new threat.",
+  generos: ["Animation", "Action", "Adventure"],
+  avaliacao: 8.0,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0317705",
+  trailer: "https://youtu.be/-UaGUdNJdRQ?si=St3rD5za1vfETVNm",
+  duracao: "1h 55min",
+  pais: "United States"
+},
+
+{
+  id: 76,
+  tipo: "filme",
+  titulo: "Incredibles 2",
+  ano: 2018,
+  sinopse: "While Helen is called to lead a campaign to bring superheroes back, Bob stays home to manage the challenges of family life.",
+  generos: ["Animation", "Action", "Adventure"],
+  avaliacao: 7.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3606756",
+  trailer: "https://youtu.be/i5qOzqD9Rms?si=XHRIKminqLHRiHhD",
+  duracao: "1h 58min",
+  pais: "United States"
+},
+
+{
+  id: 77,
+  tipo: "filme",
+  titulo: "Luck",
+  ano: 2022,
+  sinopse: "An unlucky young woman discovers a hidden world of magical creatures and embarks on a journey to bring good luck to her best friend.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.4,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/6/6e/Luck_%282022%29_poster.png",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt7214954",
+  trailer: "https://youtu.be/xSG5UX0EQVg?si=AAP07n1OctkN0W7l",
+  duracao: "1h 45min",
+  pais: "United States"
+},
+
+{
+  id: 78,
+  tipo: "filme",
+  titulo: "Minions",
+  ano: 2015,
+  sinopse: "The Minions embark on a journey to find a new master and end up helping the ambitious Scarlet Overkill in her quest for world domination.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.4,
+  poster: "https://m.media-amazon.com/images/M/MV5BODI4NzMyNjE0MF5BMl5BanBnXkFtZTgwMTcwNzI0MzE@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2293640",
+  trailer: "https://youtu.be/ZSdOwt-G49w?si=IxLabf25FQU5e9Ow",
+  duracao: "1h 31min",
+  pais: "United States"
+},
+
+{
+  id: 79,
+  tipo: "filme",
+  titulo: "Minions: The Rise of Gru",
+  ano: 2022,
+  sinopse: "A young Gru teams up with his loyal Minions as he attempts to become the world's greatest supervillain.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.5,
+  poster: "https://br.web.img3.acsta.net/pictures/20/02/03/15/22/4954456.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt5113044",
+  trailer: "https://youtu.be/6DxjJzmYsXo?si=PgGM-HoqtB2vA4fQ",
+  duracao: "1h 27min",
+  pais: "United States"
+},
+
+{
+  id: 80,
+  tipo: "filme",
+  titulo: "Minions & Monsters",
+  ano: 2026,
+  sinopse: "The Minions embark on a journey to find frightening creatures to appear in their very own monster movie, unleashing chaos along the way.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 0.0,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDdzyO9k9ZeSpuy8NiOUJyzs-TwsbeBRuew&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt32890033",
+  trailer: "https://youtu.be/ZSdOwt-G49w?si=uJyUlqMGMejIOI3f",
+  duracao: "1h 40min",
+  pais: "United States"
+},
+
+{
+  id: 81,
+  tipo: "filme",
+  titulo: "Rango",
+  ano: 2011,
+  sinopse: "A pet chameleon finds himself in a desert town and unexpectedly becomes its sheriff, facing dangerous outlaws and a growing water crisis.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTc4NjEyODE1OV5BMl5BanBnXkFtZTcwMjYzNTkxNA@@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1192628",
+  trailer: "https://youtu.be/DDgoDooApwM?si=3vlENpQOMYhzkb06",
+  duracao: "1h 47min",
+  pais: "United States"
+},
+
+{
+  id: 82,
+  tipo: "filme",
+  titulo: "Up",
+  ano: 2009,
+  sinopse: "An elderly widower fulfills his lifelong dream of adventure by tying thousands of balloons to his house and flying to South America.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 8.3,
+  poster: "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/92/03/73/20176438.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1049413",
+  trailer: "https://youtu.be/ORFWdXl_zJ4?si=6dqtGtWr2XOMPPfK",
+  duracao: "1h 36min",
+  pais: "United States"
+},
+
+{
+  id: 83,
+  tipo: "filme",
+  titulo: "Finding Nemo",
+  ano: 2003,
+  sinopse: "After his son is captured by divers, a timid clownfish embarks on an epic journey across the ocean to bring him home.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 8.2,
+  poster: "https://lumiere-a.akamaihd.net/v1/images/p_findingnemo_19752_05271d3f.jpeg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0266543",
+  trailer: "https://youtu.be/SPHfeNgogVs?si=cSWYyCbCEiYQkcxY",
+  duracao: "1h 40min",
+  pais: "United States"
+},
+
+{
+  id: 84,
+  tipo: "filme",
+  titulo: "Finding Dory",
+  ano: 2016,
+  sinopse: "Dory, a forgetful blue tang fish, sets out on a journey to find her parents and uncover the secrets of her past.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.2,
+  poster: "https://m.media-amazon.com/images/M/MV5BY2VlYWJjMGMtYjcwZC00MDE2LThmMDItYjVlMzNhYzBhYTk5XkEyXkFqcGc@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2277860",
+  trailer: "https://youtu.be/NQu-153MnGQ?si=HT-LRcWPiI9pl05d",
+  duracao: "1h 37min",
+  pais: "United States"
+},
+
+{
+  id: 85,
+  tipo: "filme",
+  titulo: "Ice Age",
+  ano: 2002,
+  sinopse: "A mammoth, a sloth, and a saber-toothed tiger embark on a journey to return a human baby to its family during the Ice Age.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BMDBlYzU2OGMtOGJjNi00ZGZjLWIwNjMtYzdiZjkwYWNjZDljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0268380",
+  trailer: "https://youtu.be/i4noiCRJRoE?si=jJhvxCB_rNEp2Q5a",
+  duracao: "1h 21min",
+  pais: "United States"
+},
+
+{
+  id: 86,
+  tipo: "filme",
+  titulo: "Ice Age: The Meltdown",
+  ano: 2006,
+  sinopse: "As the Ice Age comes to an end, Manny, Sid, and Diego must find a way to escape a massive flood threatening their valley.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.8,
+  poster: "https://m.media-amazon.com/images/M/MV5BMjAwODg3OTAxMl5BMl5BanBnXkFtZTcwMjg2NjYyMw@@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0438097",
+  trailer: "https://youtu.be/pfESEXIZ_lw?si=TakFpnv3fYcbL4SS",
+  duracao: "1h 31min",
+  pais: "United States"
+},
+
+{
+  id: 87,
+  tipo: "filme",
+  titulo: "Ice Age: Dawn of the Dinosaurs",
+  ano: 2009,
+  sinopse: "When Sid steals dinosaur eggs, Manny, Diego, Ellie, and their friends venture into a hidden underground world to rescue him.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.9,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuXi8Tl9EkPL-LcLfecDNehxa0IsVM5Rvznw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1080016",
+  trailer: "https://youtu.be/MnAi5u-k9NY?si=WgF4tfqr1y10OH6F",
+  duracao: "1h 34min",
+  pais: "United States"
+},
+
+{
+  id: 88,
+  tipo: "filme",
+  titulo: "Ice Age: Continental Drift",
+  ano: 2012,
+  sinopse: "Manny, Diego, and Sid are separated from their herd after continental drift and embark on a dangerous sea adventure.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSxAs_YfoFQOJqt7IuLNoQes5FLMjbm7ngg&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1667889",
+  trailer: "https://youtu.be/xz-KgMtU_BM?si=qL_f0HVi_r_HDisZ",
+  duracao: "1h 28min",
+  pais: "United States"
+},
+
+{
+  id: 89,
+  tipo: "filme",
+  titulo: "Ice Age: Collision Course",
+  ano: 2016,
+  sinopse: "Scrat's cosmic adventure triggers a series of events that threaten Earth, forcing Manny and his friends to embark on a journey to save their world.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 5.7,
+  poster: "https://play-lh.googleusercontent.com/4JYwbRXwa9PnWSZWwzCDkrfm_UaV83aQWR4cfMdoE8fsPxk4XoGF-1uLrFKBSJHihDI",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3416828",
+  trailer: "https://youtu.be/Ohq6NmKMja8?si=VtPXpAf4rMxJMg2g",
+  duracao: "1h 34min",
+  pais: "United States"
+},
+
+{
+  id: 90,
+  tipo: "filme",
+  titulo: "Bolt",
+  ano: 2008,
+  sinopse: "A dog who believes he has superpowers sets out on a cross-country journey to rescue his owner and discovers the truth about himself.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.8,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/5/5c/Bolt-filme.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0397892",
+  trailer: "https://youtu.be/Pj0a7GkMH3w?si=YK1-qQ7kocyyJA4B",
+  duracao: "1h 36min",
+  pais: "United States"
+},
+
+{
+  id: 91,
+  tipo: "filme",
+  titulo: "The Boss Baby",
+  ano: 2017,
+  sinopse: "A young boy discovers that his new baby brother is actually a secret agent on a mission to protect the balance of love in the world.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTg5MzUxNzgxNV5BMl5BanBnXkFtZTgwMTM2NzQ3MjI@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3874544",
+  trailer: "https://youtu.be/-5DaJyxF5do?si=ofgMwWpMMaVGIQdK",
+  duracao: "1h 37min",
+  pais: "United States"
+},
+
+{
+  id: 92,
+  tipo: "filme",
+  titulo: "The Boss Baby: Family Business",
+  ano: 2021,
+  sinopse: "The Templeton brothers reunite as adults when a new mission requires them to become babies again and save the world.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 5.9,
+  poster: "https://m.media-amazon.com/images/M/MV5BM2MxZmU2ODUtZGIwMy00MjE1LThhNTAtMjRjYTE1ZDVjZTI0XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt6932874",
+  trailer: "https://youtu.be/QKyXqkf8mmc?si=pFB_SxPiNdD8zbt9",
+  duracao: "1h 47min",
+  pais: "United States"
+},
+
+{
+  id: 93,
+  tipo: "filme",
+  titulo: "Hotel Transylvania",
+  ano: 2012,
+  sinopse: "Dracula runs a luxury hotel for monsters, but his overprotective nature is tested when a human stumbles into the resort.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.0,
+  poster: "https://upload.wikimedia.org/wikipedia/en/f/f5/HotelTransylvania.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0837562",
+  trailer: "https://youtu.be/q4RK3jY7AVk?si=IaMXnxFVh8-yOXYz",
+  duracao: "1h 31min",
+  pais: "United States"
+},
+
+{
+  id: 94,
+  tipo: "filme",
+  titulo: "Hotel Transylvania 2",
+  ano: 2015,
+  sinopse: "Dracula worries that his half-human grandson is not showing signs of being a vampire and takes matters into his own hands.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.6,
+  poster: "https://m.media-amazon.com/images/M/MV5BY2ExYWJhMDYtYjcwMy00YjA2LTk2YzQtY2FhMWYxZThiNDQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2510894",
+  trailer: "https://youtu.be/T3nqmGgnJe8?si=D7f9frc67awTKTKO",
+  duracao: "1h 29min",
+  pais: "United States"
+},
+
+{
+  id: 95,
+  tipo: "filme",
+  titulo: "Hotel Transylvania 3: Summer Vacation",
+  ano: 2018,
+  sinopse: "Dracula and his monster friends embark on a luxury cruise where he falls for the mysterious captain of the ship.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.3,
+  poster: "https://br.web.img3.acsta.net/pictures/18/04/05/18/50/2899336.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt5220122",
+  trailer: "https://youtu.be/Ku52zNnft8k?si=75UcFh_zvwcrv5h-",
+  duracao: "1h 37min",
+  pais: "United States"
+},
+
+{
+  id: 96,
+  tipo: "filme",
+  titulo: "Hotel Transylvania: Transformania",
+  ano: 2022,
+  sinopse: "A mysterious invention turns Dracula and his monster friends into humans, while Johnny becomes a monster, leading to a race to reverse the transformation.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.0,
+  poster: "https://m.media-amazon.com/images/M/MV5BNDRlNmQ5MGUtMWM0Mi00NjdkLTgzNzctODc3NWMwZTMxYTIxXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt9848626",
+  trailer: "https://youtu.be/7AP86CYeR30?si=Mla4LC8_YZg8uC8c",
+  duracao: "1h 28min",
+  pais: "United States"
+},
+
+{
+  id: 97,
+  tipo: "filme",
+  titulo: "Cloudy with a Chance of Meatballs",
+  ano: 2009,
+  sinopse: "An aspiring inventor creates a machine that turns water into food, causing delicious meals to fall from the sky.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.9,
+  poster: "https://upload.wikimedia.org/wikipedia/en/d/d1/Cloudy_with_a_chance_of_meatballs_theataposter.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0844471",
+  trailer: "https://youtu.be/pUaKcFI4BZY?si=wBFtmdu_P3mZ7yQm",
+  duracao: "1h 30min",
+  pais: "United States"
+},
+
+{
+  id: 98,
+  tipo: "filme",
+  titulo: "Cloudy with a Chance of Meatballs 2",
+  ano: 2013,
+  sinopse: "Flint Lockwood discovers that his food-making machine is still operating and creating living food-animal hybrids that threaten the world.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTYzNDM0MDI1NF5BMl5BanBnXkFtZTcwNzQ5NzYxOQ@@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1985966",
+  trailer: "https://youtu.be/IzC18WEfszw?si=t0K4lL2dlKSN5BZC",
+  duracao: "1h 35min",
+  pais: "United States"
+},
+
+{
+  id: 99,
+  tipo: "filme",
+  titulo: "Soul",
+  ano: 2020,
+  sinopse: "A middle-school music teacher dreams of becoming a jazz musician, but after an unexpected accident, his soul embarks on a journey of self-discovery.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 8.0,
+  poster: "https://play-lh.googleusercontent.com/DBLnyRbxMaS7ijAYIONV-HzfIX2vgTma9_QZEIk_9CzjMNKdNXPYRr4CyTnYwAAz2PODvjfr25kWmZinSavd",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2948372",
+  trailer: "https://youtu.be/xOsLIiBStEs?si=RXFNW0UP_WoNNSY2",
+  duracao: "1h 40min",
+  pais: "United States"
+},
+
+{
+  id: 100,
+  tipo: "filme",
+  titulo: "Moana",
+  ano: 2016,
+  sinopse: "A courageous young Polynesian girl sets sail across the ocean to save her people and restore the heart of Te Fiti with the help of the demigod Maui.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.6,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrrjqyVsZxw_EUjgPJqWOFOAZw6WvPgJR6g&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3521164",
+  trailer: "https://youtu.be/LKFuXETZUsI?si=s5SiSvH01IJ2fxSA",
+  duracao: "1h 47min",
+  pais: "United States"
+},
+
+{
+  id: 101,
+  tipo: "filme",
+  titulo: "Moana 2",
+  ano: 2024,
+  sinopse: "After receiving an unexpected call from her wayfinding ancestors, Moana embarks on a new voyage across dangerous and long-lost waters alongside Maui and a new crew.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.8,
+  poster: "https://lumiere-a.akamaihd.net/v1/images/image_25b12a37.jpeg?region=0,0,540,810",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt13622970",
+  trailer: "https://youtu.be/hDZ7y8RP5HE?si=zZSdht2ZIUKhyXBw",
+  duracao: "1h 40min",
+  pais: "United States"
+},
+
+{
+  id: 102,
+  tipo: "filme",
+  titulo: "Frozen",
+  ano: 2013,
+  sinopse: "When Queen Elsa's icy powers plunge her kingdom into eternal winter, her sister Anna sets out on a journey to bring her home and save Arendelle.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.4,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyigtEP7shCN1Lfx6SLMc6sa_6A444sEziOQ&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2294629",
+  trailer: "https://youtu.be/TbQm5doF_Uc?si=61qP_JK1M7kswvK_",
+  duracao: "1h 42min",
+  pais: "United States"
+},
+
+{
+  id: 103,
+  tipo: "filme",
+  titulo: "Frozen II",
+  ano: 2019,
+  sinopse: "Elsa, Anna, Kristoff, Olaf, and Sven journey beyond Arendelle to uncover the origin of Elsa's powers and save their kingdom.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.8,
+  poster: "https://m.media-amazon.com/images/M/MV5BZTE1YjlmZjctNjIwNi00NDQ0LTlmMzgtYWZkY2RkZTMwNTdmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt4520988",
+  trailer: "https://youtu.be/Zi4LMpSDccc?si=Qur5NY47iWcMiPiP",
+  duracao: "1h 43min",
+  pais: "United States"
+},
+
+{
+  id: 104,
+  tipo: "filme",
+  titulo: "Turbo",
+  ano: 2013,
+  sinopse: "A garden snail dreams of becoming the fastest racer in the world and gets a chance after a freak accident gives him incredible speed.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.4,
+  poster: "https://play-lh.googleusercontent.com/DCH4iI3Riwu6Bpu7F6J-qmSVSuowqFHAsUjGo2JJRlGcvocaKOmqCBc9mSIEq24PqXOb",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1860353",
+  trailer: "https://youtu.be/VlRtm8Gh9PQ?si=YEfoMRsC3UHLf_G_",
+  duracao: "1h 36min",
+  pais: "United States"
+},
+
+{
+  id: 105,
+  tipo: "filme",
+  titulo: "Ferdinand",
+  ano: 2017,
+  sinopse: "A gentle bull with a big heart is mistaken for a dangerous beast and taken from his home, leading him on an adventure back to his family.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGKheW5W34CE1jfk1XFqdVMDh2jW_S0hP6A&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3411444",
+  trailer: "https://youtu.be/s-XHMNDgre8?si=g35_mjrG9IYuzHZ0",
+  duracao: "1h 48min",
+  pais: "United States"
+},
+
+{
+  id: 106,
+  tipo: "filme",
+  titulo: "Shrek",
+  ano: 2001,
+  sinopse: "An ogre's peaceful life is disrupted when fairy-tale creatures are banished to his swamp, leading him on a quest with a talkative donkey.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.9,
+  poster: "https://m.media-amazon.com/images/M/MV5BYzE1NjVhMjItYTE2Yy00YjE5LTg2YjctMGRhNTRiMGM1ZTFkXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0126029",
+  trailer: "https://youtu.be/CwXOrWvPBPk?si=SGqcbPMJwOupWZmH",
+  duracao: "1h 30min",
+  pais: "United States"
+},
+
+{
+  id: 107,
+  tipo: "filme",
+  titulo: "Shrek 2",
+  ano: 2004,
+  sinopse: "After returning from their honeymoon, Shrek and Fiona visit her parents, the King and Queen of Far Far Away, leading to unexpected challenges.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.4,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/7/78/Shrek_2_Poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0298148",
+  trailer: "https://youtu.be/xBgSfhp5Fxo?si=fBpMOF--HGgIVo1O",
+  duracao: "1h 33min",
+  pais: "United States"
+},
+
+{
+  id: 108,
+  tipo: "filme",
+  titulo: "Shrek the Third",
+  ano: 2007,
+  sinopse: "When King Harold falls ill, Shrek sets out to find the rightful heir to the throne while Prince Charming plots revenge.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.1,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c2/Shrek_the_Third_Poster.jpg/250px-Shrek_the_Third_Poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0413267",
+  trailer: "https://youtu.be/_MoIr7811Bs?si=UraIaWKY2-21kNM2",
+  duracao: "1h 33min",
+  pais: "United States"
+},
+
+{
+  id: 109,
+  tipo: "filme",
+  titulo: "Shrek Forever After",
+  ano: 2010,
+  sinopse: "Feeling trapped by family life, Shrek makes a deal with Rumpelstiltskin and finds himself in an alternate reality where he was never born.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.3,
+  poster: "https://fr.web.img3.acsta.net/medias/nmedia/18/71/56/64/19451582.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0892791",
+  trailer: "https://youtu.be/Ma9oseKpj9g?si=CQVlHXVaDaNcPaHW",
+  duracao: "1h 33min",
+  pais: "United States"
+},
+
+{
+  id: 110,
+  tipo: "filme",
+  titulo: "The Angry Birds Movie",
+  ano: 2016,
+  sinopse: "When mysterious green pigs arrive on Bird Island, a group of unlikely heroes must uncover their true intentions and save their home.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1985949",
+  trailer: "https://youtu.be/QRmKa7vvct4?si=340DYz40KVm6TWp2",
+  duracao: "1h 37min",
+  pais: "United States"
+},
+
+{
+  id: 111,
+  tipo: "filme",
+  titulo: "The Angry Birds Movie 2",
+  ano: 2019,
+  sinopse: "Bird Island and Piggy Island must join forces when a new threat from Eagle Island puts both of their homes in danger.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.4,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUxpAZqcegGrl9rqN8gNY1jlFQRyoCD26XPA&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt6095472",
+  trailer: "https://youtu.be/RSKQ-lVsMdg?si=ZFYS_RAIFZdJwTO3",
+  duracao: "1h 37min",
+  pais: "United States",
+},
+
+{
+  id: 112,
+  tipo: "filme",
+  titulo: "Onward",
+  ano: 2020,
+  sinopse: "Two elf brothers embark on a magical quest to spend one more day with their deceased father using an ancient spell.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.4,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkNJcvbZ2B-Ae2ZhEVslbwXcGj4oxyXjHT5A&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt7146812",
+  trailer: "https://youtu.be/gn5QmllRCn4?si=wOxOqt1vDsYtA1im",
+  duracao: "1h 42min",
+  pais: "United States"
+},
+
+{
+  id: 113,
+  tipo: "filme",
+  titulo: "Elemental",
+  ano: 2023,
+  sinopse: "In a city where fire, water, land, and air residents live together, a fiery young woman and a go-with-the-flow water guy discover how much they have in common.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.0,
+  poster: "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Elemental_final_poster.jpg/250px-Elemental_final_poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt15789038",
+  trailer: "https://youtu.be/hXzcyx9V0xw?si=NW_5hVZdl6CkUC6Y",
+  duracao: "1h 41min",
+  pais: "United States"
+},
+
+{
+  id: 114,
+  tipo: "filme",
+  titulo: "Flow",
+  ano: 2024,
+  sinopse: "A solitary cat is forced to leave its home after a great flood and joins other animals on a journey through a mysterious post-apocalyptic world.",
+  generos: ["Animation", "Adventure", "Drama"],
+  avaliacao: 7.9,
+  poster: "https://m.media-amazon.com/images/M/MV5BOThiMjNlYzctZmUwYy00NjBlLThhOWEtMzUzMDQwYjAyYTMwXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt4772188",
+  trailer: "https://youtu.be/ZgZccxuj2RY?si=0-bepUtWCuLnlaW2",
+  duracao: "1h 25min",
+  pais: "Latvia"
+},
+
+{
+  id: 115,
+  tipo: "filme",
+  titulo: "Surf's Up",
+  ano: 2007,
+  sinopse: "A young penguin enters a surfing competition in hopes of becoming a champion and discovering what it truly means to win.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.7,
+  poster: "https://upload.wikimedia.org/wikipedia/en/6/6a/Surfs_upmp.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0423294",
+  trailer: "https://youtu.be/7mPdQRXFiPA?si=isNjX3b7jOJ58K0w",
+  duracao: "1h 25min",
+  pais: "United States"
+},
+
+{
+  id: 116,
+  tipo: "filme",
+  titulo: "Surf's Up 2: WaveMania",
+  ano: 2017,
+  sinopse: "Cody and his friends team up with WWE superstars to compete in a legendary surfing competition called the Hang 5.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 4.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIU4G0UaBt8Ull_i_WTgfCCxLnEJ5AYDOAQ&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt5515212",
+  trailer: "https://youtu.be/zJarcJEmwgQ?si=eYE3GHyRkDgIgDVc",
+  duracao: "1h 24min",
+  pais: "United States"
+},
+
+{
+  id: 117,
+  tipo: "filme",
+  titulo: "Coco",
+  ano: 2017,
+  sinopse: "A young boy dreams of becoming a musician and finds himself in the colorful Land of the Dead, where he discovers the truth about his family.",
+  generos: ["Animation", "Adventure", "Family"],
+  avaliacao: 8.4,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/a/ae/Cocofilme.png",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2380307",
+  trailer: "https://youtu.be/xlnPHQ3TLX8?si=pLNzpE6sHmqiafrv",
+  duracao: "1h 45min",
+  pais: "United States"
+},
+
+{
+  id: 118,
+  tipo: "filme",
+  titulo: "The Wild Robot",
+  ano: 2024,
+  sinopse: "A shipwrecked robot named Roz wakes up on a wild island and must learn to survive while forming bonds with the animals around her.",
+  generos: ["Animation", "Adventure", "Drama"],
+  avaliacao: 8.2,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/7/70/The_Wild_Robot_poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt29623480",
+  trailer: "https://youtu.be/67vbA5ZJdKQ?si=wl-Rx77quoyCijcz",
+  duracao: "1h 42min",
+  pais: "United States"
+},
+
+{
+  id: 119,
+  tipo: "filme",
+  titulo: "9",
+  ano: 2009,
+  sinopse: "In a post-apocalyptic world, small stitched-together beings fight for survival against a deadly machine that has wiped out humanity.",
+  generos: ["Animation", "Action", "Adventure"],
+  avaliacao: 7.0,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/1/16/9_P%C3%B4ster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0472033",
+  trailer: "https://youtu.be/_qApXdc1WPY?si=ItVPjR0XKh4s6nER",
+  duracao: "1h 19min",
+  pais: "United States"
+},
+
+{
+  id: 120,
+  tipo: "filme",
+  titulo: "Inside Out",
+  ano: 2015,
+  sinopse: "A young girl’s emotions—Joy, Sadness, Fear, Anger, and Disgust—struggle to guide her through a difficult move to a new city.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 8.1,
+  poster: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Inside_Out_2_poster.jpg/250px-Inside_Out_2_poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2096673",
+  trailer: "https://youtu.be/yRUAzGQ3nSY?si=LDVxt1Lv4r0KUMnC",
+  duracao: "1h 35min",
+  pais: "United States"
+},
+
+{
+  id: 121,
+  tipo: "filme",
+  titulo: "Inside Out 2",
+  ano: 2024,
+  sinopse: "Riley enters puberty and new emotions arrive in her mind, shaking up Headquarters and challenging how she understands herself.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BYWY3MDE2Y2UtOTE3Zi00MGUzLTg2MTItZjE1ZWVkMGVlODRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt22022452",
+  trailer: "https://youtu.be/LEjhY15eCx0?si=Ydwc-F_ZCnGqMA1H",
+  duracao: "1h 36min",
+  pais: "United States"
+},
+
+{
+  id: 122,
+  tipo: "filme",
+  titulo: "Luca",
+  ano: 2021,
+  sinopse: "A young sea monster boy experiences a life-changing summer on the Italian Riviera with his new human friend, discovering friendship and acceptance.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.4,
+  poster: "https://lumiere-a.akamaihd.net/v1/images/image_2ff75a5c.jpeg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt12801262",
+  trailer: "https://youtu.be/mYfJxlgR2jw?si=NDj5h1CcDjcl8oG7",
+  duracao: "1h 35min",
+  pais: "United States"
+},
+
+{
+  id: 123,
+  tipo: "filme",
+  titulo: "Elio",
+  ano: 2025,
+  sinopse: "A young boy named Elio is mistakenly identified as Earth's ambassador to the universe and must navigate a strange alien organization.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 0.0,
+  poster: "https://m.media-amazon.com/images/M/MV5BZjRiMjYwNzQtN2MzNi00MWQyLWE5YzktYjk2ZjI0YWY4ZjA1XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt13452446",
+  trailer: "https://youtu.be/ETVi5_cnnaE?si=wRGZySxgKd3Z0uV3",
+  duracao: "1h 40min",
+  pais: "United States"
+},
+
+{
+  id: 124,
+  tipo: "filme",
+  titulo: "Epic",
+  ano: 2013,
+  sinopse: "A teenage girl is transported into a secret forest world where a battle between good and evil determines the fate of nature and humanity.",
+  generos: ["Animation", "Adventure", "Family"],
+  avaliacao: 6.6,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/b/be/Epic_%282013_film%29_poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0848537",
+  trailer: "https://youtu.be/BJVkoq_wK80?si=xkdmtizgtxPAf5da",
+  duracao: "1h 42min",
+  pais: "United States"
+},
+
+{
+  id: 125,
+  tipo: "filme",
+  titulo: "Megamind",
+  ano: 2010,
+  sinopse: "A super-intelligent supervillain finally defeats his hero rival, but finds life meaningless without an opponent and creates a new hero to challenge him.",
+  generos: ["Animation", "Action", "Comedy"],
+  avaliacao: 7.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMmY5MTViODEtYzYzNi00ZDc0LWFiY2QtZTYzMzAwOTI0YWNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1001526",
+  trailer: "https://youtu.be/ead9HCX9fe4?si=42_TZjlhszxe9DdF",
+  duracao: "1h 35min",
+  pais: "United States"
+},
+
+{
+  id: 126,
+  tipo: "filme",
+  titulo: "Megamind vs. The Doom Syndicate",
+  ano: 2024,
+  sinopse: "Megamind must face a new team of supervillains known as the Doom Syndicate while trying to protect Metro City as its unexpected hero.",
+  generos: ["Animation", "Action", "Comedy"],
+  avaliacao: 5.2,
+  poster: "https://m.media-amazon.com/images/S/pv-target-images/aa1d7cf2de0ed0d6447b181a7ef94cea84695664791fd06f98a86028b9d79126.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt31192138",
+  trailer: "https://youtu.be/UWbYnO5VRFY?si=9FjzfVtP2MvAtjje",
+  duracao: "1h 25min",
+  pais: "United States"
+},
+
+{
+  id: 127,
+  tipo: "filme",
+  titulo: "The Bad Guys",
+  ano: 2022,
+  sinopse: "A group of notorious animal criminals are caught and forced to pretend to be model citizens, but their leader starts to question whether they can change.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.8,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDWkyuxdPmFV2n2ceFJ3qhekw2F47GT6mgpQ&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt8115900",
+  trailer: "https://youtu.be/m8Xt0yXaDPU?si=1RDEdNVrWoWLCfyl",
+  duracao: "1h 40min",
+  pais: "United States"
+},
+
+{
+  id: 128,
+  tipo: "filme",
+  titulo: "The Bad Guys 2",
+  ano: 2025,
+  sinopse: "The reformed crew of animal criminals is forced back into action when a new global threat pushes them to question whether they can truly stay good.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 0.0,
+  poster: "https://m.media-amazon.com/images/M/MV5BZWUzMTMwNjktY2Q1Ny00MzBkLWI0MGEtM2I4ZGI2ODdmMzcyXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt27679622",
+  trailer: "https://youtu.be/TY1lWh20VSw?si=J_EW3HOynCxzfRit",
+  duracao: "1h 40min",
+  pais: "United States"
+},
+
+{
+  id: 129,
+  tipo: "filme",
+  titulo: "Zootopia",
+  ano: 2016,
+  sinopse: "In a city of anthropomorphic animals, a rookie bunny cop and a cynical fox con artist must work together to uncover a conspiracy.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 8.0,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6U5P3bC4kGanMjEIyQVgi-zaOWRAiyK1AYg&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2948356",
+  trailer: "https://youtu.be/Y0c3nKWhlIA?si=kWsEqjZ38BN9uCPc",
+  duracao: "1h 48min",
+  pais: "United States"
+},
+
+{
+  id: 130,
+  tipo: "filme",
+  titulo: "Zootopia 2",
+  ano: 2025,
+  sinopse: "Judy Hopps and Nick Wilde return to investigate a new mystery that threatens the harmony of Zootopia and its diverse districts.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 0.0,
+  poster: "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Zootopia_2_%282025_film%29.jpg/250px-Zootopia_2_%282025_film%29.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt29937599",
+  trailer: "https://youtu.be/BjkIOU5PhyQ?si=5H_4MU0Ow7PRF-ng",
+  duracao: "1h 50min",
+  pais: "United States"
+},
+
+{
+  id: 131,
+  tipo: "filme",
+  titulo: "The Croods",
+  ano: 2013,
+  sinopse: "A prehistoric family embarks on a journey through a dangerous new world after their cave is destroyed.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.2,
+  poster: "https://upload.wikimedia.org/wikipedia/en/6/63/The_Croods.png",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0481499",
+  trailer: "https://youtu.be/4fVCKy69zUY?si=u1Q6d_oLi6RZQhaC",
+  duracao: "1h 38min",
+  pais: "United States"
+},
+
+{
+  id: 132,
+  tipo: "filme",
+  titulo: "The Croods: A New Age",
+  ano: 2020,
+  sinopse: "The Croods encounter another family living in a more advanced home, leading to a clash between prehistoric and modern lifestyles.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.9,
+  poster: "https://play-lh.googleusercontent.com/RvjSJ5ZbG6XzmXMA0J9JYPYCZKzMoFcLQbgudwpK6JHWUV4qRwLSy2d9FCJ7Fx8_2aByiQIYrT8eQNP_MS0=w240-h480-rw",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2850386",
+  trailer: "https://youtu.be/XUN5EEDwHcI?si=EMjVzgDtmS2k82M0",
+  duracao: "1h 35min",
+  pais: "United States"
+},
+
+{
+  id: 133,
+  tipo: "filme",
+  titulo: "Kung Fu Panda",
+  ano: 2008,
+  sinopse: "A clumsy panda who works in a noodle shop is unexpectedly chosen to fulfill an ancient prophecy and become a kung fu master.",
+  generos: ["Animation", "Action", "Adventure"],
+  avaliacao: 7.6,
+  poster: "https://m.media-amazon.com/images/M/MV5BZDU5MDNiMGItYjVmZi00NDUxLTg2OTktNGE0NzNlNzM4NzgyXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0441773",
+  trailer: "https://youtu.be/PXi3Mv6KMzY?si=fyajDGDUdJ8XBMJg",
+  duracao: "1h 32min",
+  pais: "United States"
+},
+
+{
+  id: 134,
+  tipo: "filme",
+  titulo: "Kung Fu Panda 2",
+  ano: 2011,
+  sinopse: "Po and the Furious Five face a powerful new enemy threatening to conquer China, while Po learns the truth about his past.",
+  generos: ["Animation", "Action", "Adventure"],
+  avaliacao: 7.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BYmIxMGYzMTUtZDQzYy00ODc4LWE1YzQtZGMwYTc0YTYyYTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1302011",
+  trailer: "https://youtu.be/FQ63rqSRrEI?si=LYR96a_eEXDCPSDZ",
+  duracao: "1h 30min",
+  pais: "United States"
+},
+
+{
+  id: 135,
+  tipo: "filme",
+  titulo: "Kung Fu Panda 3",
+  ano: 2016,
+  sinopse: "Po reunites with his biological father and travels to a secret panda village, where he must train a group of clumsy pandas to fight a supernatural villain.",
+  generos: ["Animation", "Action", "Adventure"],
+  avaliacao: 7.1,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTUyNzgxNjg2M15BMl5BanBnXkFtZTgwMTY1NDI1NjE@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2267968",
+  trailer: "https://youtu.be/10r9ozshGVE?si=aq2jHDQzAD9Yh9oh",
+  duracao: "1h 35min",
+  pais: "United States"
+},
+
+{
+  id: 136,
+  tipo: "filme",
+  titulo: "Kung Fu Panda 4",
+  ano: 2024,
+  sinopse: "Po is chosen to become the Spiritual Leader of the Valley of Peace and must train a new Dragon Warrior while facing a powerful shapeshifting villain.",
+  generos: ["Animation", "Action", "Adventure"],
+  avaliacao: 6.8,
+  poster: "https://m.media-amazon.com/images/M/MV5BZGI1N2IxN2ItZWJmNC00ZDZjLWJlYzQtNTZhNzYzM2MwMDNhXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt21692408",
+  trailer: "https://youtu.be/_inKs4eeHiI?si=_hBXbKJwoL0sDazr",
+  duracao: "1h 34min",
+  pais: "United States"
+},
+
+{
+  id: 137,
+  tipo: "filme",
+  titulo: "Puss in Boots",
+  ano: 2011,
+  sinopse: "Before his adventures with Shrek, Puss in Boots teams up with Humpty Dumpty and Kitty Softpaws to steal a magical goose that lays golden eggs.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.6,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiWRoJBHLaUgpFB19f1bPFiJ5LSTh808foBg&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0448694",
+  trailer: "https://youtu.be/1esRrwrmWzA?si=P_cRbxZkowgGGeXA",
+  duracao: "1h 30min",
+  pais: "United States"
+},
+
+{
+  id: 138,
+  tipo: "filme",
+  titulo: "Puss in Boots: The Last Wish",
+  ano: 2022,
+  sinopse: "Puss in Boots discovers he has burned through eight of his nine lives and sets out on an epic journey to find the mythical Last Wish and restore them.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 8.2,
+  poster: "https://m.media-amazon.com/images/M/MV5BMzg0MWUzMjctYjVlOS00NzVjLWIwZDMtNzg1YzNkYzdjNTMwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3915174",
+  trailer: "https://youtu.be/RqrXhwS33yc?si=u9DBPtCMjVLObKy2",
+  duracao: "1h 42min",
+  pais: "United States"
+},
+
+{
+  id: 139,
+  tipo: "filme",
+  titulo: "How to Train Your Dragon",
+  ano: 2010,
+  sinopse: "A young Viking befriends a wounded dragon, challenging his tribe’s beliefs and changing the future of humans and dragons.",
+  generos: ["Animation", "Adventure", "Fantasy"],
+  avaliacao: 8.1,
+  poster: "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0892769",
+  trailer: "https://youtu.be/2AKsAxrhqgM?si=GE9pCz6tKLsIuBpI",
+  duracao: "1h 38min",
+  pais: "United States"
+},
+
+{
+  id:   140,
+  tipo: "filme",
+  titulo: "How to Train Your Dragon 2",
+  ano: 2014,
+  sinopse: "Hiccup and Toothless discover a secret ice cave full of wild dragons while facing a dangerous new threat.",
+  generos: ["Animation", "Adventure", "Fantasy"],
+  avaliacao: 7.8,
+  poster: "https://m.media-amazon.com/images/I/91dGyTQRxIL._AC_UF894,1000_QL80_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1646971",
+  trailer: "https://youtu.be/2BP38770KNo?si=8ZUQzV6fnwItWkWI",
+  duracao: "1h 42min",
+  pais: "United States"
+},
+
+{
+  id:   141,
+  tipo: "filme",
+  titulo: "How to Train Your Dragon: The Hidden World",
+  ano: 2019,
+  sinopse: "Hiccup seeks a hidden dragon utopia while facing the return of a ruthless dragon hunter threatening his world.",
+  generos: ["Animation", "Adventure", "Fantasy"],
+  avaliacao: 7.4,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9F_tD8CIQIhH-nfka22l4io0qYlGiZ9fPvA&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2386490",
+  trailer: "https://youtu.be/SkcucKDrbOI?si=E9Ho2w_4am7O_78Q",
+  duracao: "1h 44min",
+  pais: "United States"
+},
+
+{
+  id: 142,
+  tipo: "filme",
+  titulo: "How to Train Your Dragon",
+  ano: 2025,
+  sinopse: "In a Viking world where dragons and humans are enemies, a young boy named Hiccup befriends a dragon, changing the fate of both species.",
+  generos: ["Action", "Adventure", "Fantasy"],
+  avaliacao: 0.0,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJHj3V8UXGBfOrRYomX9AODF80ebzoUY8e5g&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt26743210",
+  trailer: "https://youtu.be/22w7z_lT6YM?si=KhrhQ4mcZ27XZdYM",
+  duracao: "2h 05min",
+  pais: "United States"
+},
+
+{
+  id: 143,
+  tipo: "filme",
+  titulo: "Ratatouille",
+  ano: 2007,
+  sinopse: "A rat with a passion for cooking forms an unusual alliance with a young kitchen worker in a famous Paris restaurant.",
+  generos: ["Animation", "Comedy", "Family"],
+  avaliacao: 8.1,
+  poster: "https://br.web.img2.acsta.net/medias/nmedia/18/87/85/18/19962200.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0382932",
+  trailer: "https://youtu.be/PeFGdSrFTUw?si=nA_QxAxkCcGDTSch",
+  duracao: "1h 51min",
+  pais: "United States"
+},
+
+{
+  id: 144,
+  tipo: "filme",
+  titulo: "Toy Story",
+  ano: 1995,
+  sinopse: "A cowboy doll feels threatened when a new space ranger toy joins his owner's collection, leading to an unexpected friendship and adventure.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 8.3,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/a/a7/Toy_Story_1995.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0114709",
+  trailer: "https://youtu.be/guuITAMh2eo?si=ZmpkZLxQlCqz_mGj",
+  duracao: "1h 21min",
+  pais: "United States"
+},
+
+{
+  id: 145,
+  tipo: "filme",
+  titulo: "Toy Story 2",
+  ano: 1999,
+  sinopse: "When Woody is stolen by a toy collector, Buzz and the gang set out on a mission to rescue him before he is sold abroad.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.9,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/4/40/Movie_poster_toy_story_2.jpg/250px-Movie_poster_toy_story_2.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0120363",
+  trailer: "https://youtu.be/xNWSGRD5CzU?si=2sQzv7E0kd9AwoJp",
+  duracao: "1h 32min",
+  pais: "United States"
+},
+
+{
+  id: 146,
+  tipo: "filme",
+  titulo: "Toy Story 3",
+  ano: 2010,
+  sinopse: "Woody, Buzz, and the rest of the toys face an uncertain future when their owner Andy prepares to leave for college.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 8.3,
+  poster: "https://play-lh.googleusercontent.com/U18dSyvtwZgrD9ew2RthRZEcv4PTbXwQfSzG7_hAVTifvQa38_QNMmGfFG56iiJ24ImO=w240-h480-rw",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0435761",
+  trailer: "https://youtu.be/DFTIL0ciHik?si=JrHw4STGrHJkf4Lv",
+  duracao: "1h 43min",
+  pais: "United States"
+},
+
+{
+  id: 147,
+  tipo: "filme",
+  titulo: "Toy Story 4",
+  ano: 2019,
+  sinopse: "Woody reunites with Bo Peep and embarks on a new journey that challenges his purpose as a toy in the modern world.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.7,
+  poster: "https://br.web.img3.acsta.net/pictures/19/03/27/21/03/0464387.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1979376",
+  trailer: "https://youtu.be/wmiIUN-7qhE?si=UECNqN9jlxhL1D9O",
+  duracao: "1h 40min",
+  pais: "United States"
+},
+
+{
+  id: 148,
+  tipo: "filme",
+  titulo: "Cars",
+  ano: 2006,
+  sinopse: "A rookie race car learns that winning isn't everything when he gets stranded in a forgotten town and discovers true friendship and community.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 7.2,
+  poster: "https://play-lh.googleusercontent.com/kHt8qbche40zkE6yZwA8IUe5ARINp4PjrJ5mi622GEzQFYWCaGTQDAl58rrRKRKyhnD2",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0317219",
+  trailer: "https://youtu.be/W_H7_tDHFE8?si=kVUxvFISw7McDM4I",
+  duracao: "1h 57min",
+  pais: "United States"
+},
+
+{
+  id: 149,
+  tipo: "filme",
+  titulo: "Cars 2",
+  ano: 2011,
+  sinopse: "Lightning McQueen and Mater travel abroad to compete in the first World Grand Prix, but Mater gets caught up in an international spy mission.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.2,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/7/7e/Carros_2_P%C3%B4ster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1216475",
+  trailer: "https://youtu.be/lg5hj2c5Nkk?si=qJscsAZIGR6p7D0X",
+  duracao: "1h 46min",
+  pais: "United States"
+},
+
+{
+  id: 150,
+  tipo: "filme",
+  titulo: "Cars 3",
+  ano: 2017,
+  sinopse: "Lightning McQueen faces a new generation of fast racers and must prove he still belongs on the track.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.7,
+  poster: "https://m.media-amazon.com/images/M/MV5BNDJmYTRkYzEtYzQ3OC00MTNhLTliNjMtODFkY2YyYmM2OGZiXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3606752",
+  trailer: "https://youtu.be/E4K7JgPJ8-s?si=jdsqzOvF25OhL1e8",
+  duracao: "1h 42min",
+  pais: "United States"
+},
+
+{
+  id: 151,
+  tipo: "filme",
+  titulo: "Rio",
+  ano: 2011,
+  sinopse: "A domesticated macaw from Minnesota travels to Rio de Janeiro and learns to embrace his wild side while trying to save his species.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.9,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/0/09/Rio_poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1436562",
+  trailer: "https://youtu.be/P1GRO31ve5Q?si=lzoZxtCoZUzWVC3E",
+  duracao: "1h 36min",
+  pais: "United States"
+},
+
+{
+  id: 152,
+  tipo: "filme",
+  titulo: "Rio 2",
+  ano: 2014,
+  sinopse: "Blu, Jewel, and their three kids leave the city of Rio and travel to the Amazon rainforest, where Blu tries to fit into a wild new environment.",
+  generos: ["Animation", "Adventure", "Comedy"],
+  avaliacao: 6.3,
+  poster: "https://br.web.img2.acsta.net/pictures/14/01/24/21/36/094174.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2357291",
+  trailer: "https://youtu.be/_QNrbbGpLrc?si=3tmFeIhMIUw6XPVH",
+  duracao: "1h 41min",
+  pais: "United States"
+},
+
+{
+  id: 153,
+  tipo: "filme",
+  titulo: "Lucy",
+  ano: 2014,
+  sinopse: "A woman gains extraordinary mental abilities after a drug is absorbed into her bloodstream, unlocking the full potential of her brain.",
+  generos: ["Action", "Sci-Fi", "Thriller"],
+  avaliacao: 6.4,
+  poster: "https://m.media-amazon.com/images/M/MV5BODcxMzY3ODY1NF5BMl5BanBnXkFtZTgwNzg1NDY4MTE@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2872732",
+  trailer: "https://youtu.be/bN7ksFEVO9U?si=rABI2uH3DG4Ki94R",
+  duracao: "1h 29min",
+  pais: "France"
 },
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
