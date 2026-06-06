@@ -5,7 +5,7 @@ const CATALOG = [
     titulo: "Scream 5",
     ano: 2022,
     sinopse: "Twenty-five years after a series of brutal murders rocked the quiet town of Woodsboro, a new masked killer emerges and begins stalking a group of teenagers.",
-    generos: ["Terror", "Mistério"],
+    generos: ["horror", "Mistério"],
     avaliacao: 7.0,
     poster: "https://i.pinimg.com/736x/44/3b/1f/443b1f799629085416970b1e6b199d8e.jpg",
     videoUrl: "https://streamimdb.ru/embed/movie/tt11245972",
@@ -20,7 +20,7 @@ const CATALOG = [
     titulo: "Scream 6",
     ano: 2023,
     sinopse: "Following the events in Woodsboro, the survivors move to New York City. But Ghostface follows them to the city.",
-    generos: ["Terror", "Mistério"],
+    generos: ["horror", "Mistério"],
     avaliacao: 7.2,
     poster: "https://m.media-amazon.com/images/M/MV5BZDZkYzk3YTEtYTQ5MS00MzQ5LTg0NjUtOTgzODA5N2EyYTQ1XkEyXkFqcGc@._V1_.jpg",
     videoUrl: "https://streamimdb.ru/embed/movie/tt17663992",
@@ -35,7 +35,7 @@ const CATALOG = [
     titulo: "Scream 1",
     ano: 1996,
     sinopse: "It follows Sidney Prescott, a teenage girl terrorized by the masked killer Ghostface.",
-    generos: ["Terror", "Mistério"],
+    generos: ["horror", "Mistério"],
     avaliacao: 7.4,
     poster: "https://i.redd.it/xweqes0z0wcc1.jpeg",
     videoUrl: "https://streamimdb.ru/embed/movie/tt0117571",
@@ -50,7 +50,7 @@ const CATALOG = [
     titulo: "IT: Bem-vindos a Derry",
     ano: 2025,
     sinopse: "Prequel da história de IT, passada nos anos 60, que revela as origens do terror em Derry e os primeiros encontros com o palhaço Pennywise.",
-    generos: ["Terror"],
+    generos: ["horror"],
     avaliacao: 7.8,
     poster: "https://m.media-amazon.com/images/M/MV5BNDFmODE3NDktZGVhNS00M2NmLWI1NDAtNTgzOTA0ZGFhODFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     duracao: "1 temporada",
@@ -170,7 +170,7 @@ const CATALOG = [
     titulo: "Fear the Walking Dead.",
     ano: 2015,
     sinopse: "Focused on depicting the collapse of society and the beginning of the zombie apocalypse from the perspective of a dysfunctional family in Los Angeles.",
-    generos: ["Terror"],
+    generos: ["horror"],
     trailer: "https://youtu.be/yzXglr5bc3w?si=26Y8qH9w2VvvM-Z3",
     avaliacao: 6.8,
     poster: "https://br.web.img2.acsta.net/c_310_420/pictures/19/10/15/00/15/4502728.jpg",
@@ -2293,6 +2293,713 @@ const CATALOG = [
   duracao: "1h 29min",
   pais: "France"
 },
+
+{
+  id: 154,
+  tipo: "filme",
+  titulo: "Hokum",
+  ano: 2026,
+  sinopse: "Ohm Bauman, a writer haunted by the death of his parents, travels to an isolated hotel in Ireland to scatter their ashes. There, he uncovers stories about an ancient witch said to haunt the hotel's honeymoon suite. As strange events unfold and a staff member disappears, Ohm is forced to confront supernatural secrets and the traumas of his own past.",
+  generos: ["Terror", "Sobrenatural", "Mistério"],
+  avaliacao: 7.4,
+  poster: "https://m.media-amazon.com/images/M/MV5BZjA1ZjFlZGItNTVjZC00NTFhLTg2YTEtODMzODRmNGFiNTdmXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt35672862",
+  trailer: "https://youtu.be/qU_i5e48KzQ?si=DKTwzX3KDTKVGhOm",
+  duracao: "1h 47min",
+  pais: "Irlanda"
+},
+
+{
+  id: 155,
+  tipo: "filme",
+  titulo: "Obsession",
+  ano: 2025,
+  sinopse: "After using a mysterious object known as the One Wish Willow to make his childhood crush fall in love with him, Bear gets exactly what he wished for. However, the supernatural charm turns affection into a dangerous obsession, unleashing increasingly terrifying and deadly consequences.",
+  generos: ["Terror", "Sobrenatural", "Psicológico"],
+  avaliacao: 7.4,
+  poster: "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Obsession_theatrical_poster.jpeg/250px-Obsession_theatrical_poster.jpeg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt37287335",
+  trailer: "https://youtu.be/gMC8kkwbIQQ?si=ZrXL7-ERmAJmL4jC",
+  duracao: "1h 48min",
+  pais: "Estados Unidos"
+},
+
+{
+  id: 156,
+  tipo: "filme",
+  titulo: "Clifford the Big Red Dog",
+  ano: 2021,
+  sinopse: "When middle school student Emily Elizabeth adopts a small red puppy named Clifford, she never expects him to grow into a gigantic dog overnight. With the help of her fun-loving Uncle Casey, Emily embarks on an adventure through New York City while trying to protect Clifford from those who want to exploit his extraordinary size.",
+  generos: ["Adventure", "Comedy", "Family", "Fantasy"],
+  avaliacao: 5.9,
+  poster: "https://m.media-amazon.com/images/M/MV5BMDBlZTI4ODEtNzEwYS00OTBmLTliMTMtYWUyZjc3Y2RhN2Y2XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2397461",
+  trailer: "https://youtu.be/4zH5iYM4wJo?si=IMw7B8KlhQ7s6Ag4",
+  duracao: "1h 36min",
+  pais: "United States"
+},
+
+{
+  id: 157,
+  tipo: "filme",
+  titulo: "Challengers",
+  ano: 2024,
+  sinopse: "Tashi, a former tennis prodigy turned coach, has transformed her husband Art into a Grand Slam champion. When Art falls into a losing streak, she enters him in a lower-level Challenger tournament, where he must face Patrick, his former best friend and Tashi's ex-boyfriend. As old rivalries and unresolved emotions resurface, the match becomes about far more than tennis.",
+  generos: ["Drama", "Romance", "Sport"],
+  avaliacao: 7.0,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqcjuYQuk-DJ9NfF8r3-Ftjo8ECtyC9OyR0g&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt16426418",
+  trailer: "https://youtu.be/AXEK7y1BuNQ?si=MLVDZmlRfTAqsBgk",
+  duracao: "2h 11min",
+  pais: "United States"
+},
+
+{
+  id: 158,
+  tipo: "filme",
+  titulo: "47 Meters Down",
+  ano: 2017,
+  sinopse: "Two sisters vacationing in Mexico become trapped in a shark cage at the bottom of the ocean after an accident. With less than an hour of oxygen remaining and great white sharks circling nearby, they must fight to survive and find a way back to the surface.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 5.6,
+  poster: "https://m.media-amazon.com/images/M/MV5BNGI3NmMwM2UtNjc5ZC00ZGQzLWJhNjMtOWM4Y2YzZWMwNThmXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2932536",
+  trailer: "https://youtu.be/ddYSGGJAKOk?si=cqh1r-JPIJGm_tHY",
+  duracao: "1h 29min",
+  pais: "United Kingdom"
+},
+
+{
+  id: 159,
+  tipo: "filme",
+  titulo: "47 Meters Down: Uncaged",
+  ano: 2019,
+  sinopse: "Four teenage girls diving in a ruined underwater city quickly discover they have entered the territory of deadly sharks. As their oxygen supply dwindles, they must navigate a claustrophobic maze of submerged caves and ancient ruins in a desperate fight for survival.",
+  generos: ["Horror", "Thriller", "Adventure"],
+  avaliacao: 5.0,
+  poster: "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/47MetersDownUncaged.jpg/250px-47MetersDownUncaged.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt7329656",
+  trailer: "https://youtu.be/hgLsCb0iLqw?si=L8rblWZOTnN1qKn-",
+  duracao: "1h 30min",
+  pais: "United Kingdom"
+},
+
+{
+  id: 160,
+  tipo: "filme",
+  titulo: "The Shallows",
+  ano: 2016,
+  sinopse: "While surfing alone at a secluded beach, Nancy is attacked by a great white shark and stranded on a small rock just 200 yards from shore. With the tide rising and the predator circling nearby, she must rely on her determination and resourcefulness to survive and make it back to safety.",
+  generos: ["Horror", "Thriller", "Drama"],
+  avaliacao: 6.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMjA1MTA4MzU4Ml5BMl5BanBnXkFtZTgwNjUxNjczODE@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt4052882",
+  trailer: "https://youtu.be/xwbEyyw2a34?si=9xAd0O5HDlZVqx8Q",
+  duracao: "1h 26min",
+  pais: "United States"
+},
+
+{
+  id: 161,
+  tipo: "filme",
+  titulo: "127 Hours",
+  ano: 2010,
+  sinopse: "Based on a true story, mountain climber Aron Ralston becomes trapped by a boulder while exploring a remote canyon in Utah. With limited supplies and no hope of rescue, he reflects on his life and faces an impossible decision in order to survive.",
+  generos: ["Biography", "Drama", "Adventure"],
+  avaliacao: 7.5,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/3/38/127_Horas.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1542344",
+  trailer: "https://youtu.be/OlhLOWTnVoQ?si=UMpVByCg2Q_YAX19",
+  duracao: "1h 34min",
+  pais: "United Kingdom"
+},
+
+{
+  id: 162,
+  tipo: "filme",
+  titulo: "Fall",
+  ano: 2022,
+  sinopse: "After a climbing accident leaves them stranded at the top of a 2,000-foot abandoned radio tower, best friends Becky and Hunter must fight extreme heights, dwindling supplies, and the elements in a desperate struggle to survive and find a way down.",
+  generos: ["Thriller", "Survival", "Adventure"],
+  avaliacao: 6.4,
+  poster: "https://m.media-amazon.com/images/M/MV5BYmZjYjAxMDEtOTE2My00MmM5LTkyYjctOWRjMjgyM2JhMDI0XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt15325794",
+  trailer: "https://youtu.be/iSspRSGc4Dk?si=KBppjpVcPxGPYRWw",
+  duracao: "1h 47min",
+  pais: "United Kingdom"
+},
+
+{
+  id: 163,
+  tipo: "filme",
+  titulo: "Jungle",
+  ano: 2017,
+  sinopse: "Based on a true story, adventurous traveler Yossi Ghinsberg joins a guide and two friends on a trek into the Amazon rainforest in search of an undiscovered indigenous village. When the group becomes separated, Yossi finds himself alone in the wilderness, forced to battle hunger, injury, isolation, and the deadly dangers of the jungle in a desperate fight for survival.",
+  generos: ["Adventure", "Biography", "Drama", "Thriller"],
+  avaliacao: 6.7,
+  poster: "https://m.media-amazon.com/images/M/MV5BNDE4OTk4MTk0M15BMl5BanBnXkFtZTgwODQ4MTg0MzI@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt3758172",
+  trailer: "https://youtu.be/oJYJmYQ0AGw?si=zFrUG2bl_scrarBa",
+  duracao: "1h 55min",
+  pais: "Australia"
+},
+
+{
+  id: 164,
+  tipo: "filme",
+  titulo: "Crawl",
+  ano: 2019,
+  sinopse: "When a massive hurricane hits her hometown in Florida, Haley ignores evacuation orders to search for her missing father. After finding him seriously injured beneath their family home, the two become trapped by rapidly rising floodwaters and surrounded by aggressive alligators. As the storm intensifies, they must fight to survive against both nature and deadly predators.",
+  generos: ["Horror", "Thriller", "Action"],
+  avaliacao: 6.1,
+  poster: "https://m.media-amazon.com/images/M/MV5BNTE4NjJmZDgtMzk4MS00MmYzLWI0YjAtZWU0NTNmMDJhNzI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt8364368",
+  trailer: "https://youtu.be/H6MLJG0RdDE?si=AfRtagJWguVUAoEU",
+  duracao: "1h 27min",
+  pais: "United States"
+},
+
+{
+  id: 165,
+  tipo: "filme",
+  titulo: "A Quiet Place",
+  ano: 2018,
+  sinopse: "In a post-apocalyptic world, a family is forced to live in complete silence while hiding from deadly creatures that hunt using their extraordinary sense of hearing. Every sound could mean death, forcing them to communicate without speaking as they struggle to survive.",
+  generos: ["Horror", "Drama", "Sci-Fi"],
+  avaliacao: 7.5,
+  poster: "https://static.wikia.nocookie.net/aquietplace/images/f/f4/A_Quiet_Place_poster_6.jpg/revision/latest/scale-to-width-down/1200?cb=20240711221952",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt6644200",
+  trailer: "https://youtu.be/WR7cc5t7tv8?si=pgkR5j07MTq2epfV",
+  duracao: "1h 30min",
+  pais: "United States"
+},
+
+{
+  id: 166,
+  tipo: "filme",
+  titulo: "A Quiet Place Part II",
+  ano: 2020,
+  sinopse: "Following the deadly events at home, the Abbott family must face the terrors of the outside world as they continue their fight for survival in silence. Forced to venture into the unknown, they soon discover that the creatures that hunt by sound are not the only threats lurking beyond their path.",
+  generos: ["Horror", "Drama", "Sci-Fi"],
+  avaliacao: 7.2,
+  poster: "https://m.media-amazon.com/images/M/MV5BNjRiYjk4ZmItNGQ5NS00MmRhLTk4Y2EtMGQ1MTYxZWJhYjU0XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt8332922",
+  trailer: "https://youtu.be/BpdDN9d9Jio?si=wEVaM73dCHLWO3C_",
+  duracao: "1h 37min",
+  pais: "United States"
+},
+
+{
+  id: 167,
+  tipo: "filme",
+  titulo: "Buried",
+  ano: 2010,
+  sinopse: "Paul Conroy, a U.S. truck driver working in Iraq, wakes up buried alive inside a wooden coffin after an attack on his convoy. With only a lighter, a cell phone, and limited oxygen, he must race against time to find a way out of his claustrophobic prison before it is too late.",
+  generos: ["Drama", "Mystery", "Thriller"],
+  avaliacao: 7.0,
+  poster: "https://play-lh.googleusercontent.com/NzsLY5CC8EdCQ2uGSvLKjYVFJNLIH9yko4JEc_iamh09dLWYOFGysslyND8UU8bFc8i1",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1462758",
+  trailer: "https://youtu.be/aRQ0oqFBoP4?si=JTB_rB2GfP78VrzL",
+  duracao: "1h 35min",
+  pais: "Spain"
+},
+
+{
+  id: 167,
+  tipo: "filme",
+  titulo: "Buried",
+  ano: 2010,
+  sinopse: "Paul Conroy, a U.S. truck driver working in Iraq, wakes up buried alive inside a wooden coffin after an attack on his convoy. With only a lighter, a cell phone, and limited oxygen, he must race against time to find a way out of his claustrophobic prison before it is too late.",
+  generos: ["Drama", "Mystery", "Thriller"],
+  avaliacao: 7.0,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ022TVHFHgS-8uTZB9xDDARB_ymqWMMiZATw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1462758",
+  trailer: "https://youtu.be/qGuOZPwLayY?si=D8EymDpmHGDU6a1n",
+  duracao: "1h 35min",
+  pais: "Spain"
+},
+
+{
+  id: 169,
+  tipo: "filme",
+  titulo: "Bird Box",
+  ano: 2018,
+  sinopse: "When a mysterious force drives people to deadly acts after they see it, Malorie must protect her two children and guide them on a dangerous journey to safety. Blindfolded and unable to look at the outside world, they face terrifying threats while struggling to survive.",
+  generos: ["Horror", "Mystery", "Sci-Fi"],
+  avaliacao: 6.6,
+  poster: "https://m.media-amazon.com/images/M/MV5BMjAzMTI1MjMyN15BMl5BanBnXkFtZTgwNzU5MTE2NjM@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2737304",
+  trailer: "https://youtu.be/INJ2bPFy108?si=XQIRseSCPRjnm5_C",
+  duracao: "2h 4min",
+  pais: "United States"
+},
+
+{
+  id: 170,
+  tipo: "filme",
+  titulo: "Bird Box: Barcelona",
+  ano: 2023,
+  sinopse: "After a mysterious force drives anyone who looks at it to take their own life, Sebastián and his daughter struggle to survive in the devastated streets of Barcelona. As they join other survivors in search of safety, they discover that an even more dangerous threat may be lurking among them.",
+  generos: ["Horror", "Mystery", "Sci-Fi", "Thriller"],
+  avaliacao: 5.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMGY1MTg3ZTUtNTVlYS00MTFjLTgzZTMtMTViNmQ4MWY4ZTRhXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt14400246",
+  trailer: "https://youtu.be/zdDN_mflfSY?si=cSyceXB55XG96OQK",
+  duracao: "1h 52min",
+  pais: "Spain"
+},
+
+{
+  id: 171,
+  tipo: "filme",
+  titulo: "The Mist",
+  ano: 2007,
+  sinopse: "After a violent thunderstorm, a mysterious mist envelops a small town in Maine. Trapped inside a supermarket, a group of residents must defend themselves against terrifying creatures lurking in the fog while fear, paranoia, and desperation begin to tear them apart from within.",
+  generos: ["Horror", "Sci-Fi", "Thriller"],
+  avaliacao: 7.1,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTU2NjQyNDY1Ml5BMl5BanBnXkFtZTcwMTk1MDU1MQ@@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0884328",
+  trailer: "https://youtu.be/LhCKXJNGzN8?si=U0fceYwbszWIpRUr",
+  duracao: "2h 6min",
+  pais: "United States"
+},
+
+{
+  id: 172,
+  tipo: "filme",
+  titulo: "Beast",
+  ano: 2022,
+  sinopse: "A recently widowed father takes his two daughters on a trip to a wildlife reserve in South Africa. What begins as a healing journey soon turns into a nightmare when they are hunted by a massive rogue lion driven by bloodlust. Trapped in the wilderness, the family must fight for survival against the relentless predator.",
+  generos: ["Adventure", "Drama", "Thriller"],
+  avaliacao: 5.6,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/d/da/Beast_%28filme_estadunidense_de_2022%29.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt13223398",
+  trailer: "https://youtu.be/oQMc7Sq36mI?si=ui2u0aIUw6UtSafu",
+  duracao: "1h 33min",
+  pais: "United States"
+},
+
+{
+  id: 173,
+  tipo: "filme",
+  titulo: "#Alive",
+  ano: 2020,
+  sinopse: "The rapid spread of a mysterious infection throws an entire city into chaos. Trapped alone inside his apartment, a young gamer struggles to survive as food, water, and hope begin to run out. When he discovers another survivor in a nearby building, the two must find a way to stay alive while a deadly zombie outbreak rages outside.",
+  generos: ["Action", "Drama", "Horror", "Thriller"],
+  avaliacao: 6.3,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DRhVJHC_tJP1xUaAyR1SozBJFAKWKH5EEg&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt10620868",
+  trailer: "https://youtu.be/jQ8CCg1tOqc?si=cmuowIv_wDy3zJpB",
+  duracao: "1h 38min",
+  pais: "South Korea"
+},
+
+{
+  id: 174,
+  tipo: "filme",
+  titulo: "The Grey",
+  ano: 2011,
+  sinopse: "After a plane crash in the Alaskan wilderness, a group of oil workers struggles to survive in one of the harshest environments on Earth. Led by a skilled hunter, the survivors must battle freezing temperatures, injuries, and a pack of relentless wolves stalking them through the snow-covered landscape.",
+  generos: ["Action", "Adventure", "Drama", "Thriller"],
+  avaliacao: 6.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbk4_CilGGobGK7lks2BuggTGTt81Cb6Zlw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1601913",
+  trailer: "https://youtu.be/ujrBaHS8UTg?si=t5bayZ5JM9l0N2VQ",
+  duracao: "1h 57min",
+  pais: "United States"
+},
+
+{
+  id: 175,
+  tipo: "filme",
+  titulo: "No Escape",
+  ano: 2015,
+  sinopse: "An American businessman relocates his family to Southeast Asia for a new job, only to find themselves caught in the middle of a violent political uprising. With foreigners being targeted and chaos spreading through the city, they must make a desperate escape while trying to stay one step ahead of armed rebels.",
+  generos: ["Action", "Thriller"],
+  avaliacao: 6.7,
+  poster: "https://m.media-amazon.com/images/M/MV5BMjE0MDI3NTE5NF5BMl5BanBnXkFtZTgwNzI3ODM2NjE@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1781922",
+  trailer: "https://youtu.be/FsOt3sKjrh8?si=hMveLrbGvoFy5Jxq",
+  duracao: "1h 43min",
+  pais: "United States"
+},
+
+{
+  id: 176,
+  tipo: "filme",
+  titulo: "Escape Room",
+  ano: 2019,
+  sinopse: "Six strangers receive mysterious invitations to participate in an immersive escape room with a large cash prize. What begins as a thrilling challenge quickly turns into a deadly game as they discover that each room is designed to test their darkest fears and personal traumas. To survive, they must solve a series of lethal puzzles before time runs out.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 6.4,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLFKW4GGzsp20V7jhCKGHuk11uAEtW8Rm2vA&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt5886046",
+  trailer: "https://youtu.be/6dSKUoV0SNI?si=GO318HZtKFMamPZU",
+  duracao: "1h 39min",
+  pais: "United States"
+},
+
+{
+  id: 177,
+  tipo: "filme",
+  titulo: "Escape Room: Tournament of Champions",
+  ano: 2021,
+  sinopse: "Survivors of previous deadly escape rooms find themselves trapped once again in a new series of elaborate and lethal puzzles. As they are forced to work together, they discover that every participant has escaped Minos' games before. To stay alive, they must uncover the truth behind the organization before becoming its next victims.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 5.7,
+  poster: "https://m.media-amazon.com/images/M/MV5BY2ZkMjFkNzItOWEzZC00NTU3LWEzYzMtM2FlM2ViYTBiOTU0XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt9844522",
+  trailer: "https://youtu.be/KlfUbZJVInA?si=07Lo4C88myjGx-3-",
+  duracao: "1h 28min",
+  pais: "United States"
+},
+
+{
+  id: 178,
+  tipo: "filme",
+  titulo: "Deepwater Horizon",
+  ano: 2016,
+  sinopse: "Based on true events, the film follows the crew aboard the Deepwater Horizon oil rig in the Gulf of Mexico. When a series of critical safety failures triggers a catastrophic blowout, the workers find themselves trapped in a deadly inferno. As explosions tear through the rig, they must risk everything to save one another and escape one of the worst environmental disasters in history.",
+  generos: ["Action", "Drama", "History", "Thriller"],
+  avaliacao: 7.1,
+  poster: "https://m.media-amazon.com/images/M/MV5BOTEzNDU0OTgxM15BMl5BanBnXkFtZTgwNjA0ODM2OTE@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt1860357",
+  trailer: "https://youtu.be/8yASbM8M2vg?si=Rf4QUsicgxRkGksi",
+  duracao: "1h 47min",
+  pais: "United States"
+},
+
+{
+  id: 179,
+  tipo: "serie",
+  titulo: "A Killer Paradox",
+  ano: 2024,
+  sinopse: "When one accidental killing leads to another, an ordinary young man finds himself trapped in an endless cat-and-mouse chase with a relentless detective. As the body count rises, he begins to discover a strange ability to identify evil people, blurring the line between justice and murder.",
+  generos: ["Crime", "Drama", "Thriller", "Comedy"],
+  avaliacao: 7.1,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE32L_ICRART5knxe3oTBnsYF4kxT1IfNkjQ&s",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/X2rXQ0rEfPI?si=8YR5J9ejAe-_nUuq",
+  pais: "South Korea",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt28642796"
+},
+
+{
+  id: 180,
+  tipo: "filme",
+  titulo: "The Shawshank Redemption",
+  ano: 1994,
+  sinopse: "Wrongfully convicted of murdering his wife and her lover, banker Andy Dufresne is sentenced to life at Shawshank State Penitentiary. Over the years, he forms an unlikely friendship with fellow inmate Red and uses hope, intelligence, and determination to endure the hardships of prison life while secretly planning for a better future.",
+  generos: ["Drama", "Crime"],
+  avaliacao: 9.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0111161",
+  trailer: "https://youtu.be/PLl99DlL6b4?si=gxVhJK2IEQL2EozF",
+  duracao: "2h 22min",
+  pais: "United States"
+},
+
+{
+  id: 181,
+  tipo: "filme",
+  titulo: "The Truman Show",
+  ano: 1998,
+  sinopse: "Truman Burbank lives an ordinary and seemingly perfect life in a peaceful seaside town. Unbeknownst to him, every aspect of his existence is broadcast live to the world as part of a massive reality television show. As strange events begin to occur, Truman starts questioning his reality and sets out to uncover the truth about the world around him.",
+  generos: ["Comedy", "Drama"],
+  avaliacao: 8.2,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKqcAztJza9OiFpOKpfHwV_Ygki4pIBGIWw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0120382",
+  trailer: "https://youtu.be/dlnmQbPGuls?si=fhA_Dg4Jd5VQ3AZN",
+  duracao: "1h 43min",
+  pais: "United States"
+},
+
+{
+  id: 182,
+  tipo: "filme",
+  titulo: "Grave of the Fireflies",
+  ano: 1988,
+  sinopse: "In the final months of World War II, teenage Seita and his younger sister Setsuko struggle to survive in war-torn Japan after losing their home and family. As food becomes scarce and society collapses around them, the siblings rely on each other in a heartbreaking fight for survival and dignity.",
+  generos: ["Animation", "Drama", "War"],
+  avaliacao: 8.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPe4b4PQlpJX6f6kjMYJk7bKB5y1m1duyiaw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0095327",
+  trailer: "https://youtu.be/lhlh7JVcTt8?si=WhuLlB_O1l_t34xk",
+  duracao: "1h 29min",
+  pais: "Japan"
+},
+
+{
+  id: 183,
+  tipo: "filme",
+  titulo: "Into the Wild",
+  ano: 2007,
+  sinopse: "After graduating from college, Christopher McCandless abandons his possessions, donates his savings to charity, and sets out on a journey across North America in search of freedom and a deeper meaning to life. Along the way, he encounters a series of unforgettable people before venturing alone into the Alaskan wilderness, where he faces the ultimate test of survival.",
+  generos: ["Adventure", "Biography", "Drama"],
+  avaliacao: 8.0,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVEGF2b2rZ1jWPEpQMDj0tHJLtTJvYi5a-3g&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0758758",
+  trailer: "https://youtu.be/XZG1FzyB8DI?si=xyO56l5mv7O0TFIl",
+  duracao: "2h 28min",
+  pais: "United States"
+},
+
+{
+  id: 184,
+  tipo: "filme",
+  titulo: "The Secret Life of Walter Mitty",
+  ano: 2013,
+  sinopse: "Walter Mitty, a shy and daydreaming photo editor at Life magazine, escapes his ordinary life through vivid fantasies of adventure and heroism. When a crucial negative goes missing, he embarks on a real-world journey across the globe, discovering courage, purpose, and a life far more extraordinary than he ever imagined.",
+  generos: ["Adventure", "Comedy", "Drama"],
+  avaliacao: 7.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BODYwNDYxNDk1Nl5BMl5BanBnXkFtZTgwOTAwMTk2MDE@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0359950",
+  trailer: "https://youtu.be/QD6cy4PBQPI?si=10arUn65N39MDZrv",
+  duracao: "1h 54min",
+  pais: "United States"
+},
+
+{
+  id: 185,
+  tipo: "filme",
+  titulo: "Whiplash",
+  ano: 2014,
+  sinopse: "Andrew Neiman, a talented young drummer, enrolls at a prestigious music conservatory where he comes under the mentorship of Terence Fletcher, a brilliant but ruthless instructor. As Fletcher pushes him beyond his limits in pursuit of greatness, Andrew becomes consumed by ambition, sacrifice, and the relentless pursuit of perfection.",
+  generos: ["Drama", "Music"],
+  avaliacao: 8.5,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa8vP_EnwZjgqOPMScTd8zUcHE3qQ3_jP9Kw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2582802",
+  trailer: "https://youtu.be/7d_jQycdQGo?si=5fTa-9yJqqCjNk67",
+  duracao: "1h 46min",
+  pais: "United States"
+},
+
+{
+  id: 186,
+  tipo: "filme",
+  titulo: "Manchester by the Sea",
+  ano: 2016,
+  sinopse: "After the sudden death of his older brother, Lee Chandler is forced to return to his hometown of Manchester-by-the-Sea and becomes the legal guardian of his teenage nephew. As he struggles with family responsibilities, Lee must confront the painful memories and personal tragedy that drove him away years earlier.",
+  generos: ["Drama"],
+  avaliacao: 7.8,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kEWfmpSUtAJ33wZF74DgxsI-shTCLhGFhg&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt4034228",
+  trailer: "https://youtu.be/gsVoD0pTge0?si=6m_gJoNmkbG6-IaS",
+  duracao: "2h 17min",
+  pais: "United States"
+},
+
+{
+  id: 187,
+  tipo: "filme",
+  titulo: "Green Book",
+  ano: 2018,
+  sinopse: "In 1962, Italian-American bouncer Tony Lip is hired to drive and protect Dr. Don Shirley, a world-class African American pianist, on a concert tour through the Deep South. Guided by 'The Green Book,' a travel guide for Black motorists, the two men navigate racism, cultural differences, and unexpected challenges, forming a powerful friendship along the way.",
+  generos: ["Biography", "Comedy", "Drama"],
+  avaliacao: 8.2,
+  poster: "https://m.media-amazon.com/images/M/MV5BM2Y0MWNiZjktNjkxZi00NGM1LWFmMGItYjg2ZjY0NDQ1MzA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt6966692",
+  trailer: "https://youtu.be/QkZxoko_HC0?si=S2y1p9PRSrigIp4z",
+  duracao: "2h 10min",
+  pais: "United States"
+},
+
+{
+  id: 188,
+  tipo: "serie",
+  titulo: "Off Campus",
+  ano: 2026,
+  sinopse: "A college-set romantic drama chronicling the unexpected love story between Hannah Wells, a music student, and Garrett Graham, the university's star hockey player. What begins as a tutoring arrangement and fake relationship gradually develops into a deep romance as they navigate personal struggles, friendships, and the challenges of adulthood.",
+  generos: ["Drama", "Romance", "Sport"],
+  avaliacao: 8.2,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYsjnFHQkgUTx4u4uyxTdD2AyfyNXmEOa1gg&s",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/4Vin2GSA4V0?si=soL2SBUePwtuvFnh",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt33546863"
+},
+
+{
+  id: 189,
+  tipo: "filme",
+  titulo: "A Haunted House",
+  ano: 2013,
+  sinopse: "Malcolm and Kisha move into their dream home, only to discover that a demon also lives there. When Kisha becomes possessed, Malcolm turns to a priest, a psychic, and a team of ghost hunters for help, leading to a series of outrageous and supernatural events.",
+  generos: ["Comedy", "Fantasy", "Horror"],
+  avaliacao: 5.1,
+  poster: "https://m.media-amazon.com/images/M/MV5BODYzZDcyNTEtY2ViNy00NmJlLTkyNmEtMTIwMzgyNGU4NTc1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2243537",
+  trailer: "https://youtu.be/J50vA5VLR6k?si=_eN8EbNvhwUeQa0g",
+  duracao: "1h 26min",
+  pais: "United States"
+},
+
+{
+  id: 190,
+  tipo: "filme",
+  titulo: "A Haunted House 2",
+  ano: 2014,
+  sinopse: "After exorcising his former demons, Malcolm starts over with a new girlfriend and her two children. Just as life begins to return to normal, a series of bizarre paranormal events erupts around their new home, forcing Malcolm to once again confront supernatural forces in the most ridiculous ways imaginable.",
+  generos: ["Comedy", "Fantasy", "Horror"],
+  avaliacao: 4.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3fX8MnRChdPZVGSQ7SWY-S6jmmvsWLQAecw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2828996",
+  trailer: "https://youtu.be/eDyh9YloMVk?si=3rvXpM6wOLsP_zJy",
+  duracao: "1h 27min",
+  pais: "United States"
+},
+
+{
+  id: 191,
+  tipo: "filme",
+  titulo: "Little Man",
+  ano: 2006,
+  sinopse: "A diminutive jewel thief disguises himself as an abandoned baby to retrieve a stolen diamond hidden in a family's home. As the unsuspecting couple takes him in and begins caring for him as their own child, a series of chaotic misunderstandings and outrageous situations unfolds.",
+  generos: ["Comedy", "Crime"],
+  avaliacao: 4.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTI0NTA3MjI3NV5BMl5BanBnXkFtZTcwNTI1ODYzMQ@@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0430308",
+  trailer: "https://youtu.be/n6ir-qPI2PU?si=v5_mqIjZzrGEAs7Q",
+  duracao: "1h 38min",
+  pais: "United States"
+},
+
+{
+  id: 192,
+  tipo: "filme",
+  titulo: "Whistle",
+  ano: 2025,
+  sinopse: "A group of misfit high school students stumble upon an ancient Aztec Death Whistle. After blowing it, they discover that the terrifying sound summons manifestations of their future deaths, which begin hunting them one by one. As the curse tightens its grip, they must uncover the whistle's origins and find a way to break the cycle before their fates become reality.",
+  generos: ["Horror", "Mystery", "Supernatural"],
+  avaliacao: 5.2,
+  poster: "https://m.media-amazon.com/images/M/MV5BNWIwYzUwNmMtYTY2My00ODg2LWI3MmEtNmY0Njg3MzYwYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt29550683",
+  trailer: "https://youtu.be/LfUHI8Fcn-Q?si=WsTul08rTJZN3pIT",
+  duracao: "1h 40min",
+  pais: "Canada"
+},
+
+{
+  id: 193,
+  tipo: "serie",
+  titulo: "The Night Of",
+  ano: 2016,
+  sinopse: "After a night of partying with a woman he picked up, college student Nasir Khan wakes up to find her brutally murdered. Unable to remember exactly what happened, he becomes the prime suspect in a complex criminal case that exposes the flaws of the justice system and transforms his life forever.",
+  generos: ["Crime", "Drama", "Mystery"],
+  avaliacao: 8.4,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKl_IVn6NyGbWFJgS_durTJpalzrRpuPrAqQ&s",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/Z5uv7_ysu9M?si=Caxz7R9cLXUXMYce",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt2401256"
+},
+
+{
+  id: 194,
+  tipo: "serie",
+  titulo: "The Haunting of Hill House",
+  ano: 2018,
+  sinopse: "Years after growing up in the most haunted house in America, the Crain siblings are forced to reunite when a family tragedy brings them back together. As painful memories resurface, they must confront the terrifying events that shaped their childhood and the supernatural forces that continue to haunt them in the present.",
+  generos: ["Drama", "Horror", "Mystery"],
+  avaliacao: 8.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_FMjpg_UX1000_.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/3eqxXqJDmcY?si=HrsNjtUotMeCsRAB",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt6763664"
+},
+
+{
+  id: 195,
+  tipo: "serie",
+  titulo: "The Queen's Gambit",
+  ano: 2020,
+  sinopse: "Orphaned at a young age, Beth Harmon discovers an extraordinary talent for chess while living in a Kentucky orphanage. As she rises through the ranks of competitive chess, she battles addiction, loneliness, and personal demons while pursuing her dream of becoming the world's greatest player.",
+  generos: ["Drama"],
+  avaliacao: 8.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BMmRlNjQxNWQtMjk1OS00N2QxLTk0YWQtMzRhYjY5YTFhNjMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/oZn3qSgmLqI?si=yoDJnQnI2fC8G3QQ",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt10048342"
+},
+
+{
+  id: 196,
+  tipo: "serie",
+  titulo: "The Penguin",
+  ano: 2024,
+  sinopse: "In the aftermath of Gotham City's chaos, Oz Cobb, known as the Penguin, begins his ruthless rise through the criminal underworld. As rival gangs, ambitious mobsters, and dangerous enemies compete for power, Oz uses manipulation, violence, and strategy to build his own criminal empire and seize control of the city.",
+  generos: ["Crime", "Drama"],
+  avaliacao: 8.7,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYgprK1-hm-jkChK_zxSqiDOhbPV7jTC0YkQ&s",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/sfJG6IiA_s8?si=415sxoJQ-OIxewsc",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt15435876"
+},
+
+{
+  id: 197,
+  tipo: "serie",
+  titulo: "Watchmen",
+  ano: 2019,
+  sinopse: "Set in an alternate history where masked vigilantes are treated as outlaws, the series follows detective Angela Abar as she investigates a growing conspiracy linked to white supremacist groups and long-buried secrets. As the mystery unfolds, the legacy of the original Watchmen heroes collides with a new generation, threatening to reshape the world once again.",
+  generos: ["Crime", "Drama", "Mystery", "Sci-Fi"],
+  avaliacao: 8.2,
+  poster: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p178016_p_v10_az.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/wdiHDzT6YbQ?si=ObZuS_ZGVG3_zCSa",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt7049682"
+},
+
+{
+  id: 198,
+  tipo: "serie",
+  titulo: "True Detective",
+  ano: 2014,
+  sinopse: "An anthology crime series that follows different detectives and investigations across multiple seasons. Each story explores complex murder cases, psychological struggles, corruption, and the darker side of human nature as detectives become deeply affected by the crimes they are trying to solve.",
+  generos: ["Crime", "Drama", "Mystery", "Thriller"],
+  avaliacao: 8.9,
+  poster: "https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  duracao: "4 temporadas",
+  trailer: "https://youtu.be/fVQUcaO4AvE?si=Q280gTGO5_Bc7L8y",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt2356777"
+},
+
+{
+  id: 199,
+  tipo: "serie",
+  titulo: "Chernobyl",
+  ano: 2019,
+  sinopse: "In April 1986, a catastrophic explosion at the Chernobyl Nuclear Power Plant becomes one of the worst man-made disasters in history. The series follows the scientists, government officials, and ordinary citizens who risk everything to contain the catastrophe, uncover the truth, and prevent an even greater tragedy.",
+  generos: ["Drama", "History", "Thriller"],
+  avaliacao: 9.3,
+  poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/92/PosterChernobyl.jpg/250px-PosterChernobyl.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/s9APLXM9Ei8?si=QA2761D2-K6i8Z_8",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt7366338"
+},
+
+{
+  id: 200,
+  tipo: "serie",
+  titulo: "1883",
+  ano: 2021,
+  sinopse: "A prequel to Yellowstone, the series follows the Dutton family as they embark on a perilous journey across the Great Plains in search of a better future. Facing harsh weather, disease, bandits, and the unforgiving frontier, they endure immense hardships while traveling west toward the land that will eventually become the Yellowstone Ranch.",
+  generos: ["Drama", "Western"],
+  avaliacao: 8.7,
+  poster: "https://m.media-amazon.com/images/M/MV5BMDBjZDQyMWMtZmI0My00MzJlLWFhMTMtNWZmOTJkNzFlZTliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/dbyxdYKhC7U?si=pl8xCRTzo5aX5cMV",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt13991232"
+},
+
+
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
