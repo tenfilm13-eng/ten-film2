@@ -2999,7 +2999,95 @@ const CATALOG = [
   videoUrl: "https://streamimdb.ru/embed/tv/tt13991232"
 },
 
+{
+  id: 201,
+  tipo: "filme",
+  titulo: "Scary Movie",
+  ano: 2000,
+  sinopse: "A group of teenagers becomes the target of a masked killer one year after covering up a deadly accident. As bizarre murders begin to occur, they find themselves caught in a hilarious parody of popular horror films, filled with outrageous situations, absurd humor, and nonstop pop culture references.",
+  generos: ["Comedy", "Horror"],
+  avaliacao: 6.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BZGRmMGRhOWMtOTk3Ni00OTRjLTkyYTAtYzA1M2IzMGE3NGRkXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0175142",
+  trailer: "https://youtu.be/SzpGYrrcJZw?si=le40I1_AbMzPqHwv",
+  duracao: "1h 28min",
+  pais: "United States"
+},
 
+{
+  id: 202,
+  tipo: "filme",
+  titulo: "Scary Movie 2",
+  ano: 2001,
+  sinopse: "A group of college students is invited to spend a weekend in a supposedly haunted mansion as part of a psychological experiment. What begins as an academic project quickly turns into a series of ridiculous supernatural encounters, outrageous gags, and parodies of popular horror and paranormal films.",
+  generos: ["Comedy", "Horror"],
+  avaliacao: 5.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BNGRmMTUwZDYtNzJjZS00YTBiLTgyMzItZGRkMTAzMDNkNzNiXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0257106",
+  trailer: "https://youtu.be/zCFZUZxBVuI?si=rXw3fNT8R6tBJk_L",
+  duracao: "1h 23min",
+  pais: "United States"
+},
+
+{
+  id: 203,
+  tipo: "filme",
+  titulo: "Scary Movie 3",
+  ano: 2003,
+  sinopse: "News reporter Cindy Campbell investigates a series of strange events involving mysterious crop circles, a cursed videotape, and an impending alien invasion. As chaos spreads across the world, she finds herself at the center of a hilarious parody that spoofs some of the biggest horror and science fiction films of the era.",
+  generos: ["Comedy", "Horror"],
+  avaliacao: 5.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BNDE2NTIyMjg2OF5BMl5BanBnXkFtZTYwNDEyMTg3._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0306047",
+  trailer: "https://youtu.be/O21wD8Tzr2k?si=NP0Kp5PhsCkGyiU3",
+  duracao: "1h 24min",
+  pais: "United States"
+},
+
+{
+  id: 204,
+  tipo: "filme",
+  titulo: "Scary Movie 4",
+  ano: 2006,
+  sinopse: "Cindy Campbell becomes involved in a series of bizarre events when alien invaders threaten Earth and strange supernatural occurrences begin unfolding around her. As she teams up with unlikely allies, she must uncover the truth behind the invasion while navigating a nonstop barrage of absurd situations and parodies of popular horror, sci-fi, and thriller films.",
+  generos: ["Comedy", "Horror"],
+  avaliacao: 5.1,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBSNBCKuqLS171cQS2DtlRoxft2OHNXsGC4A&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0362120",
+  trailer: "https://youtu.be/-Bwr6LB5Dqw?si=yrDFbvHPJVTYoMRU",
+  duracao: "1h 23min",
+  pais: "United States"
+},
+
+{
+  id: 205,
+  tipo: "filme",
+  titulo: "Scary Movie 5",
+  ano: 2013,
+  sinopse: "After bringing home three mysterious children, Dan and Jody begin experiencing a series of bizarre paranormal events. As the strange occurrences escalate, they use surveillance cameras and seek expert help to uncover the source of the haunting, leading to a chaotic parody of modern horror films and supernatural thrillers.",
+  generos: ["Comedy", "Horror"],
+  avaliacao: 3.5,
+  poster: "https://upload.wikimedia.org/wikipedia/en/9/94/ScaryMovie5.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0795461",
+  trailer: "https://youtu.be/RMDZ8M47j0I?si=GOMCEfoyyGUYn5II",
+  duracao: "1h 26min",
+  pais: "United States"
+},
+
+{
+  id: 206,
+  tipo: "filme",
+  titulo: "Scary Movie",
+  ano: 2026,
+  sinopse: "Cindy Campbell and Brenda Meeks find themselves caught in another outrageous adventure when a new wave of killers, monsters, and supernatural threats throws the world into chaos. As they attempt to stop the madness, they become entangled in a series of absurd situations that parody modern horror films and pop culture phenomena.",
+  generos: ["Comedy", "Horror"],
+  avaliacao: 5.9,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ74LJGI_qPCg0ZvuntLl59H7psyumBBLhqcQ&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt32093575",
+  trailer: "https://youtu.be/ra1g0udaQxA?si=bbIh7x4Hz0wjRwyk",
+  duracao: "1h 28min",
+  pais: "United States"
+},
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
