@@ -2858,7 +2858,7 @@ const CATALOG = [
   generos: ["Comedy", "Crime"],
   avaliacao: 4.5,
   poster: "https://m.media-amazon.com/images/M/MV5BMTI0NTA3MjI3NV5BMl5BanBnXkFtZTcwNTI1ODYzMQ@@._V1_.jpg",
-  videoUrl: "https://streamimdb.ru/embed/movie/tt0430308",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0430304",
   trailer: "https://youtu.be/n6ir-qPI2PU?si=v5_mqIjZzrGEAs7Q",
   duracao: "1h 38min",
   pais: "United States"
