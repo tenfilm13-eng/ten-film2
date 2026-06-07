@@ -3088,6 +3088,383 @@ const CATALOG = [
   duracao: "1h 28min",
   pais: "United States"
 },
+
+{
+  id: 207,
+  tipo: "filme",
+  titulo: "Fargo",
+  ano: 1996,
+  sinopse: "Desperate for money, Minnesota car salesman Jerry Lundegaard hires two criminals to kidnap his wife and collect a ransom from his wealthy father-in-law. The plan quickly spirals out of control, leaving a trail of violence behind. As the situation unravels, the case draws the attention of Marge Gunderson, a sharp and determined pregnant police chief who begins piecing together the truth.",
+  generos: ["Crime", "Drama", "Thriller"],
+  avaliacao: 8.1,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDNMOpLEikogWJuWspt1nUeWW3H4CbdsM7Yw&s",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0116282",
+  trailer: "https://youtu.be/ju75Sd4yAZw?si=mwgfd3yEB5KPyVEN",
+  duracao: "1h 38min",
+  pais: "United States"
+},
+
+{
+  id: 208,
+  tipo: "serie",
+  titulo: "Band of Brothers",
+  ano: 2001,
+  sinopse: "Based on true events, the series follows Easy Company, a unit of the 506th Parachute Infantry Regiment, from their training in the United States through some of the most significant battles of World War II. As the soldiers face combat, loss, and hardship across Europe, they form unbreakable bonds that define their extraordinary journey.",
+  generos: ["Drama", "History", "War"],
+  avaliacao: 9.4,
+  poster: "https://m.media-amazon.com/images/I/91tqQsv4UeL._AC_UF894,1000_QL80_.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/KKRBAFlN5ww?si=7YEGt5V9pyQRUaeE",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt0185906"
+},
+
+{
+  id: 209,
+  tipo: "serie",
+  titulo: "When They See Us",
+  ano: 2019,
+  sinopse: "Based on true events, the series tells the story of five Black and Latino teenagers from Harlem who are wrongfully accused and convicted in connection with a brutal assault in Central Park. Spanning more than two decades, it explores the devastating impact of the case on their lives, families, and the fight to clear their names.",
+  generos: ["Crime", "Drama", "History"],
+  avaliacao: 8.8,
+  poster: "https://m.media-amazon.com/images/M/MV5BMGU0MDIzZTAtYjBjZi00ZDQ1LThlYzctNWJkOWU4NTI5OWNkXkEyXkFqcGc@._V1_.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/YyoSErErnCE?si=tPu5dWGgtWxrje_X",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt7137906"
+},
+
+{
+  id: 210,
+  tipo: "serie",
+  titulo: "Moon Knight",
+  ano: 2022,
+  sinopse: "Steven Grant, a mild-mannered gift shop employee, begins experiencing blackouts and disturbing memories from another life. As he uncovers the truth, he learns that he shares his body with mercenary Marc Spector and has been chosen as the avatar of the Egyptian moon god Khonshu. Caught in a deadly conflict involving ancient gods and supernatural forces, he must embrace his fractured identities to become the vigilante known as Moon Knight.",
+  generos: ["Action", "Adventure", "Fantasy", "Mystery"],
+  avaliacao: 7.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BNDAzNmYwZjgtNDc3YS00ZDMyLTk0MjktMTg4MGNmNGU3MjlhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/x7Krla_UxRg?si=-tDXeF_8DL_Q8d_w",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt10234724"
+},
+
+{
+  id: 211,
+  tipo: "serie",
+  titulo: "Dopesick",
+  ano: 2021,
+  sinopse: "Based on true events, the series examines the origins and devastating impact of America's opioid crisis. Through the perspectives of doctors, patients, investigators, and executives, it reveals how the aggressive marketing of OxyContin fueled addiction across the United States and exposed deep failures within the healthcare system.",
+  generos: ["Drama", "History"],
+  avaliacao: 8.6,
+  poster: "https://www.hachettebookgroup.com/wp-content/uploads/2024/01/9780316551281.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/lUVR63ZHLV4?si=n_XccujVwwdc5vGE",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt9174558"
+},
+
+{
+  id: 212,
+  tipo: "serie",
+  titulo: "True Detective: Night Country",
+  ano: 2024,
+  sinopse: "When eight scientists mysteriously vanish from an Arctic research station in Ennis, Alaska, Police Chief Liz Danvers and State Trooper Evangeline Navarro are assigned to investigate. As they uncover connections to an unsolved murder and confront their own haunted pasts, the case leads them into a chilling mystery buried beneath the endless polar night.",
+  generos: ["Crime", "Drama", "Mystery", "Thriller"],
+  avaliacao: 6.8,
+  poster: "https://upload.wikimedia.org/wikipedia/en/7/7d/True_Detective_season_4.png",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/WkL7cpG2UhE?si=4u7c6eh3MzBuEriZ",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt2356777"
+},
+
+{
+  id: 213,
+  tipo: "filme",
+  titulo: "The Omen",
+  ano: 2006,
+  sinopse: "After the tragic death of their newborn child, American diplomat Robert Thorn secretly adopts an orphaned baby without telling his wife. As the boy, Damien, grows older, a series of disturbing and deadly events begins to surround him. Robert soon uncovers terrifying evidence that his son may be the Antichrist foretold in ancient prophecy.",
+  generos: ["Horror", "Mystery", "Thriller"],
+  avaliacao: 5.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BNDhhMTBlODEtMGIxOC00MzVjLTllMzctY2NkMWNmODY3MWZmXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0466909",
+  trailer: "https://youtu.be/Eo38zL1kLko?si=lMl0rMZJypvTO6az",
+  duracao: "1h 50min",
+  pais: "United States"
+},
+
+{
+  id: 214,
+  tipo: "filme",
+  titulo: "Midnight Runners",
+  ano: 2017,
+  sinopse: "Two students at the Korean National Police University witness a kidnapping while out on the town. Frustrated by bureaucratic delays and a lack of action from authorities, they decide to launch their own investigation. Using the skills they learned at the academy, the unlikely duo races against time to rescue the victim and uncover a dangerous criminal operation.",
+  generos: ["Action", "Comedy", "Crime"],
+  avaliacao: 7.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BYmRlMTQxMWMtMzgyNi00MDk3LWJkMjMtMWNkMTUzNTIxYTkzXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt7056732",
+  trailer: "https://youtu.be/cyVk51ksx4o?si=sx6xY2X3sNEGr4DA",
+  duracao: "1h 49min",
+  pais: "South Korea"
+},
+
+{
+  id: 215,
+  tipo: "filme",
+  titulo: "The Monkey",
+  ano: 2025,
+  sinopse: "When twin brothers discover their father's old toy monkey in the attic, a series of gruesome and unexplained deaths begins to follow them. Years later, after trying to leave the cursed object behind, the brothers are forced to reunite when the killings start again. To end the nightmare, they must confront the dark force connected to the mysterious toy.",
+  generos: ["Horror", "Comedy"],
+  avaliacao: 6.0,
+  poster: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/The_Monkey_film_poster.jpg/250px-The_Monkey_film_poster.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt27714946",
+  trailer: "https://youtu.be/p2uBZ3AaZAM?si=rHx5JFtGxw4n_-Fk",
+  duracao: "1h 38min",
+  pais: "United States"
+},
+
+{
+  id: 216,
+  tipo: "filme",
+  titulo: "John Wick",
+  ano: 2014,
+  sinopse: "After the death of his beloved wife, retired hitman John Wick receives one final gift from her: a puppy meant to help him cope with his grief. When ruthless criminals break into his home, steal his car, and kill the dog, they unknowingly awaken one of the most feared assassins in the underworld. Seeking vengeance, John returns to a life he thought he had left behind.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 7.5,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt2911666",
+  trailer: "https://youtu.be/C0BMx-qxsP4?si=w80CeK60R6CPxQon",
+  duracao: "1h 41min",
+  pais: "United States"
+},
+
+{
+  id: 217,
+  tipo: "filme",
+  titulo: "John Wick: Chapter 2",
+  ano: 2017,
+  sinopse: "Just when John Wick believes he has left his violent past behind, a former associate arrives with a blood oath that cannot be ignored. Forced back into the world of assassins, John travels to Rome to carry out a dangerous mission. As powerful enemies turn against him, he finds himself hunted by the world's deadliest killers.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 7.4,
+  poster: "https://resizing.flixster.com/t03J-N7iMiWdgqbkRNHNArjDD44=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzcxY2M3ZWE3LTc3Y2ItNDExMS1hNzhkLWJhYTljMzZiZmVkNC53ZWJw",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt4425200",
+  trailer: "https://youtu.be/ChpLV9AMqm4?si=5ZQs71zfs7oD0m_a",
+  duracao: "2h 2min",
+  pais: "United States"
+},
+
+{
+  id: 218,
+  tipo: "filme",
+  titulo: "John Wick: Chapter 3 - Parabellum",
+  ano: 2019,
+  sinopse: "After killing a member of the High Table on Continental grounds, John Wick is declared excommunicado and a massive bounty is placed on his head. Cut off from the assassin underworld's resources and hunted by countless killers, John fights his way across New York City in a desperate struggle for survival.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 7.4,
+  poster: "https://m.media-amazon.com/images/M/MV5BYjdlNWFlZjEtM2U0NS00ZWU5LTk1M2EtZmQxNWFiZjk0MGM5XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt6146586",
+  trailer: "https://youtu.be/M7XM597XO94?si=zzQTbuPOBP6ZHUJy",
+  duracao: "2h 10min",
+  pais: "United States"
+},
+
+{
+  id: 219,
+  tipo: "filme",
+  titulo: "John Wick: Chapter 4",
+  ano: 2023,
+  sinopse: "John Wick uncovers a path to defeating the High Table and finally earning his freedom. However, before he can escape the assassin world, he must face powerful new enemies and deadly challengers across the globe. As old allies and former friends become adversaries, John is forced into his most dangerous battle yet.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 7.6,
+  poster: "https://m.media-amazon.com/images/I/81fk-N7tvbL._AC_UF1000,1000_QL80_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt10366206",
+  trailer: "https://youtu.be/qEVUtrk8_B4?si=qUhnOWgeF3-rfOjW",
+  duracao: "2h 49min",
+  pais: "United States"
+},
+
+{
+  id: 220,
+  tipo: "filme",
+  titulo: "Nobody",
+  ano: 2021,
+  sinopse: "Hutch Mansell appears to be an ordinary suburban husband and father living a quiet, uneventful life. After a home invasion leaves him feeling powerless, a long-buried side of his personality resurfaces. As he is drawn into a brutal conflict with a powerful Russian crime boss, Hutch reveals skills and secrets that make him far more dangerous than anyone could have imagined.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 7.4,
+  poster: "https://m.media-amazon.com/images/M/MV5BYmIzOWViNDEtOWRiZS00ZWM4LWFiMmEtNGJjMmQ3NTIxN2U0XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt7888964",
+  trailer: "https://youtu.be/wZti8QKBWPo?si=xPOLA-ak9a1reo42",
+  duracao: "1h 32min",
+  pais: "United States"
+},
+
+{
+  id: 221,
+  tipo: "filme",
+  titulo: "Nobody 2",
+  ano: 2025,
+  sinopse: "Trying to balance family life with his dangerous past, former assassin Hutch Mansell takes his family on a vacation to a nostalgic theme park from his childhood. What begins as a relaxing getaway quickly turns into chaos when a confrontation with local criminals draws the attention of a corrupt sheriff and a ruthless crime boss. Forced back into action, Hutch must once again unleash his deadly skills to protect the people he loves.",
+  generos: ["Action", "Comedy", "Crime", "Thriller"],
+  avaliacao: 6.3,
+  poster: "https://m.media-amazon.com/images/M/MV5BMTZlYjE4ZGEtZjk4YS00NWMxLWFmZDUtODUwYzFjOGJiYTc5XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt28996126",
+  trailer: "https://youtu.be/-5X2pt95cIo?si=07T2bcl_fdMNiqxW",
+  duracao: "1h 29min",
+  pais: "United States"
+},
+
+{
+  id: 222,
+  tipo: "filme",
+  titulo: "Normal",
+  ano: 2025,
+  sinopse: "A temporary sheriff arrives in the small town of Normal, Minnesota, expecting a quiet assignment. However, after a local bank robbery exposes a hidden criminal conspiracy, he discovers that nearly everyone in town is connected to a dangerous operation. As violence erupts and powerful enemies close in, he must fight to uncover the truth and survive the chaos.",
+  generos: ["Action", "Crime", "Thriller"],
+  avaliacao: 7.4,
+  poster: "https://m.media-amazon.com/images/M/MV5BMjM0N2E0MjQtNTUzNy00OTc1LTliZDctYWVmZGMyNzVjZTg1XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt31195136",
+  trailer: "https://youtu.be/aGdWT9_cEQY?si=sfIo2heybwPJmFqP",
+  duracao: "1h 30min",
+  pais: "United States"
+},
+
+{
+  id: 223,
+  tipo: "filme",
+  titulo: "Backrooms",
+  ano: 2026,
+  sinopse: "After one of her patients disappears into a strange dimension beyond reality, therapist Mary Kline ventures into the mysterious Backrooms in a desperate attempt to bring him back. As she navigates an endless maze of eerie hallways and unsettling spaces, she encounters terrifying entities and uncovers secrets that blur the line between reality and nightmare.",
+  generos: ["Horror", "Sci-Fi", "Mystery"],
+  avaliacao: 7.0,
+  poster: "https://m.media-amazon.com/images/M/MV5BOWY0ZmIzZDQtZDM5Yi00ZjE0LWJhMzItNDM2OTAxOWNhZDkyXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt26657236",
+  trailer: "https://youtu.be/0HjdiohVOik?si=SPLHY5gjF6xdhda5",
+  duracao: "1h 45min",
+  pais: "United States"
+},
+
+{
+  id: 224,
+  tipo: "serie",
+  titulo: "Something Very Bad Is Going to Happen",
+  ano: 2026,
+  sinopse: "As their wedding day approaches, Rachel Harkin becomes convinced that something terrible is about to happen. While staying with her fiancé's wealthy family in a remote estate, she is haunted by unsettling visions, disturbing family secrets, and a growing sense of dread. As the days count down to the ceremony, she must uncover the truth behind a dark curse before it destroys everything around her.",
+  generos: ["Drama", "Horror", "Psychological Horror", "Supernatural Horror"],
+  avaliacao: 6.8,
+  poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd2VWoIAuaxN9MrbU-M3NQ7gH3GheoA3xpew&s",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/vMc_pWm7G7o?si=EuQUKPAe_zOdCSwR",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt32937780"
+},
+
+{
+  id: 225,
+  tipo: "serie",
+  titulo: "Widow's Bay",
+  ano: 2026,
+  sinopse: "Tom Loftis, the skeptical mayor of a small New England island town, is determined to boost tourism and revive the local economy. However, as strange supernatural events begin to unfold, he is forced to confront the possibility that the town's long-whispered curse may be real. With fear spreading among residents and visitors alike, Tom must uncover the dark history of Widow's Bay before the island's secrets consume them all.",
+  generos: ["Comedy", "Drama", "Horror"],
+  avaliacao: 8.2,
+  poster: "https://m.media-amazon.com/images/M/MV5BZDBiMWZlMDQtNzkzMi00YzQzLTkwNTUtNzYwOGY3YmUxNDJjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  duracao: "1 temporada",
+  trailer: "https://youtu.be/Nmc2RYm6PUE?si=CBqaRdRlSl1uiBk8",
+  pais: "United States",
+  videoUrl: "https://streamimdb.ru/embed/tv/tt33332385"
+},
+
+{
+  id: 226,
+  tipo: "filme",
+  titulo: "The Mummy",
+  ano: 1999,
+  sinopse: "An American adventurer joins a group of explorers on an expedition to the ancient city of Hamunaptra. After accidentally awakening Imhotep, a cursed high priest buried alive thousands of years ago, they unleash a powerful force of evil. As plagues and supernatural horrors spread across Egypt, they must stop the resurrected mummy before he gains unimaginable power.",
+  generos: ["Action", "Adventure", "Fantasy"],
+  avaliacao: 7.1,
+  poster: "https://m.media-amazon.com/images/M/MV5BMjdiYzVlNjUtNGI5MC00MDE5LTk0MmQtNDc0YzIzOGRmMDNkXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt0120616",
+  trailer: "https://youtu.be/XJ0uv-phsDk?si=RcZ1PNFZG-s-K4qi",
+  duracao: "2h 4min",
+  pais: "United States"
+},
+
+{
+  id: 227,
+  tipo: "filme",
+  titulo: "Bramayugam",
+  ano: 2024,
+  sinopse: "In 17th-century Kerala, Thevan, a folk singer escaping slavery, stumbles upon an ancient and mysterious mansion deep within the forest. There, he encounters the enigmatic Kodumon Potti and his servant, becoming trapped in a world of dark rituals, supernatural forces, and hidden secrets. As the true nature of the mansion is revealed, Thevan must fight to escape a terrifying fate.",
+  generos: ["Drama", "Horror", "Thriller"],
+  avaliacao: 7.7,
+  poster: "https://m.media-amazon.com/images/M/MV5BNmZkZjQ5YzItOGQ0MC00ZmVlLWIxNjgtYzU2MmYzYjFmZWI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt27431598",
+  trailer: "https://youtu.be/55pzldrBRJM?si=hZr5Agl09VvgwPkF",
+  duracao: "2h 19min",
+  pais: "India"
+},
+
+{
+  id: 228,
+  tipo: "filme",
+  titulo: "Dies Irae",
+  ano: 2025,
+  sinopse: "Rohan's affluent lifestyle spirals out of control when he becomes convinced that a supernatural entity is haunting his home. As he investigates the disturbing occurrences, he is drawn into a dark mystery involving unexpected alliances, ancient forces, and terrifying revelations that threaten to consume his reality.",
+  generos: ["Horror", "Supernatural Horror", "Thriller"],
+  avaliacao: 6.9,
+  poster: "https://m.media-amazon.com/images/M/MV5BMWVlYzQ5NmYtNjc3Ni00ZTQyLTliYmQtNDAzYzJhMDEzOTg0XkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt36302733",
+  trailer: "https://youtu.be/S1FGXOamA5I?si=9HZue2wTFhl-Mbtl",
+  duracao: "1h 56min",
+  pais: "India"
+},
+
+{
+  id: 229,
+  tipo: "filme",
+  titulo: "Together",
+  ano: 2025,
+  sinopse: "Years into their relationship, Tim and Millie move to the countryside hoping for a fresh start. With tensions already threatening to pull them apart, a mysterious supernatural force begins to affect their bodies and minds in terrifying ways. As their connection becomes increasingly disturbing and inescapable, they must confront the dark reality of their love before losing themselves completely.",
+  generos: ["Horror", "Romance", "Psychological Horror"],
+  avaliacao: 6.7,
+  poster: "https://m.media-amazon.com/images/M/MV5BOWI1Mzg0OWUtNDYxYy00Mzk3LTgxMjMtYWYxZjJhMjI4NDcyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt31184028",
+  trailer: "https://youtu.be/aSR8mOPBa0I?si=NBtKO5pzwCaeX_0Y",
+  duracao: "1h 42min",
+  pais: "Australia"
+},
+
+{
+  id: 230,
+  tipo: "filme",
+  titulo: "Bring Her Back",
+  ano: 2025,
+  sinopse: "After the sudden death of their father, siblings Andy and Piper are placed in the care of a foster mother living in an isolated home. As they settle into their new surroundings, they begin to uncover disturbing secrets and a terrifying occult ritual hidden within the house. Trapped in a nightmare fueled by grief, manipulation, and supernatural forces, they must fight to survive before becoming part of the ritual themselves.",
+  generos: ["Horror", "Mystery", "Psychological Horror"],
+  avaliacao: 7.1,
+  poster: "https://m.media-amazon.com/images/M/MV5BZTlhYTk1ZTEtOWY3NC00NWQ5LTlkOTctNjQ3ZDYyZGE5ZWNlXkEyXkFqcGc@._V1_.jpg",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt32246771",
+  trailer: "https://youtu.be/kBskrYZfhw8?si=jt_0mVkMw0a1_oEC",
+  duracao: "1h 44min",
+  pais: "Australia"
+},
+
+{
+  id: 231,
+  tipo: "filme",
+  titulo: "Send Help",
+  ano: 2026,
+  sinopse: "After surviving a plane crash, two co-workers find themselves stranded on a remote island with little hope of rescue. Forced to rely on each other despite their differences, they struggle against the harsh environment, dwindling supplies, and their own personal conflicts. As the days pass, survival becomes a test of both endurance and trust.",
+  generos: ["Adventure", "Comedy", "Horror", "Thriller"],
+  avaliacao: 6.4,
+  poster: "https://lumiere-a.akamaihd.net/v1/images/p_20cs_send_help_homeent_announce_dea045ee.jpeg?region=0%2C0%2C540%2C810",
+  videoUrl: "https://streamimdb.ru/embed/movie/tt12786838",
+  trailer: "https://youtu.be/R4wiXj9NmEE?si=XDpE9_rGvrp3Va5E",
+  duracao: "1h 42min",
+  pais: "United States"
+},
+
+
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
