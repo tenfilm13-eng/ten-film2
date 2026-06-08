@@ -300,7 +300,7 @@ const CATALOG = [
 },
 
 {
-  id:21,
+  id: 21,
   tipo: "serie",
   titulo: "The 100",
   ano: 2014,
@@ -315,7 +315,7 @@ const CATALOG = [
 },
 
 {
-  id:22,
+  id: 22,
   tipo: "filme",
   titulo: "Split",
   ano: 2016,
@@ -330,7 +330,7 @@ const CATALOG = [
 },
 
 {
-  id:23,
+  id: 23,
   tipo: "serie",
   titulo: "The Boys",
   ano: 2019,
@@ -345,7 +345,7 @@ const CATALOG = [
 },
 
 {
-  id:24,
+  id: 24,
   tipo: "filme",
   titulo: "Scream 2",
   ano: 1997,
@@ -705,7 +705,7 @@ const CATALOG = [
 },
 
 {
-  id:48 ,
+  id: 48,
   tipo: "filme",
   titulo: "Ghost Rider",
   ano: 2007,
@@ -735,7 +735,7 @@ const CATALOG = [
 },
 
 {
-  id:50,
+  id: 50,
   tipo: "filme",
   titulo: "Kick-Ass",
   ano: 2010,
@@ -2085,7 +2085,7 @@ const CATALOG = [
 },
 
 {
-  id:   140,
+  id: 140,
   tipo: "filme",
   titulo: "How to Train Your Dragon 2",
   ano: 2014,
@@ -2100,7 +2100,7 @@ const CATALOG = [
 },
 
 {
-  id:   141,
+  id: 141,
   tipo: "filme",
   titulo: "How to Train Your Dragon: The Hidden World",
   ano: 2019,
@@ -2505,7 +2505,7 @@ const CATALOG = [
 },
 
 {
-  id: 167,
+  id: 168,
   tipo: "filme",
   titulo: "Buried",
   ano: 2010,
@@ -3464,7 +3464,1190 @@ const CATALOG = [
   pais: "United States"
 },
 
+{
+    id: 232,
+    tipo: "filme",
+    titulo: "The Most Dangerous Game",
+    ano: 2022,
+    sinopse: "After being shipwrecked on a remote island, a father and his son find themselves trapped in a deadly hunt orchestrated by the island's ruthless owner. As they become the prey in a twisted game, they must fight for survival against a group of elite hunters.",
+    generos: ["Thriller"],
+    avaliacao: 3.4,
+    poster: "https://m.media-amazon.com/images/M/MV5BY2I0MmQxMTgtOWRiOC00MWQ5LWE4MjItMTBiZmE0ODg4YWIwXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt15822738",
+    trailer: "https://youtu.be/lkG_nDoMT0M?si=usClk1pZTIOGEUaC",
+    duracao: "1h 35min",
+    pais: "United States"
+},
 
+{
+    id: 233,
+    tipo: "filme",
+    titulo: "Clash of the Titans",
+    ano: 2010,
+    sinopse: "Perseus, a demigod and the son of Zeus, embarks on a perilous journey to stop Hades from unleashing chaos upon the world. Along the way, he battles monstrous creatures, confronts powerful enemies, and seeks to save both Olympus and humanity from destruction.",
+    generos: ["Action", "Adventure", "Fantasy"],
+    avaliacao: 5.8,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTYxNjg4MzU5OV5BMl5BanBnXkFtZTcwOTA3NTUwMw@@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0800320",
+    trailer: "https://youtu.be/TfyunOnMGqM?si=AzIPeCsHVFDw7OLr",
+    duracao: "1h 46min",
+    pais: "United States"
+},
+
+{
+    id: 234,
+    tipo: "filme",
+    titulo: "Ice Cream Man",
+    ano: 2026,
+    sinopse: "An idyllic summer town descends into madness when a mysterious ice cream man serves frozen treats to local children, triggering a wave of horrifying violence and chaos throughout the community.",
+    generos: ["Horror"],
+    avaliacao: 0.0,
+    poster: "https://m.media-amazon.com/images/M/MV5BZjQwNWI2M2QtZjBjZi00NGRkLWIwODctZjQ2NWQ2OWVjMGRiXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt36893729",
+    trailer: "https://youtu.be/ppOnbtMhDWM?si=AIAQg_4EMqWI4NuV",
+    duracao: "1h 46min",
+    pais: "United States"
+},
+
+{
+    id: 235,
+    tipo: "filme",
+    titulo: "The Maze Runner",
+    ano: 2014,
+    sinopse: "Thomas awakens in a mysterious glade with no memory of his past. Surrounded by a group of boys trapped inside a massive and ever-changing maze filled with deadly creatures, he joins the runners in a desperate attempt to uncover the maze's secrets and find a way to escape.",
+    generos: ["Action", "Mystery", "Sci-Fi", "Thriller"],
+    avaliacao: 6.8,
+    poster: "https://m.media-amazon.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1790864",
+    trailer: "https://youtu.be/AwwbhhjQ9Xk?si=QhxMyGNHavUvHqIM",
+    duracao: "1h 53min",
+    pais: "United States"
+},
+
+{
+    id: 236,
+    tipo: "filme",
+    titulo: "Maze Runner: The Scorch Trials",
+    ano: 2015,
+    sinopse: "After escaping the Maze, Thomas and the other Gladers face a new and dangerous challenge in the desolate wasteland known as the Scorch. As they search for answers, they uncover shocking truths about WCKD and the devastating virus that has ravaged the world.",
+    generos: ["Action", "Adventure", "Sci-Fi", "Thriller"],
+    avaliacao: 6.3,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADSDoQTT2Wd4sDYPS9j9siifAdRAG9KPdFQ&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt4046784",
+    trailer: "https://youtu.be/SDofO3P2HpE?si=r_L60D0EOupD0i9U",
+    duracao: "2h 11min",
+    pais: "United States"
+},
+
+{
+    id: 237,
+    tipo: "filme",
+    titulo: "Maze Runner: The Death Cure",
+    ano: 2018,
+    sinopse: "Thomas leads his fellow Gladers on a final mission to rescue their captured friends and uncover the truth behind WCKD. Their journey takes them to the Last City, where they must confront powerful enemies and make sacrifices to secure a future for humanity.",
+    generos: ["Action", "Adventure", "Sci-Fi", "Thriller"],
+    avaliacao: 6.2,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqsaKAaTzRa4ePW5hacvG4DRBQmUmUI0k6Tw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt4500922",
+    trailer: "https://youtu.be/4-BTxXm8KSg?si=zB_wjyJUC4x04mpB",
+    duracao: "2h 23min",
+    pais: "United States"
+},
+
+{
+    id: 238,
+    tipo: "filme",
+    titulo: "It",
+    ano: 2017,
+    sinopse: "In the town of Derry, a group of outcast children known as the Losers' Club must confront an ancient shape-shifting entity that emerges every 27 years to prey on the town's children. Taking the form of the terrifying clown Pennywise, the creature forces them to face their deepest fears.",
+    generos: ["Horror"],
+    avaliacao: 7.3,
+    poster: "https://m.media-amazon.com/images/M/MV5BZGZmOTZjNzUtOTE4OS00OGM3LWJiNGEtZjk4Yzg2M2Q1YzYxXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1396484",
+    trailer: "https://youtu.be/xKJmEC5ieOk?si=uHSsHn4ZYKaYFnfa",
+    duracao: "2h 15min",
+    pais: "United States"
+},
+
+{
+    id: 239,
+    tipo: "filme",
+    titulo: "It Chapter Two",
+    ano: 2019,
+    sinopse: "Twenty-seven years after their first encounter with Pennywise, the members of the Losers' Club return to Derry when children begin disappearing again. Now adults, they must reunite to confront the ancient evil once and for all while facing the traumatic memories of their past.",
+    generos: ["Drama", "Fantasy", "Horror"],
+    avaliacao: 6.5,
+    poster: "https://m.media-amazon.com/images/M/MV5BMzFiYTBkNTQtODAyYy00ODcxLTkwNzEtMDE2N2U0NTI5MWJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt7349950",
+    trailer: "https://youtu.be/xhJ5P7Up3jA?si=dlQ0pg46AjOwIeyp",
+    duracao: "2h 49min",
+    pais: "United States"
+},
+
+{
+    id: 240,
+    tipo: "filme",
+    titulo: "Insidious",
+    ano: 2010,
+    sinopse: "A family discovers that their son has mysteriously fallen into a coma and become a vessel for malevolent spirits from a supernatural realm known as The Further. Desperate to save him, they seek help from paranormal investigators and confront terrifying forces beyond their understanding.",
+    generos: ["Horror", "Mystery", "Thriller"],
+    avaliacao: 6.8,
+    poster: "https://m.media-amazon.com/images/M/MV5BYWMwMmY2MzUtZDc1Ni00MDlmLThhOWUtYjVlNmQzMGFkMzZmXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1591095",
+    trailer: "https://youtu.be/zuZnRUcoWos?si=1K2wF1st8hUHpOxi",
+    duracao: "1h 43min",
+    pais: "United States"
+},
+
+{
+    id: 241,
+    tipo: "filme",
+    titulo: "Insidious: Chapter 2",
+    ano: 2013,
+    sinopse: "After the events of the first film, the Lambert family tries to move on, but terrifying supernatural occurrences continue to haunt them. As they uncover dark secrets from Josh's past, they realize that the connection to The Further is far from over.",
+    generos: ["Horror", "Mystery", "Thriller"],
+    avaliacao: 6.5,
+    poster: "https://m.media-amazon.com/images/M/MV5BYWZjNDlkZTItOTUyOS00YWViLThmM2UtMDI3Y2Q1YzAyOTIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt2226417",
+    trailer: "https://youtu.be/fBbi4NeebAk?si=qQVHFeH1LVJmZozi",
+    duracao: "1h 46min",
+    pais: "United States"
+},
+
+{
+    id: 242,
+    tipo: "filme",
+    titulo: "Insidious: Chapter 3",
+    ano: 2015,
+    sinopse: "Set before the haunting of the Lambert family, a gifted psychic reluctantly agrees to help a teenage girl who believes she is being targeted by a dangerous supernatural entity. As the threat grows stronger, she must confront terrifying forces from The Further.",
+    generos: ["Horror", "Mystery", "Thriller"],
+    avaliacao: 6.1,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTUwNDU4NjE1N15BMl5BanBnXkFtZTgwOTc0MzA5NDE@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt3195644",
+    trailer: "https://youtu.be/3HxEXnVSr1w?si=kkBuIQPyBJZkvEMf",
+    duracao: "1h 37min",
+    pais: "United States"
+},
+
+{
+    id: 243,
+    tipo: "filme",
+    titulo: "Insidious: The Last Key",
+    ano: 2018,
+    sinopse: "Parapsychologist Elise Rainier returns to her childhood home to investigate a terrifying haunting connected to her past. As she confronts painful memories and a powerful demonic entity, she uncovers the dark secrets that have haunted her family for decades.",
+    generos: ["Horror", "Mystery", "Thriller"],
+    avaliacao: 5.7,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTUxODU0NjQ2Nl5BMl5BanBnXkFtZTgwMTc4NDQ0MzI@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt5726086",
+    trailer: "https://youtu.be/acQyrwQyCOk?si=YI1kLWKYMfmTAlWx",
+    duracao: "1h 43min",
+    pais: "United States"
+},
+
+{
+    id: 244,
+    tipo: "filme",
+    titulo: "Ouija: Origin of Evil",
+    ano: 2016,
+    sinopse: "In 1967 Los Angeles, a widow and her two daughters run a fraudulent séance business. When they introduce a Ouija board into their act, they unknowingly invite a malevolent spirit into their home. As terrifying events unfold, the youngest daughter becomes possessed by a sinister force.",
+    generos: ["Drama", "Horror", "Mystery", "Thriller"],
+    avaliacao: 6.2,
+    poster: "https://m.media-amazon.com/images/M/MV5BM2VmZTc2MDctYWUyZS00NWU3LTliZTItMTk5MTQwODRhNjA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt4361050",
+    trailer: "https://youtu.be/MJIcZGEjjwo?si=Ed901O2xPJytQ0ms",
+    duracao: "1h 39min",
+    pais: "United States"
+},
+
+{
+    id: 245,
+    tipo: "filme",
+    titulo: "The Colony",
+    ano: 2021,
+    sinopse: "In a distant future where Earth has been devastated by environmental collapse, a female astronaut is sent from a space colony to determine whether humanity can survive on the ruined planet. As she investigates, she becomes entangled in a conflict between the remaining survivors and must decide the fate of both worlds.",
+    generos: ["Action", "Adventure", "Sci-Fi", "Thriller"],
+    avaliacao: 5.4,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTdjYTFjZGYtY2MxNS00N2JiLThjNmMtMDkzMWM4YzAxNzJmXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt6506264",
+    trailer: "https://youtu.be/ZENI7UC3WQo?si=SICta7sFrfSR5irW",
+    duracao: "1h 44min",
+    pais: "Germany"
+},
+
+{
+    id: 246,
+    tipo: "filme",
+    titulo: "Avatar",
+    ano: 2009,
+    sinopse: "A paraplegic former Marine is sent to the moon Pandora, where humans are extracting valuable resources. Using an avatar body, he becomes immersed in the culture of the Na'vi and finds himself torn between following orders and protecting the world he has come to call home.",
+    generos: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+    avaliacao: 7.9,
+    poster: "https://m.media-amazon.com/images/M/MV5BZmU0NTc2NjAtZDk1NS00ZTg4LThlZDYtNjIxNDZlMGJmMTVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0499549",
+    trailer: "https://youtu.be/nb_fFj_0rq8?si=ruxA5hxyqNVNX_wy",
+    duracao: "2h 42min",
+    pais: "United States"
+},
+
+{
+    id: 247,
+    tipo: "filme",
+    titulo: "Avatar: The Way of Water",
+    ano: 2022,
+    sinopse: "More than a decade after the events on Pandora, Jake Sully and Neytiri have built a family together. When a familiar threat returns, they seek refuge with the ocean-dwelling Metkayina clan and must fight to protect their loved ones and their world.",
+    generos: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+    avaliacao: 7.5,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs3wyBA-4twQO2SjBW7ldGS9VJZ6dRalRImg&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1630029",
+    trailer: "https://youtu.be/d9MyW72ELq0?si=rkdJ_JSjDBRtOrYK",
+    duracao: "3h 12min",
+    pais: "United States"
+},
+
+{
+    id: 248,
+    tipo: "filme",
+    titulo: "Avatar: Fire and Ash",
+    ano: 2025,
+    sinopse: "Following the events of The Way of Water, Jake Sully and Neytiri struggle with grief after a devastating loss while facing a new threat on Pandora. As tensions rise, they encounter the Ash People, a powerful and aggressive Na'vi clan led by the fierce Varang, forcing them into a conflict that could change the future of their world forever.",
+    generos: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+    avaliacao: 7.3,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0erWdCYfswjXLUU1KD0By3HHAhjBrnNDCcg&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1757678",
+    trailer: "https://youtu.be/Ma1x7ikpid8?si=_eSxCamU3ngtcJwg",
+    duracao: "3h 17min",
+    pais: "United States"
+},
+
+{
+    id: 249,
+    tipo: "filme",
+    titulo: "Elysium",
+    ano: 2013,
+    sinopse: "In the year 2154, the wealthy live aboard Elysium, a luxurious space station orbiting Earth, while the rest of humanity struggles in poverty on an overpopulated and polluted planet. After a life-threatening accident, a factory worker embarks on a dangerous mission that could bring equality to both worlds.",
+    generos: ["Action", "Drama", "Sci-Fi"],
+    avaliacao: 6.6,
+    poster: "https://m.media-amazon.com/images/M/MV5BNDc2NjU0MTcwNV5BMl5BanBnXkFtZTcwMjg4MDg2OQ@@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1535108",
+    trailer: "https://youtu.be/oIBtePb-dGY?si=eXOOIYLbT3B8IA6p",
+    duracao: "1h 49min",
+    pais: "United States"
+},
+
+{
+    id: 250,
+    tipo: "filme",
+    titulo: "Passengers",
+    ano: 2016,
+    sinopse: "During a 120-year journey to a distant colony planet, two passengers are awakened from hibernation ninety years too early due to a malfunction. As they face isolation aboard the massive spacecraft, they form a bond and discover a critical threat that could endanger everyone on board.",
+    generos: ["Drama", "Romance", "Sci-Fi", "Thriller"],
+    avaliacao: 7.0,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX2MfMDFB8bJiMRvTrZPNtalD8smCZx61E3Q&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1355644",
+    trailer: "https://youtu.be/7BWWWQzTpNU?si=7xBA7B725G2gc3LC",
+    duracao: "1h 56min",
+    pais: "United States"
+},
+
+{
+    id: 251,
+    tipo: "filme",
+    titulo: "The Martian",
+    ano: 2015,
+    sinopse: "After being presumed dead and left behind during a mission to Mars, astronaut Mark Watney finds himself stranded on the hostile planet. Using his ingenuity, scientific knowledge, and determination, he struggles to survive while NASA and his crewmates work to bring him home.",
+    generos: ["Adventure", "Drama", "Sci-Fi"],
+    avaliacao: 8.0,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt3659388",
+    trailer: "https://youtu.be/ej3ioOneTy8?si=GULwP_-cEyJUEXg-",
+    duracao: "2h 24min",
+    pais: "United States"
+},
+
+{
+    id: 252,
+    tipo: "filme",
+    titulo: "Alien: Covenant",
+    ano: 2017,
+    sinopse: "The crew of the colony ship Covenant discovers what appears to be an uncharted paradise world. As they explore the mysterious planet, they encounter horrifying creatures and uncover dark secrets connected to the origins of the Xenomorph species.",
+    generos: ["Horror", "Sci-Fi", "Thriller"],
+    avaliacao: 6.4,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsQJ3IYc49UKH0K5YzJUUix_UDlSgue0oehQ&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt2316204",
+    trailer: "https://youtu.be/svnAD0TApb8?si=5NsB3H4aHiGUnXuA",
+    duracao: "2h 2min",
+    pais: "United States"
+},
+
+{
+    id: 253,
+    tipo: "filme",
+    titulo: "Alien: Romulus",
+    ano: 2024,
+    sinopse: "A group of young space colonists scavenging an abandoned space station finds themselves trapped in a terrifying fight for survival. As they explore the station's dark corridors, they come face to face with the most deadly lifeform in the universe.",
+    generos: ["Horror", "Sci-Fi", "Thriller"],
+    avaliacao: 7.1,
+    poster: "https://m.media-amazon.com/images/M/MV5BMDU0NjcwOGQtNjNjOS00NzQ3LWIwM2YtYWVmODZjMzQzN2ExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt18412256",
+    trailer: "https://youtu.be/OzY2r2JXsDM?si=orbNKk-SdWDzhZT6",
+    duracao: "1h 59min",
+    pais: "United States"
+},
+
+{
+    id: 254,
+    tipo: "filme",
+    titulo: "Interstellar",
+    ano: 2014,
+    sinopse: "In a future where Earth is becoming uninhabitable, a former NASA pilot joins a daring mission through a wormhole near Saturn to find a new home for humanity. As the crew travels across distant worlds, they face the effects of time, sacrifice, and the bonds that connect them across the universe.",
+    generos: ["Adventure", "Drama", "Sci-Fi"],
+    avaliacao: 8.7,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0zt0lp-O3XdL8zzdrEvyzmcl6kOwfgbv4xQ&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0816692",
+    trailer: "https://youtu.be/zSWdZVtXT7E?si=XCLLw_bO24_uqEzv",
+    duracao: "2h 49min",
+    pais: "United States"
+},
+
+{
+    id: 255,
+    tipo: "filme",
+    titulo: "Moon",
+    ano: 2009,
+    sinopse: "With only weeks remaining on his three-year assignment at a lunar mining facility, astronaut Sam Bell begins experiencing strange events that force him to question his reality. As isolation takes its toll, he uncovers a shocking truth about his mission and his own existence.",
+    generos: ["Drama", "Mystery", "Sci-Fi"],
+    avaliacao: 7.8,
+    poster: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p195466_p_v13_af.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1182345",
+    trailer: "https://youtu.be/N0tKKsgip-Y?si=s1HjP091fJuE7gAW",
+    duracao: "1h 37min",
+    pais: "United Kingdom"
+},
+
+{
+    id: 256,
+    tipo: "filme",
+    titulo: "Red Planet",
+    ano: 2000,
+    sinopse: "In the near future, a team of astronauts is sent to Mars to investigate a failed terraforming project intended to save Earth's dying ecosystem. After a disastrous landing leaves them stranded, they must battle the harsh environment and an unexpected threat while searching for a way home.",
+    generos: ["Action", "Sci-Fi", "Thriller"],
+    avaliacao: 5.7,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTY2MzE0MjAwOF5BMl5BanBnXkFtZTYwNDM4Mzg2._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0199753",
+    trailer: "https://youtu.be/IpF691nGMW8?si=dTdp8-VtDj-7ua2e",
+    duracao: "1h 46min",
+    pais: "United States"
+},
+
+{
+    id: 257,
+    tipo: "filme",
+    titulo: "Spider-Man",
+    ano: 2002,
+    sinopse: "After being bitten by a genetically altered spider, high school student Peter Parker gains extraordinary abilities. As he learns to use his new powers, he must confront the dangerous Green Goblin while balancing responsibility, friendship, and love.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.4,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUswwaOrQsMa9wXglCLkoWrhg5vtwdAeWdTw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0145487",
+    trailer: "https://youtu.be/t06RUxPbp_c?si=-AdTHZd7GrcD3sZJ",
+    duracao: "2h 1min",
+    pais: "United States"
+},
+
+{
+    id: 258,
+    tipo: "filme",
+    titulo: "Spider-Man 2",
+    ano: 2004,
+    sinopse: "Peter Parker struggles to balance his personal life with his responsibilities as Spider-Man. As his powers begin to fade, a brilliant scientist named Otto Octavius transforms into the dangerous Doctor Octopus, forcing Peter to rediscover what it truly means to be a hero.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.5,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpRkWqeboQZACbiHkV2jEMXWPkUI-SvNRn_w&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0316654",
+    trailer: "https://youtu.be/1s9Yln0YwCw?si=mADVWx48yUzFHmzB",
+    duracao: "2h 7min",
+    pais: "United States"
+},
+
+{
+    id: 259,
+    tipo: "filme",
+    titulo: "Spider-Man 3",
+    ano: 2007,
+    sinopse: "Peter Parker finally seems to have his life under control, but everything changes when a mysterious alien symbiote bonds with him. As the suit enhances his powers and darkens his personality, Peter must confront powerful enemies and overcome his own inner darkness.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.3,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHekbKoSoRXgPMVycdRKNnZazSj0JAhKP_yA&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0413300",
+    trailer: "https://youtu.be/e5wUilOeOmg?si=AstaywStcjqvM6_I",
+    duracao: "2h 19min",
+    pais: "United States"
+},
+
+{
+    id: 260,
+    tipo: "filme",
+    titulo: "Spider-Man: No Way Home",
+    ano: 2021,
+    sinopse: "After his identity as Spider-Man is revealed to the world, Peter Parker seeks help from Doctor Strange to restore his normal life. When the spell goes wrong, villains and heroes from alternate universes begin crossing into his reality, forcing Peter to face challenges unlike any he has encountered before.",
+    generos: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+    avaliacao: 8.2,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWqwmRiDNDFYw-4l3qFdT8TgpjRSTSF5X8A&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt10872600",
+    trailer: "https://youtu.be/JfVOs4VSpmA?si=7CtWzdxPKFiYbNOm",
+    duracao: "2h 28min",
+    pais: "United States"
+},
+
+{
+    id: 261,
+    tipo: "filme",
+    titulo: "Spider-Man: Homecoming",
+    ano: 2017,
+    sinopse: "After fighting alongside the Avengers, Peter Parker returns to his normal life in Queens while trying to prove himself as a superhero. When he discovers a criminal operation led by the Vulture, he must balance school, friendships, and his responsibilities as Spider-Man.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.4,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkHaUL-aHT2KxI3NlfYugOoEsmxCUrvhQuLA&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt2250912",
+    trailer: "https://youtu.be/rk-dF1lIbIg?si=Adnoipcnt8R2aO5i",
+    duracao: "2h 13min",
+    pais: "United States"
+},
+
+{
+    id: 262,
+    tipo: "filme",
+    titulo: "Spider-Man: Across the Spider-Verse",
+    ano: 2023,
+    sinopse: "Miles Morales reunites with Gwen Stacy and is transported across the Multiverse, where he encounters a vast team of Spider-People charged with protecting its existence. When a powerful new threat emerges, Miles finds himself at odds with other Spider-Heroes and must redefine what it means to be Spider-Man.",
+    generos: ["Animation", "Action", "Adventure", "Family", "Fantasy", "Sci-Fi"],
+    avaliacao: 8.5,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNz0CIoYu8EuWzqx-XBrVd3FdWskWhLRGMZw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt9362722",
+    trailer: "https://youtu.be/cqGjhVJWtEg?si=VYb88-iZJmXMHDP_",
+    duracao: "2h 20min",
+    pais: "United States"
+},
+
+{
+    id: 263,
+    tipo: "filme",
+    titulo: "The Amazing Spider-Man",
+    ano: 2012,
+    sinopse: "Teenager Peter Parker searches for answers about his parents' mysterious disappearance. After being bitten by a genetically engineered spider, he gains extraordinary abilities and becomes Spider-Man, using his powers to protect the city while facing the dangerous Lizard.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.9,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUSqV7QFw__xoVrtciaypDs4M0yOpd33Wjzg&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0948470",
+    trailer: "https://youtu.be/-tnxzJ0SSOw?si=c90Ja_xKaC_7ztuv",
+    duracao: "2h 16min",
+    pais: "United States"
+},
+
+{
+    id: 264,
+    tipo: "filme",
+    titulo: "Spider-Man: Far From Home",
+    ano: 2019,
+    sinopse: "Following the events of Avengers: Endgame, Peter Parker joins his classmates on a school trip across Europe. Hoping to take a break from superhero duties, he is recruited by Nick Fury to help battle mysterious elemental creatures and uncover the truth behind a new hero named Mysterio.",
+    generos: ["Action", "Adventure", "Comedy", "Sci-Fi"],
+    avaliacao: 7.4,
+    poster: "https://m.media-amazon.com/images/M/MV5BMzNhNTE0NWQtN2E1Ny00NjcwLTg1YTctMGY1NmMwODJmY2NmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt6320628",
+    trailer: "https://youtu.be/Nt9L1jCKGnE?si=ILW0pkJWxHAu_HVq",
+    duracao: "2h 9min",
+    pais: "United States"
+},
+
+{
+    id: 265,
+    tipo: "filme",
+    titulo: "Spider-Man: Into the Spider-Verse",
+    ano: 2018,
+    sinopse: "Teenager Miles Morales gains spider-like abilities and discovers that he is not the only Spider-Person in existence. When a threat endangers multiple dimensions, Miles teams up with Spider-Heroes from alternate universes to save reality and embrace his destiny as Spider-Man.",
+    generos: ["Animation", "Action", "Adventure", "Family", "Fantasy", "Sci-Fi"],
+    avaliacao: 8.4,
+    poster: "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt4633694",
+    trailer: "https://youtu.be/g4Hbz2jLxvQ?si=0LkTuXpFJ_etf3OP",
+    duracao: "1h 57min",
+    pais: "United States"
+},
+
+{
+    id: 266,
+    tipo: "filme",
+    titulo: "The Amazing Spider-Man 2",
+    ano: 2014,
+    sinopse: "Peter Parker continues to protect New York as Spider-Man while struggling to keep his promise to stay away from Gwen Stacy. When a troubled electrical engineer transforms into the powerful Electro and an old friend returns with dangerous intentions, Peter faces some of his greatest challenges yet.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.6,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdkiwkCzT7lhOx0gdX293NZyK635rqsK_2ZA&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1872181",
+    trailer: "https://youtu.be/DlM2CWNTQ84?si=exOjeK9yBBiafJ40",
+    duracao: "2h 22min",
+    pais: "United States"
+},
+
+{
+    id: 267,
+    tipo: "filme",
+    titulo: "Avengers: Endgame",
+    ano: 2019,
+    sinopse: "After the devastating events caused by Thanos, the surviving Avengers unite for one final mission to reverse the destruction and restore balance to the universe. Facing impossible odds, they must make sacrifices and confront their past in an epic battle for the fate of all existence.",
+    generos: ["Action", "Adventure", "Drama", "Sci-Fi"],
+    avaliacao: 8.4,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaw6QTsDE3d6-qOL5xMa4-JDdBNTa3uspCrg&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt4154796",
+    trailer: "https://youtu.be/TcMBFSGVi1c?si=CJcUpshw5rkskldY",
+    duracao: "3h 1min",
+    pais: "United States"
+},
+
+{
+    id: 268,
+    tipo: "filme",
+    titulo: "Captain America: Civil War",
+    ano: 2016,
+    sinopse: "Political pressure mounts to place the Avengers under government control following a series of catastrophic incidents. As tensions rise, Steve Rogers and Tony Stark find themselves on opposing sides, leading to a conflict that divides the world's mightiest heroes.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.8,
+    poster: "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt3498820",
+    trailer: "https://youtu.be/dKrVegVI0Us?si=Y_5kHsfndwfRwECT",
+    duracao: "2h 27min",
+    pais: "United States"
+},
+
+{
+    id: 269,
+    tipo: "filme",
+    titulo: "Iron Man",
+    ano: 2008,
+    sinopse: "After being captured by terrorists during a weapons demonstration, billionaire engineer Tony Stark builds a powerful armored suit to escape. Returning home, he decides to use his technology to fight injustice and becomes the superhero known as Iron Man.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.9,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0371746",
+    trailer: "https://youtu.be/8ugaeA-nMTc?si=R3PwQ3eKDqdnwqZq",
+    duracao: "2h 6min",
+    pais: "United States"
+},
+
+{
+    id: 270,
+    tipo: "filme",
+    titulo: "The Incredible Hulk",
+    ano: 2008,
+    sinopse: "Scientist Bruce Banner lives in hiding while searching for a cure to the condition that transforms him into the Hulk whenever he becomes angry. As military forces close in and a powerful new enemy emerges, Banner must embrace the monster within to protect those he loves.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.6,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_HRLrDcol4KJqgVXlNk72tEqZ70sVjZdxoA&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0800080",
+    trailer: "https://youtu.be/xbqNb2PFKKA?si=lr1i-FjtNJbjEbuT",
+    duracao: "1h 52min",
+    pais: "United States"
+},
+
+{
+    id: 271,
+    tipo: "filme",
+    titulo: "Iron Man 2",
+    ano: 2010,
+    sinopse: "With the world aware of his identity as Iron Man, Tony Stark faces growing pressure from the government, rival industries, and dangerous enemies who seek his technology. As his health deteriorates, he must find a way to overcome new threats and secure his legacy.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.9,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDE3oRYVxUXqKI0urYBJz2R1MIoyqWfZkLCA&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1228705",
+    trailer: "https://youtu.be/BoohRoVA9WQ?si=Odvp5Y2Uo73UViMG",
+    duracao: "2h 4min",
+    pais: "United States"
+},
+
+{
+    id: 272,
+    tipo: "filme",
+    titulo: "Thor",
+    ano: 2011,
+    sinopse: "The powerful but arrogant warrior Thor is cast out of Asgard by his father Odin and sent to Earth as punishment. Stripped of his powers, he learns humility and forms a bond with humans while his brother Loki plots to take the throne.",
+    generos: ["Action", "Adventure", "Fantasy"],
+    avaliacao: 7.0,
+    poster: "https://youtu.be/JOddp-nlNvQ?si=cMCU2X9uYjVpaYFi",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0800369",
+    trailer: "https://youtu.be/JOddp-nlNvQ?si=Y4NeaMDBEnG67ILE",
+    duracao: "1h 55min",
+    pais: "United States"
+},
+
+{
+    id: 273,
+    tipo: "filme",
+    titulo: "Captain America: The First Avenger",
+    ano: 2011,
+    sinopse: "During World War II, frail but brave Steve Rogers volunteers for an experimental program that transforms him into the super-soldier Captain America. As he fights against the Nazi-backed HYDRA organization, he becomes a symbol of hope and courage for the world.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.9,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9rtuAprOluQSZ52pfFJc4R4KItmbisOxO4g&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0458339",
+    trailer: "https://youtu.be/JerVrbLldXw?si=Xk_s7PwNU-O1oB-R",
+    duracao: "2h 4min",
+    pais: "United States"
+},
+
+{
+    id: 274,
+    tipo: "filme",
+    titulo: "The Avengers",
+    ano: 2012,
+    sinopse: "When a powerful enemy threatens global security, Nick Fury assembles a team of superheroes including Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye. Together, they must learn to work as a team to stop Loki’s invasion and save the world.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 8.0,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAiHs-ZLPsEzR1VoTQOjxFkN3R3-E1DgBg7g&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0848228",
+    trailer: "https://youtu.be/eOrNdBpGMv8?si=UQnxvBQvJhX9mTVx",
+    duracao: "2h 23min",
+    pais: "United States"
+},
+
+{
+    id: 275,
+    tipo: "filme",
+    titulo: "Iron Man 3",
+    ano: 2013,
+    sinopse: "After the events of The Avengers, Tony Stark struggles with anxiety and sleepless nights while facing a new terrorist threat known as the Mandarin. When his world is destroyed, he must rely on his intelligence and ingenuity to protect those he loves and uncover the truth behind his enemies.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.1,
+    poster: "https://m.media-amazon.com/images/M/MV5BMjIzMzAzMjQyM15BMl5BanBnXkFtZTcwNzM2NjcyOQ@@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1300854",
+    trailer: "https://youtu.be/Ke1Y3P9D0Bc?si=PInbWK2cYznDPLce",
+    duracao: "2h 10min",
+    pais: "United States"
+},
+
+{
+    id: 276,
+    tipo: "filme",
+    titulo: "Thor: The Dark World",
+    ano: 2013,
+    sinopse: "Thor must team up with his imprisoned brother Loki to save the Nine Realms when an ancient enemy known as the Dark Elves threatens to plunge the universe into darkness using a powerful weapon called the Aether.",
+    generos: ["Action", "Adventure", "Fantasy"],
+    avaliacao: 6.8,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk9rlNLLjlnyZob6nAKZvq3oRuddpEpV60Yw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1981115",
+    trailer: "https://youtu.be/npvJ9FTgZbM?si=bqS4iLoXZd9MVXRq",
+    duracao: "1h 52min",
+    pais: "United States"
+},
+
+{
+    id: 277,
+    tipo: "filme",
+    titulo: "Captain America: The Winter Soldier",
+    ano: 2014,
+    sinopse: "As Steve Rogers adjusts to life in the modern world, he uncovers a conspiracy within S.H.I.E.L.D. that threatens global security. Teaming up with Black Widow and the Falcon, he faces a mysterious assassin known as the Winter Soldier.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.7,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfeGs98TxZWC7P208BRXblrU7_MlTQ0GXUUw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1843866",
+    trailer: "https://youtu.be/tbayiPxkUMM?si=95zVdFu5j0EGs_1i",
+    duracao: "2h 16min",
+    pais: "United States"
+},
+
+{
+    id: 278,
+    tipo: "filme",
+    titulo: "Guardians of the Galaxy",
+    ano: 2014,
+    sinopse: "A group of intergalactic misfits, including Peter Quill, Gamora, Drax, Rocket, and Groot, are forced to work together after stealing a powerful orb. As they become targets of dangerous forces, they must unite to save the galaxy from destruction.",
+    generos: ["Action", "Adventure", "Comedy", "Sci-Fi"],
+    avaliacao: 8.0,
+    poster: "https://m.media-amazon.com/images/M/MV5BM2ZmNjQ2MzAtNDlhNi00MmQyLWJhZDMtNmJiMjFlOWY4MzcxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt2015381",
+    trailer: "https://youtu.be/d96cjJhvlMA?si=bCMJRzcs41ajJSa2",
+    duracao: "2h 1min",
+    pais: "United States"
+},
+
+{
+    id: 279,
+    tipo: "filme",
+    titulo: "Avengers: Age of Ultron",
+    ano: 2015,
+    sinopse: "When Tony Stark and Bruce Banner create an artificial intelligence meant to protect Earth, the experiment goes wrong and gives birth to Ultron, a sentient machine bent on human extinction. The Avengers must unite once again to stop him before he destroys humanity.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.3,
+    poster: "https://m.media-amazon.com/images/M/MV5BODBhYTg1NGQtNGVmNS00ZTdiLThjYTYtZDFkNzRiNTZmNDZjXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt2395427",
+    trailer: "https://youtu.be/P5iIPfNzj2o?si=VYgA93mfI-b1P2M2",
+    duracao: "2h 21min",
+    pais: "United States"
+},
+
+{
+    id: 280,
+    tipo: "filme",
+    titulo: "Ant-Man",
+    ano: 2015,
+    sinopse: "Con-man Scott Lang is recruited by Dr. Hank Pym to wear a suit that allows him to shrink in size but increase in strength. Together, they must prevent the technology from falling into the wrong hands and pull off a daring heist that could save the world.",
+    generos: ["Action", "Adventure", "Comedy", "Sci-Fi"],
+    avaliacao: 7.3,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZlGjCnixw_D7InvMK7n77U1MYX6phJhX4yA&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0478970",
+    trailer: "https://youtu.be/pWdKf3MneyI?si=g8NdQdwokY298xIO",
+    duracao: "1h 57min",
+    pais: "United States"
+},
+
+{
+    id: 281,
+    tipo: "filme",
+    titulo: "Doctor Strange",
+    ano: 2016,
+    sinopse: "After a tragic car accident ends his career as a brilliant neurosurgeon, Stephen Strange travels the world in search of healing. He discovers the mystic arts and is drawn into a hidden world of magic and alternate dimensions, where he must become a powerful sorcerer to protect reality itself.",
+    generos: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+    avaliacao: 7.5,
+    poster: "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1211837",
+    trailer: "https://youtu.be/h7gvFravm4A?si=-Fx1VjZVeG6pSh5q",
+    duracao: "1h 55min",
+    pais: "United States"
+},
+
+{
+    id: 282,
+    tipo: "filme",
+    titulo: "Guardians of the Galaxy Vol. 2",
+    ano: 2017,
+    sinopse: "The Guardians continue their adventures across the cosmos as Peter Quill discovers the truth about his mysterious parentage. As new alliances are formed and old bonds are tested, the team must come together to protect what matters most: each other.",
+    generos: ["Action", "Adventure", "Comedy", "Sci-Fi"],
+    avaliacao: 7.6,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdo93MAbY6J4P7RzFhh4hHRu3sRNYEj3c4-w&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt3896198",
+    trailer: "https://youtu.be/wUn05hdkhjM?si=wrnFXkeXzaiJ_axu",
+    duracao: "2h 17min",
+    pais: "United States"
+},
+
+{
+    id: 283,
+    tipo: "filme",
+    titulo: "Thor: Ragnarok",
+    ano: 2017,
+    sinopse: "Thor finds himself imprisoned on the distant planet Sakaar and forced to compete in a gladiatorial contest against the Hulk. As the prophecy of Ragnarok approaches, he must escape and return to Asgard to stop Hela, the goddess of death, from destroying his world.",
+    generos: ["Action", "Adventure", "Comedy", "Fantasy", "Sci-Fi"],
+    avaliacao: 7.9,
+    poster: "https://m.media-amazon.com/images/M/MV5BNDU5Njk2ZGEtNmQ1Ni00ZmZkLTk5NTMtZDNmNzU1OWJjZTAxXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt3501632",
+    trailer: "https://youtu.be/ue80QwXMRHg?si=xUNMquDZplgl-XJF",
+    duracao: "2h 10min",
+    pais: "United States"
+},
+
+{
+    id: 284,
+    tipo: "filme",
+    titulo: "Black Panther",
+    ano: 2018,
+    sinopse: "After the death of his father, T'Challa returns to Wakanda to take his rightful place as king. However, when a powerful enemy emerges claiming the throne, he must rally his allies and unleash his powers as the Black Panther to protect his nation and the world.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.3,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkAp-UQJV3AeqakST2qqQGTyIRJs98CHLwQ&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1825683",
+    trailer: "https://youtu.be/xjDjIWPwcPU?si=yFglxiAAtnb_LA9V",
+    duracao: "2h 14min",
+    pais: "United States"
+},
+
+{
+    id: 285,
+    tipo: "filme",
+    titulo: "Avengers: Infinity War",
+    ano: 2018,
+    sinopse: "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos, who seeks to collect all six Infinity Stones and use them to impose his twisted will on reality.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 8.4,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVVKXRFFc9BNtpnBRWifO2r1-wzFwKfNIGsg&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt4154756",
+    trailer: "https://youtu.be/6ZfuNTqbHE8?si=64gsYLtCCns7B-Ig",
+    duracao: "2h 29min",
+    pais: "United States"
+},
+
+{
+    id: 286,
+    tipo: "filme",
+    titulo: "Ant-Man and the Wasp",
+    ano: 2018,
+    sinopse: "Scott Lang struggles to balance life as a superhero and a father when Hope van Dyne and Dr. Hank Pym recruit him for a new urgent mission. Together with the Wasp, he must uncover secrets from the past while fighting a powerful new enemy.",
+    generos: ["Action", "Adventure", "Comedy", "Sci-Fi"],
+    avaliacao: 7.0,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewbjvYfPJkCBWq5ZXVD1la6sLzW3JhPvYyQ&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt5095030",
+    trailer: "https://youtu.be/8_rTIAOohas?si=TcdAfCTPbQr6PR1T",
+    duracao: "1h 58min",
+    pais: "United States"
+},
+
+{
+    id: 287,
+    tipo: "filme",
+    titulo: "Captain Marvel",
+    ano: 2019,
+    sinopse: "Carol Danvers becomes one of the universe's most powerful heroes after Earth is caught in the center of a galactic conflict between two alien races. As she uncovers the truth about her past, she must embrace her powers to stop a war that threatens the galaxy.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.8,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW0rrTjVtrP6j2G5d9CH-00UFyqVe-N7KHUg&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt4154664",
+    trailer: "https://youtu.be/Z1BCujX3pw8?si=XwI_vXuxUls-kG2M",
+    duracao: "2h 3min",
+    pais: "United States"
+},
+
+{
+    id: 288,
+    tipo: "filme",
+    titulo: "Black Widow",
+    ano: 2021,
+    sinopse: "Natasha Romanoff is forced to confront her past when a dangerous conspiracy connected to her former life as a spy emerges. Hunted by a powerful force, she must reconnect with her old family and face the dark secrets that shaped her.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.7,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN-I-TxynCa0-FX4344Dk350_P-zV_TJ8UIw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt3480822",
+    trailer: "https://youtu.be/ybji16u608U?si=Sw6xk8t-g3_vv8-w",
+    duracao: "2h 14min",
+    pais: "United States"
+},
+
+{
+    id: 289,
+    tipo: "filme",
+    titulo: "Shang-Chi and the Legend of the Ten Rings",
+    ano: 2021,
+    sinopse: "Shang-Chi is drawn into the clandestine Ten Rings organization and is forced to confront his past, including his complicated relationship with his father. As ancient powers awaken, he must embrace his destiny and the martial arts skills that define him.",
+    generos: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+    avaliacao: 7.4,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3222tgCmi4fX7Ae2qxV83Kmc_iS7v0_Gkiw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt9376612",
+    trailer: "https://youtu.be/giWIr7U1deA?si=l5zOBiMY90UrSd_G",
+    duracao: "2h 12min",
+    pais: "United States"
+},
+
+{
+    id: 290,
+    tipo: "filme",
+    titulo: "Eternals",
+    ano: 2021,
+    sinopse: "The Eternals, an ancient group of immortal beings created to protect humanity, are forced to reunite after thousands of years when a long-hidden threat called the Deviants re-emerges. As they confront their purpose, they must decide whether to continue following their creators' orders or shape the future of Earth themselves.",
+    generos: ["Action", "Adventure", "Drama", "Fantasy", "Sci-Fi"],
+    avaliacao: 6.3,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0BmhbsZ9SBfEfIhsjksvBhQ4hXgbOWRVjdA&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt9032400",
+    trailer: "https://youtu.be/x_me3xsvDgk?si=DyGxbrdo6sZd0L4J",
+    duracao: "2h 37min",
+    pais: "United States"
+},
+
+{
+    id: 291,
+    tipo: "filme",
+    titulo: "Doctor Strange in the Multiverse of Madness",
+    ano: 2022,
+    sinopse: "Doctor Strange teams up with a mysterious teenage girl who can travel across multiverses while facing a powerful new threat that puts reality itself at risk. As forbidden magic and alternate worlds collide, he must confront dark versions of himself and the consequences of his choices.",
+    generos: ["Action", "Adventure", "Fantasy", "Horror", "Sci-Fi"],
+    avaliacao: 6.9,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9R1BpFpCG6UC6Tkq3fwMUHZ02RHw5XyQlw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt9419884",
+    trailer: "https://youtu.be/aWzlQ2N6qqg?si=Do1c_IhoE_hYfTue",
+    duracao: "2h 6min",
+    pais: "United States"
+},
+
+{
+    id: 292,
+    tipo: "filme",
+    titulo: "Thor: Love and Thunder",
+    ano: 2022,
+    sinopse: "Thor embarks on a journey of self-discovery after the events of Avengers: Endgame, but his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of all gods. Thor reunites with Jane Foster, who has become the Mighty Thor, to stop this new threat.",
+    generos: ["Action", "Adventure", "Comedy", "Fantasy", "Sci-Fi"],
+    avaliacao: 6.2,
+    poster: "https://m.media-amazon.com/images/M/MV5BZjRiMDhiZjQtNjk5Yi00ZDcwLTkyYTEtMDc1NjdmNjFhNGIzXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt10648342",
+    trailer: "https://youtu.be/Go8nTmfrQd8?si=wB8yNO38J34zSk9a",
+    duracao: "1h 59min",
+    pais: "United States"
+},
+
+{
+    id: 293,
+    tipo: "filme",
+    titulo: "Black Panther: Wakanda Forever",
+    ano: 2022,
+    sinopse: "After the death of King T'Challa, Wakanda struggles to protect its future from outside forces seeking its powerful resources. Queen Ramonda, Shuri, Nakia, and Okoye must unite to defend their nation while confronting a new underwater kingdom led by Namor.",
+    generos: ["Action", "Adventure", "Drama", "Sci-Fi"],
+    avaliacao: 6.7,
+    poster: "https://m.media-amazon.com/images/M/MV5BYWY5NDY1ZjItZDQxMy00MTAzLTgyOGQtNTQxYjFiMzZjMjUyXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt9114286",
+    trailer: "https://youtu.be/_Z3QKkl1WyM?si=JkUCAxK32gJ4_BW3",
+    duracao: "2h 41min",
+    pais: "United States"
+},
+
+{
+    id: 294,
+    tipo: "filme",
+    titulo: "Ant-Man and the Wasp: Quantumania",
+    ano: 2023,
+    sinopse: "Scott Lang and Hope Van Dyne are pulled into the Quantum Realm along with Hank Pym’s family, where they encounter strange creatures and a powerful new enemy known as Kang the Conqueror. As reality bends around them, they must fight to escape and survive.",
+    generos: ["Action", "Adventure", "Comedy", "Sci-Fi"],
+    avaliacao: 6.1,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiBQ_nqo8waEo8lI9b3muauU0YbW6XHuGHHw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt10954600",
+    trailer: "https://youtu.be/ZlNFpri-Y40?si=tVzCxoel8VxB8GQr",
+    duracao: "2h 5min",
+    pais: "United States"
+},
+
+{
+    id: 295,
+    tipo: "filme",
+    titulo: "Guardians of the Galaxy Vol. 3",
+    ano: 2023,
+    sinopse: "The Guardians embark on a final mission to protect Rocket’s life and confront his traumatic past. As they face a powerful enemy known as the High Evolutionary, the team must come together one last time, risking everything to save one of their own.",
+    generos: ["Action", "Adventure", "Comedy", "Drama", "Sci-Fi"],
+    avaliacao: 7.9,
+    poster: "https://m.media-amazon.com/images/M/MV5BOTJhOTMxMmItZmE0Ny00MDc3LWEzOGEtOGFkMzY4MWYyZDQ0XkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt6791350",
+    trailer: "https://youtu.be/u3V5KDHRQvk?si=DQ7RX_lEkMFNZ4ux",
+    duracao: "2h 30min",
+    pais: "United States"
+},
+
+{
+    id: 296,
+    tipo: "filme",
+    titulo: "The Marvels",
+    ano: 2023,
+    sinopse: "Carol Danvers, Kamala Khan, and Monica Rambeau find their powers mysteriously linked, forcing them to swap places whenever they use their abilities. As they struggle to control their connection, they must unite to face a dangerous cosmic threat that endangers the entire universe.",
+    generos: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+    avaliacao: 5.8,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStvQYI1I0qPUP_oK9muaw9AuM-N-GyuD3eYA&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt10676048",
+    trailer: "https://youtu.be/wS_qbDztgVY?si=yqixZf4voxfNrumE",
+    duracao: "1h 45min",
+    pais: "United States"
+},
+
+{
+    id: 297,
+    tipo: "filme",
+    titulo: "Deadpool & Wolverine",
+    ano: 2024,
+    sinopse: "Wade Wilson is pulled into a multiversal mission that forces him to team up with Wolverine. Together, the unlikely duo must survive chaotic battles across timelines while confronting powerful enemies who threaten reality itself.",
+    generos: ["Action", "Adventure", "Comedy", "Sci-Fi"],
+    avaliacao: 8.0,
+    poster: "https://m.media-amazon.com/images/M/MV5BNTI2NjY3ZTMtOTY3Ni00MjRiLWJjOGUtZTVmNDNmY2U5N2JiXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt6263850",
+    trailer: "https://youtu.be/73_1biulkYk?si=dOVkEIIrsKzqBAec",
+    duracao: "2h 7min",
+    pais: "United States"
+},
+
+{
+    id: 298,
+    tipo: "filme",
+    titulo: "Captain America: Brave New World",
+    ano: 2025,
+    sinopse: "After the events of The Falcon and the Winter Soldier, Sam Wilson fully embraces his role as the new Captain America. As global tensions rise, he finds himself caught in an international conspiracy that tests his leadership, his ideals, and the future of the Avengers.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 0.0,
+    poster: "https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt14513804",
+    trailer: "https://youtu.be/1pHDWnXmK7Y?si=wuVLq3DwfDYt49uI",
+    duracao: "1h 58min",
+    pais: "United States"
+},
+
+{
+    id: 299,
+    tipo: "filme",
+    titulo: "Thunderbolts*",
+    ano: 2025,
+    sinopse: "A group of antiheroes and former villains are recruited for a covert government mission that no one else can handle. Forced to work together despite their troubled pasts, they must confront powerful threats while struggling with trust, loyalty, and redemption.",
+    generos: ["Action", "Adventure", "Crime", "Sci-Fi"],
+    avaliacao: 0.0,
+    poster: "https://youtu.be/hUUszE29jS0?si=k_DrJmRZfJvReUCN",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt20969586",
+    trailer: "",
+    duracao: "2h 6min",
+    pais: "United States"
+},
+
+{
+    id: 300,
+    tipo: "filme",
+    titulo: "The Fantastic Four: First Steps",
+    ano: 2025,
+    sinopse: "A new team of heroes—Reed Richards, Sue Storm, Johnny Storm, and Ben Grimm—gain extraordinary abilities after a cosmic accident. As they learn to control their powers and work together as a family, they must face a rising cosmic threat that endangers Earth.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 0.0,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSeB6d0pG3DYI2Zm9YuSLhv3XMXyXRDpeJQw&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt10676052",
+    trailer: "https://youtu.be/pAsmrKyMqaA?si=a95EKg29q4kBbQVc",
+    duracao: "1h 55min",
+    pais: "United States"
+},
+
+{
+    id: 301,
+    tipo: "filme",
+    titulo: "X-Men",
+    ano: 2000,
+    sinopse: "In a world where mutants possess extraordinary abilities, Professor Charles Xavier leads a school for gifted individuals while Magneto believes mutants must dominate humans. When tensions rise, a young mutant named Wolverine becomes caught between their opposing visions for the future.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.3,
+    poster: "https://m.media-amazon.com/images/M/MV5BNjVhNWY3NjItNmZjOS00NTU3LWFiZTctNzdjNGM5Y2Y0MDUwXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0120903",
+    trailer: "https://youtu.be/mfUtseK27pc?si=jtpz_rJOJC2D7KQv",
+    duracao: "1h 44min",
+    pais: "United States"
+},
+
+{
+    id: 302,
+    tipo: "filme",
+    titulo: "X2: X-Men United",
+    ano: 2003,
+    sinopse: "Following a violent attack on the President, anti-mutant sentiment rises, forcing the X-Men and Magneto's Brotherhood into an uneasy alliance. As a dangerous military operation threatens all mutants, the team must unite to stop a powerful enemy and uncover a conspiracy that could change the world.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.4,
+    poster: "https://m.media-amazon.com/images/M/MV5BN2UyOTllMjctOWI3Zi00NDE0LWI2N2EtNTllMzRhNGU5MDEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0290334",
+    trailer: "https://youtu.be/KNIdceH7XOw?si=ssWI0YcI-lp7gUB1",
+    duracao: "2h 14min",
+    pais: "United States"
+},
+
+{
+    id: 303,
+    tipo: "filme",
+    titulo: "X-Men: The Last Stand",
+    ano: 2006,
+    sinopse: "A controversial 'cure' for mutation emerges, dividing the mutant community and threatening their existence. As tensions rise between humans and mutants, the X-Men must face their greatest conflict yet while Jean Grey returns with overwhelming and dangerous power as the Phoenix.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.6,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvtnOncNx_GSwM8RPxJjf5uqY6UzO1I6C0qQ&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0376994",
+    trailer: "https://youtu.be/ZQ0v5dXbw7M?si=DcP-BR9XokEhYWu5",
+    duracao: "1h 44min",
+    pais: "United States"
+},
+
+{
+    id: 304,
+    tipo: "filme",
+    titulo: "X-Men: First Class",
+    ano: 2011,
+    sinopse: "In the early days of the Cold War, young Charles Xavier and Erik Lehnsherr discover their extraordinary abilities and become allies. Together, they recruit a team of mutants to stop a global crisis, but ideological differences begin to drive them apart.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.7,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTg5OTMxNzk4Nl5BMl5BanBnXkFtZTcwOTk1MjAwNQ@@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1270798",
+    trailer: "https://youtu.be/kyQKi5-k0UU?si=aoU6ERRd9Dstyb5v",
+    duracao: "2h 12min",
+    pais: "United States"
+},
+
+{
+    id: 305,
+    tipo: "filme",
+    titulo: "X-Men: Days of Future Past",
+    ano: 2014,
+    sinopse: "In a dystopian future where mutants are hunted to extinction by powerful Sentinels, Wolverine is sent back in time to prevent a catastrophic event that could doom both mutants and humans. The fate of the future rests on changing the past.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 7.9,
+    poster: "https://m.media-amazon.com/images/M/MV5BNzNiYWE4NjMtMTU4OS00NmM4LWE4ZjAtYmE5OTA5NjkzODExXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1877832",
+    trailer: "https://youtu.be/pK2zYHWDZKo?si=EkesAEz3GIJbMnVy",
+    duracao: "2h 12min",
+    pais: "United States"
+},
+
+{
+    id: 306,
+    tipo: "filme",
+    titulo: "X-Men: Apocalypse",
+    ano: 2016,
+    sinopse: "The world's first and most powerful mutant, Apocalypse, awakens after thousands of years and becomes disillusioned with modern civilization. Gathering a team of powerful followers, he sets out to reshape the world, forcing the X-Men to unite and stop him.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.8,
+    poster: "https://m.media-amazon.com/images/M/MV5BNjVhNWY3NjItNmZjOS00NTU3LWFiZTctNzdjNGM5Y2Y0MDUwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt3385516",
+    trailer: "https://youtu.be/PfBVIHgQbYk?si=kVzE8dcm1fLXSf1J",
+    duracao: "2h 24min",
+    pais: "United States"
+},
+
+{
+    id: 307,
+    tipo: "filme",
+    titulo: "Dark Phoenix",
+    ano: 2019,
+    sinopse: "During a rescue mission in space, Jean Grey is struck by a mysterious cosmic force that greatly amplifies her powers. As she struggles to control her new abilities, she becomes increasingly unstable, forcing the X-Men to decide whether to save their friend or protect the world.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 5.7,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1t2U1ERKZXAK-otrkgXFyDur01O1Ok90y9A&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt6565702",
+    trailer: "https://youtu.be/QWbMckU3AOQ?si=kLWoL_Wi2PywU6Y-",
+    duracao: "1h 53min",
+    pais: "United States"
+},
+
+{
+    id: 308,
+    tipo: "filme",
+    titulo: "Logan",
+    ano: 2017,
+    sinopse: "In a bleak future where mutants are nearly extinct, an aging and weary Logan cares for an ailing Professor Xavier in hiding. Their quiet existence is shattered when a young mutant girl with extraordinary abilities enters their lives, forcing Logan on one final journey of sacrifice and redemption.",
+    generos: ["Action", "Drama", "Sci-Fi", "Thriller"],
+    avaliacao: 8.1,
+    poster: "https://m.media-amazon.com/images/M/MV5BM2JjODdkMGMtNmY2YS00OGM2LThiY2YtZGYyNzE4Nzc2ODA0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt3315342",
+    trailer: "https://youtu.be/Div0iP65aZo?si=W12Z8ghy4ebLchGi",
+    duracao: "2h 17min",
+    pais: "United States"
+},
+
+{
+    id: 309,
+    tipo: "filme",
+    titulo: "Deadpool",
+    ano: 2016,
+    sinopse: "After undergoing an experimental treatment that leaves him with accelerated healing powers and a disfigured appearance, former special forces operative Wade Wilson adopts the alter ego Deadpool. Armed with dark humor and relentless determination, he hunts the man responsible for ruining his life.",
+    generos: ["Action", "Comedy", "Sci-Fi"],
+    avaliacao: 8.0,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ6ThCqDNu7XrV_uWVKCLB3OeMuiY-AAI74A&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1431045",
+    trailer: "https://youtu.be/Xithigfg7dA?si=VRy4TNMozBIV_-GJ",
+    duracao: "1h 48min",
+    pais: "United States"
+},
+
+{
+    id: 310,
+    tipo: "filme",
+    titulo: "Deadpool 2",
+    ano: 2018,
+    sinopse: "After suffering a personal tragedy, Wade Wilson forms the X-Force to protect a young mutant from the time-traveling soldier Cable. As enemies clash and loyalties are tested, Deadpool must learn the true meaning of family and heroism.",
+    generos: ["Action", "Adventure", "Comedy", "Sci-Fi"],
+    avaliacao: 7.6,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFqzaoS5LV2lLLS68BaYsMd72Ya4ODSB-RA&s",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt5463162",
+    trailer: "https://youtu.be/D86RtevtfrA?si=yppSu4C3SLrVIc9F",
+    duracao: "1h 59min",
+    pais: "United States"
+},
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
