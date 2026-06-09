@@ -4648,6 +4648,21 @@ const CATALOG = [
     duracao: "1h 59min",
     pais: "United States"
 },
+
+{
+    id: 311,
+    tipo: "serie",
+    titulo: "Get Schooled",
+    ano: 2026,
+    sinopse: "As respect for teachers collapses across the country's schools, the government creates a special Educational Rights Protection Bureau. Na Hwa-jin and his team are dispatched to troubled schools, where they use unconventional methods to deal with unruly students and overbearing parents while restoring order to the education system.",
+    generos: ["Action", "Drama"],
+    avaliacao: 8.0,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB7_stF_MOTEbeCoB0e4kzz3ZvQbT2uXOauA&s",
+    duracao: "1 temporada",
+    trailer: "https://youtu.be/LdezlX84py0?si=iOEKAxnmdRxiZWXW",
+    pais: "South Korea",
+    videoUrl: "https://streamimdb.ru/embed/tv/tt34809853"
+},
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
