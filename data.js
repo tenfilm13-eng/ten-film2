@@ -4663,6 +4663,473 @@ const CATALOG = [
     pais: "South Korea",
     videoUrl: "https://streamimdb.ru/embed/tv/tt34809853"
 },
+
+{
+    id: 312,
+    tipo: "filme",
+    titulo: "The Godfather",
+    ano: 1972,
+    sinopse: "The aging patriarch of a powerful crime family transfers control of his empire to his reluctant youngest son, leading to betrayal, violence, and a struggle for power.",
+    generos: ["Crime", "Drama"],
+    avaliacao: 9.2,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg8ZBBUbkiDl8y-uQAt8OyUKjcUXnhMvEnMqGL7F_ebw&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0068646",
+    trailer: "https://youtu.be/UaVTIH8mujA?si=LhiVkY0OVFDevgNx",
+    duracao: "2h 55min",
+    pais: "United States"
+},
+
+{
+    id: 313,
+    tipo: "filme",
+    titulo: "The Dark Knight",
+    ano: 2008,
+    sinopse: "Batman faces his greatest challenge as the Joker unleashes chaos across Gotham City, forcing the hero to confront difficult choices that test his limits and values.",
+    generos: ["Action", "Crime", "Drama"],
+    avaliacao: 9.0,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CFowSxQnEy1wACZk7qBTrsGYK1hoFKBgbSDN2H1mTb0SJY5zM2jxXf4&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0468569",
+    trailer: "https://youtu.be/EXeTwQWrcwY?si=hOEW6WRr3CSQodus",
+    duracao: "2h 32min",
+    pais: "United States"
+},
+
+{
+    id: 314,
+    tipo: "filme",
+    titulo: "The Dark Knight Rises",
+    ano: 2012,
+    sinopse: "Eight years after taking the blame for Harvey Dent's crimes, Batman returns from exile to protect Gotham City from the ruthless terrorist Bane and a looming catastrophe.",
+    generos: ["Action", "Crime", "Drama"],
+    avaliacao: 8.4,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1345836",
+    trailer: "https://youtu.be/TQfATDZY5Y4?si=NYIKLEZ6bjsLLEIR",
+    duracao: "2h 44min",
+    pais: "United States"
+},
+
+{
+    id: 315,
+    tipo: "filme",
+    titulo: "Batman Begins",
+    ano: 2005,
+    sinopse: "After witnessing the murder of his parents, Bruce Wayne trains to fight injustice and returns to Gotham City to become Batman, facing a dangerous criminal conspiracy.",
+    generos: ["Action", "Crime", "Drama"],
+    avaliacao: 8.2,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-f2LcA3joWPtwjb4EbjH5Wq4h2tkNYhj_b7_Zb8FBHc0BCiZ5WdSPiM&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0372784",
+    trailer: "https://youtu.be/neY2xVmOfUM?si=ASAm26386mKYlrLL",
+    duracao: "2h 20min",
+    pais: "United States"
+},
+
+{
+    id: 316,
+    tipo: "filme",
+    titulo: "Inception",
+    ano: 2010,
+    sinopse: "A skilled thief who steals information through dream-sharing technology is offered a chance at redemption if he can successfully plant an idea into a target's subconscious.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 8.8,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgfzwtqFhaKERQxZ2-G0Nl60rSJiJN-ScKRwhu1Rl49o78NGX6qj3z6do&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1375666",
+    trailer: "https://youtu.be/YoHD9XEInc0?si=RjOcuTdVEzUT7bTW",
+    duracao: "2h 28min",
+    pais: "United States"
+},
+
+{
+    id: 317,
+    tipo: "filme",
+    titulo: "Gladiator",
+    ano: 2000,
+    sinopse: "A betrayed Roman general is forced into slavery and rises through the ranks of the gladiatorial arena while seeking vengeance against the corrupt emperor who destroyed his family.",
+    generos: ["Action", "Adventure", "Drama"],
+    avaliacao: 8.5,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-dx8LEQd0SrZrZki86x7224os4TmgN2kNacinpEF5AA&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0172495",
+    trailer: "https://youtu.be/P5ieIbInFpg?si=x3dRVDy866zW0WtD",
+    duracao: "2h 35min",
+    pais: "United States"
+},
+
+{
+    id: 318,
+    tipo: "filme",
+    titulo: "Gladiator II",
+    ano: 2024,
+    sinopse: "Years after the death of Maximus, Lucius is forced into the Colosseum and must fight for survival while confronting the political turmoil threatening the future of Rome.",
+    generos: ["Action", "Adventure", "Drama"],
+    avaliacao: 6.8,
+    poster: "https://m.media-amazon.com/images/M/MV5BN2E2NTI2NDUtY2Y0ZC00NDJmLTk1NmYtOGEzZTRlODYxMDNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt9218128",
+    trailer: "https://youtu.be/4rgYUipGJNo?si=u2bcD6iaNVRCs1Vg",
+    duracao: "2h 28min",
+    pais: "United States"
+},
+
+{
+    id: 319,
+    tipo: "filme",
+    titulo: "Titanic",
+    ano: 1997,
+    sinopse: "A young aristocrat and a struggling artist fall in love aboard the RMS Titanic, but their romance is threatened when the ship collides with an iceberg during its maiden voyage.",
+    generos: ["Drama", "Romance"],
+    avaliacao: 7.9,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5o8XLdaat6hqZwSFN3fBsxEzik-i3nmf5TCJ248xsEQ&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0120338",
+    trailer: "https://youtu.be/kVrqfYjkTdQ?si=VOHMsfxeGYnTIh2n",
+    duracao: "3h 14min",
+    pais: "United States"
+},
+
+{
+    id: 320,
+    tipo: "filme",
+    titulo: "Titanic II",
+    ano: 2010,
+    sinopse: "A modern luxury liner named Titanic II sets sail on the 100th anniversary of the original voyage, only to face a series of disasters that threaten everyone on board.",
+    generos: ["Action", "Adventure", "Drama"],
+    avaliacao: 1.6,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTMxMjQ1MjA5Ml5BMl5BanBnXkFtZTcwNjIzNjg1Mw@@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt1640571",
+    trailer: "https://youtu.be/ltRneGbYlx0?si=H70_PTRvZO8BK4os",
+    duracao: "1h 30min",
+    pais: "United States"
+},
+
+{
+    id: 321,
+    tipo: "filme",
+    titulo: "Titanic",
+    ano: 2023,
+    sinopse: "A documentary exploring the history of the RMS Titanic, covering its crew, passengers, voyage, and the events that led to one of the most famous maritime disasters in history.",
+    generos: ["Documentary", "History"],
+    avaliacao: 5.8,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLwIk1n5pJIZl1Q8Z2JBPbbwp8lC018Fnmaft85nG7M2W9UcT2xqCgi1E&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt27713920",
+    trailer: "https://youtu.be/H2syt9x3ICc?si=3Dn5CfgiiwcgiN-p",
+    duracao: "1h 00min",
+    pais: "United States"
+},
+
+{
+    id: 322,
+    tipo: "filme",
+    titulo: "Jurassic Park",
+    ano: 1993,
+    sinopse: "A group of visitors is invited to a revolutionary theme park filled with cloned dinosaurs, but a system failure turns the attraction into a fight for survival.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 8.2,
+    poster: "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0107290",
+    trailer: "https://youtu.be/bx46tthKXmc?si=tlc81trXOeVkvuJ7",
+    duracao: "2h 07min",
+    pais: "United States"
+},
+
+{
+    id: 323,
+    tipo: "filme",
+    titulo: "The Lost World: Jurassic Park",
+    ano: 1997,
+    sinopse: "A research team travels to a second island where dinosaurs roam freely, but corporate greed and human interference once again put lives at risk.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.6,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYsh-_4mbbL7DFfVkzof7KG1VWntIABoA2CdFTdzk0T6risbW8Ozo7juk&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0119567",
+    trailer: "https://youtu.be/RxrvaneULkE?si=pvoW9ZS_yYO_gDZN",
+    duracao: "2h 09min",
+    pais: "United States"
+},
+
+{
+    id: 324,
+    tipo: "filme",
+    titulo: "Jurassic Park III",
+    ano: 2001,
+    sinopse: "A paleontologist is persuaded to join a seemingly simple aerial tour of Isla Sorna, only to become stranded among dangerous dinosaurs and desperate survivors.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 5.9,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39qZrFU46pKLxfCcFgCXRCKHPHyYYQLKTOzyyhXgf1vdSoOdvI2WrVI8&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0163025",
+    trailer: "https://youtu.be/gjIaV6CU0wA?si=umUX_YmpmNCDNOsc",
+    duracao: "1h 32min",
+    pais: "United States"
+},
+
+{
+    id: 325,
+    tipo: "filme",
+    titulo: "Jurassic World",
+    ano: 2015,
+    sinopse: "A fully operational dinosaur theme park attracts thousands of visitors until a genetically engineered hybrid dinosaur escapes, causing chaos across the island.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.9,
+    poster: "https://m.media-amazon.com/images/M/MV5BNzBhNzlkM2UtZTQyOC00NjUyLTkzMmMtNDQ1YTM5N2NmMGE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0369610",
+    trailer: "https://youtu.be/DyLTV7DjYGs?si=j8cf3PGwo7aqOhLe",
+    duracao: "2h 04min",
+    pais: "United States"
+},
+
+{
+    id: 326,
+    tipo: "filme",
+    titulo: "Jurassic World: Fallen Kingdom",
+    ano: 2018,
+    sinopse: "As a volcanic eruption threatens the dinosaurs of Isla Nublar, a rescue mission uncovers a conspiracy that could change the balance between humans and dinosaurs forever.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 6.1,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyOLCJ-aEsfemjqBDKFOKFXeNGG6FprI5pp1pZCwKexQ&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt4881806",
+    trailer: "https://youtu.be/hdECHdHzGmM?si=okOAb5tS1fK0fECY",
+    duracao: "2h 08min",
+    pais: "United States"
+},
+
+{
+    id: 327,
+    tipo: "filme",
+    titulo: "Jurassic World Dominion",
+    ano: 2022,
+    sinopse: "Four years after the destruction of Isla Nublar, humans and dinosaurs coexist across the globe as familiar heroes unite to confront a threat that could determine the future of both species.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 5.6,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYHyzc4-27bKfxcfH9tRXoRqnqBzc9wICe9JnvIYrpfg&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt8041270",
+    trailer: "https://youtu.be/jan5CFWs9ic?si=ZnaPFV0QZUT7MJzR",
+    duracao: "2h 27min",
+    pais: "United States"
+},
+
+{
+    id: 328,
+    tipo: "filme",
+    titulo: "Jurassic World Rebirth",
+    ano: 2025,
+    sinopse: "Five years after the events of Jurassic World Dominion, a dangerous expedition travels to remote equatorial regions to collect DNA from massive prehistoric creatures for a groundbreaking medical breakthrough.",
+    generos: ["Action", "Adventure", "Sci-Fi"],
+    avaliacao: 5.8,
+    poster: "https://m.media-amazon.com/images/M/MV5BNjg2NTcwYWQtYzk4NS00MTJhLWEzZjItMzIxNjk3YzlkYzU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt31036941",
+    trailer: "https://youtu.be/EpTjpfhE4qs?si=VcV0vvi2iujuLKvD",
+    duracao: "2h 13min",
+    pais: "United States"
+},
+
+{
+    id: 329,
+    tipo: "filme",
+    titulo: "The Matrix",
+    ano: 1999,
+    sinopse: "A computer hacker discovers that reality is a simulated world controlled by intelligent machines and joins a rebellion to free humanity from their control.",
+    generos: ["Action", "Sci-Fi"],
+    avaliacao: 8.7,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsUyob1nsYqWJ9N7nXkJoEqFAP7Z17qnBIM8nsOhh74g&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0133093",
+    trailer: "https://youtu.be/vKQi3bBA1y8?si=y6XC9GDyK2-Fqq8-",
+    duracao: "2h 16min",
+    pais: "United States"
+},
+
+{
+    id: 330,
+    tipo: "filme",
+    titulo: "The Matrix Reloaded",
+    ano: 2003,
+    sinopse: "Neo, Trinity, and Morpheus continue the fight against the machines while uncovering deeper truths about the Matrix and the war for humanity’s survival.",
+    generos: ["Action", "Sci-Fi"],
+    avaliacao: 7.2,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_MulRy8J1sMA6Fxqcxu-RKLfqyI3EaceA8W0W9_tKIg&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0234215",
+    trailer: "https://youtu.be/kYzz0FSgpSU?si=zWwbfI3WFL9Iqwal",
+    duracao: "2h 18min",
+    pais: "United States"
+},
+
+{
+    id: 331,
+    tipo: "filme",
+    titulo: "The Matrix Revolutions",
+    ano: 2003,
+    sinopse: "Neo continues his battle against the machines as Zion faces destruction, leading to a final confrontation that will determine the fate of humanity and the Matrix.",
+    generos: ["Action", "Sci-Fi"],
+    avaliacao: 6.7,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbyTNUShCn7g4avIGzF7I0mCYFbiRoO9amXOfIJI_JEQ&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0242653",
+    trailer: "https://youtu.be/hMbexEPAOQI?si=F23kMXwkfyNMkSgy",
+    duracao: "2h 09min",
+    pais: "United States"
+},
+
+{
+    id: 332,
+    tipo: "filme",
+    titulo: "The Matrix Resurrections",
+    ano: 2021,
+    sinopse: "Thomas Anderson, known as Neo, lives a seemingly ordinary life under a new version of the Matrix until he is forced to confront reality once again and choose between illusion and truth.",
+    generos: ["Action", "Sci-Fi"],
+    avaliacao: 5.7,
+    poster: "https://m.media-amazon.com/images/M/MV5BMDMyNDIzYzMtZTMyMy00NjUyLWI3Y2MtYzYzOGE1NzQ1MTBiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt10838180",
+    trailer: "https://youtu.be/9ix7TUGVYIo?si=lITeLgnHzJ2INVvx",
+    duracao: "2h 28min",
+    pais: "United States"
+},
+
+{
+    id: 333,
+    tipo: "filme",
+    titulo: "Fight Club",
+    ano: 1999,
+    sinopse: "An insomniac office worker forms an underground fight club with a mysterious soap maker, which evolves into something far more dangerous and anarchic.",
+    generos: ["Drama"],
+    avaliacao: 8.8,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkVuG4shYHD2DvS2NPLq5bRfRCrzWOGBXaIYhzddEE_Q&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0137523",
+    trailer: "https://youtu.be/qtRKdVHc-cE?si=enoC_EkRnkcefK0B",
+    duracao: "2h 19min",
+    pais: "United States"
+},
+
+{
+    id: 334,
+    tipo: "filme",
+    titulo: "Pulp Fiction",
+    ano: 1994,
+    sinopse: "The lives of two hitmen, a boxer, a gangster’s wife, and a pair of diner bandits intertwine in a series of violent and darkly comedic stories in Los Angeles.",
+    generos: ["Crime", "Drama"],
+    avaliacao: 8.9,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg4B9aJ9U55oIY-8l8Qu5CJ8ymCqDKHVv22iUOseIS-l4O38Dj4fSv34Q&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0110912",
+    trailer: "https://youtu.be/s7EdQ4FqbhY?si=e0ICjOLVr_Z4mytz",
+    duracao: "2h 34min",
+    pais: "United States"
+},
+
+{
+    id: 335,
+    tipo: "filme",
+    titulo: "Forrest Gump",
+    ano: 1994,
+    sinopse: "The life story of Forrest Gump, a kind-hearted man with a low IQ, who unknowingly influences several major historical events in the United States while pursuing his simple dreams.",
+    generos: ["Drama", "Romance"],
+    avaliacao: 8.8,
+    poster: "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0109830",
+    trailer: "https://youtu.be/bLvqoHBptjg?si=33tP8dxKUaV0pHmO",
+    duracao: "2h 22min",
+    pais: "United States"
+},
+
+{
+    id: 336,
+    tipo: "filme",
+    titulo: "Saving Private Ryan",
+    ano: 1998,
+    sinopse: "During World War II, a group of U.S. soldiers is sent behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+    generos: ["Drama", "War"],
+    avaliacao: 8.6,
+    poster: "https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0120815",
+    trailer: "https://youtu.be/9CiW_DgxCnQ?si=tLH_xczii3eKtkpn",
+    duracao: "2h 49min",
+    pais: "United States"
+},
+
+{
+    id: 337,
+    tipo: "filme",
+    titulo: "The Lord of the Rings: The Fellowship of the Ring",
+    ano: 2001,
+    sinopse: "A young hobbit is tasked with destroying a powerful ring that could bring darkness to Middle-earth, joining a fellowship of allies on a dangerous journey.",
+    generos: ["Adventure", "Fantasy"],
+    avaliacao: 8.8,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUmbJ7xU_RGhg8gGADptc2qeK_1jfLCQURvmYbyjGw8w&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0120737",
+    trailer: "https://youtu.be/V75dMMIW2B4?si=m1zD9BmxpULP4bMm",
+    duracao: "2h 58min",
+    pais: "New Zealand"
+},
+
+{
+    id: 338,
+    tipo: "filme",
+    titulo: "The Lord of the Rings: The Two Towers",
+    ano: 2002,
+    sinopse: "The fellowship is divided as the war for Middle-earth intensifies, with Frodo and Sam continuing their journey toward Mordor while Aragorn, Legolas, and Gimli prepare for battle.",
+    generos: ["Adventure", "Fantasy"],
+    avaliacao: 8.8,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUNZQV8TNajrPt7smlFG_GiB1GL59Dx4eHFaONg9DH0w&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0167261",
+    trailer: "https://youtu.be/LbfMDwc4azU?si=R_CIywAYkO7RqCMn",
+    duracao: "2h 59min",
+    pais: "New Zealand"
+},
+
+{
+    id: 339,
+    tipo: "filme",
+    titulo: "The Lord of the Rings: The Return of the King",
+    ano: 2003,
+    sinopse: "The final battle for Middle-earth begins as Frodo and Sam approach Mount Doom to destroy the One Ring, while Aragorn embraces his destiny as king.",
+    generos: ["Adventure", "Fantasy"],
+    avaliacao: 9.0,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0167260",
+    trailer: "https://youtu.be/r5X-hFf6Bwo?si=wo04l2bgKJ4iwGLE",
+    duracao: "3h 21min",
+    pais: "New Zealand"
+},
+
+{
+    id: 340,
+    tipo: "filme",
+    titulo: "Oppenheimer",
+    ano: 2023,
+    sinopse: "The story of J. Robert Oppenheimer and the development of the atomic bomb during World War II, exploring the moral consequences of scientific discovery.",
+    generos: ["Biography", "Drama", "History"],
+    avaliacao: 8.4,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkFu7ILEJtFxFJ_EGCj1YelyZ3j9ndeZL6D9W3KFyErA&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt15398776",
+    trailer: "https://youtu.be/bK6ldnjE3Y0?si=Y1T0HClItsgfmVny",
+    duracao: "3h 00min",
+    pais: "United States"
+},
+
+{
+    id: 341,
+    tipo: "filme",
+    titulo: "RRR",
+    ano: 2022,
+    sinopse: "A fictional story about two revolutionary freedom fighters in India who embark on a dangerous mission against British colonial rule.",
+    generos: ["Action", "Drama", "History"],
+    avaliacao: 7.8,
+    poster: "https://m.media-amazon.com/images/M/MV5BNWMwODYyMjQtMTczMi00NTQ1LWFkYjItMGJhMWRkY2E3NDAyXkEyXkFqcGc@._V1_.jpg",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt8178634",
+    trailer: "https://youtu.be/W1c2uN3XbKk?si=TSb7oj9Zk7UrovLy",
+    duracao: "3h 07min",
+    pais: "India"
+},
+
+{
+    id: 342,
+    tipo: "filme",
+    titulo: "Taare Zameen Par",
+    ano: 2007,
+    sinopse: "A young boy struggling with dyslexia is misunderstood by his family and school until a compassionate art teacher helps him discover his hidden talent and self-worth.",
+    generos: ["Drama", "Family"],
+    avaliacao: 8.3,
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnaGWkN5XjwZCqtfTiAx5qwKjKSe6QvvblHMhGEliHOg&s=10",
+    videoUrl: "https://streamimdb.ru/embed/movie/tt0986264",
+    trailer: "https://youtu.be/EFfocv9BdwY?si=Bxv4rlH0lUJ8GMFM",
+    duracao: "2h 45min",
+    pais: "India"
+},
+
+
   /* ─────────────────────────────────────────────────────────
      PARA ADICIONAR NOVO FILME:
      ,{
