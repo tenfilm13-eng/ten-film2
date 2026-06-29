@@ -8,8 +8,8 @@
   --bg:        #0a0a0c;
   --bg2:       #111116;
   --bg3:       #18181f;
-  --accent:    #e8b84b;
-  --accent2:   #c9960a;
+  --accent:    #e50914;
+  --accent2:   #b20710;
   --text:      #f0eee8;
   --muted:     #888880;
   --red:       #e84b4b;
@@ -107,7 +107,7 @@ body {
 .hero-bg {
   position: absolute; inset: 0;
   background:
-    radial-gradient(ellipse 80% 60% at 60% 40%, rgba(232,184,75,.08) 0%, transparent 70%),
+    radial-gradient(ellipse 80% 60% at 60% 40%, rgba(229,9,20,.08) 0%, transparent 70%),
     linear-gradient(135deg, #0a0a0c 0%, #1a1610 50%, #0a0a0c 100%);
 }
 
@@ -204,7 +204,7 @@ body {
 
 .card:hover {
   transform: scale(1.04) translateY(-4px);
-  box-shadow: 0 20px 40px rgba(0,0,0,.6), 0 0 0 1px rgba(232,184,75,.3);
+  box-shadow: 0 20px 40px rgba(0,0,0,.6), 0 0 0 1px rgba(229,9,20,.3);
   z-index: 2;
 }
 
@@ -258,8 +258,8 @@ body {
   padding: .2rem .55rem;
   border-radius: 4px;
 }
-.badge-filme { background: rgba(232,184,75,.2); color: var(--accent); border: 1px solid rgba(232,184,75,.4); }
-.badge-serie { background: rgba(232,75,75,.2);  color: var(--red);    border: 1px solid rgba(232,75,75,.4); }
+.badge-filme { background: rgba(229,9,20,.2); color: var(--accent); border: 1px solid rgba(229,9,20,.4); }
+.badge-serie { background: rgba(229,9,20,.2);  color: var(--red);    border: 1px solid rgba(229,9,20,.4); }
 
 .rating-badge {
   position: absolute; top: .55rem; right: .55rem;
@@ -337,8 +337,8 @@ body {
   font-size: .7rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase;
   padding: .2rem .7rem; border-radius: 4px; margin-bottom: .8rem; display: inline-block;
 }
-.modal-type.filme { background: rgba(232,184,75,.15); color: var(--accent); border: 1px solid rgba(232,184,75,.3); }
-.modal-type.serie { background: rgba(232,75,75,.15);  color: var(--red);    border: 1px solid rgba(232,75,75,.3); }
+.modal-type.filme { background: rgba(229,9,20,.15); color: var(--accent); border: 1px solid rgba(229,9,20,.3); }
+.modal-type.serie { background: rgba(229,9,20,.15);  color: var(--red);    border: 1px solid rgba(229,9,20,.3); }
 
 .modal-title {
   font-family: 'Bebas Neue', sans-serif;
@@ -384,10 +384,46 @@ body {
 .site-footer {
   border-top: 1px solid rgba(255,255,255,.06);
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.8rem 1.5rem 1.5rem;
   font-size: .8rem; color: var(--muted);
   letter-spacing: .05em;
 }
+
+.footer-social {
+  display: flex; justify-content: center; align-items: center;
+  gap: .8rem; margin-bottom: 1rem;
+}
+
+.social-btn {
+  display: inline-flex; align-items: center; gap: .45rem;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: .8rem; font-family: 'DM Sans', sans-serif;
+  font-weight: 400; letter-spacing: .04em;
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 99px;
+  padding: .4rem 1rem;
+  transition: var(--transition);
+}
+.social-btn svg { width: 15px; height: 15px; flex-shrink: 0; }
+.social-btn:hover { color: var(--text); background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.25); }
+
+.header-social {
+  display: flex; align-items: center; gap: .5rem;
+}
+.header-social-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.1);
+  color: var(--muted);
+  text-decoration: none;
+  transition: var(--transition);
+}
+.header-social-btn svg { width: 16px; height: 16px; }
+.header-social-btn:hover { color: var(--text); background: rgba(255,255,255,.15); border-color: rgba(255,255,255,.3); }
 
 /* ── ANIMATIONS ── */
 @keyframes fadeUp {
@@ -447,8 +483,8 @@ body {
 
 .ad-label {
   font-size: .6rem; font-weight: 600; letter-spacing: .18em;
-  background: rgba(232,184,75,.2); color: var(--accent);
-  border: 1px solid rgba(232,184,75,.4);
+  background: rgba(229,9,20,.2); color: var(--accent);
+  border: 1px solid rgba(229,9,20,.4);
   padding: .2rem .55rem; border-radius: 4px;
   flex-shrink: 0;
 }
@@ -602,8 +638,8 @@ body {
 }
 
 .episode-btn:hover {
-  background: rgba(232,184,75,.1);
-  border-color: rgba(232,184,75,.4);
+  background: rgba(229,9,20,.1);
+  border-color: rgba(229,9,20,.4);
   transform: translateX(4px);
 }
 
@@ -638,7 +674,7 @@ body {
 
 .btn-request-header {
   background: transparent;
-  border: 1px solid rgba(232,184,75,.4);
+  border: 1px solid rgba(229,9,20,.4);
   color: var(--accent);
   font-family: 'DM Sans', sans-serif;
   font-size: .78rem; font-weight: 500;
@@ -648,7 +684,7 @@ body {
   transition: var(--transition);
   flex-shrink: 0;
 }
-.btn-request-header:hover { background: rgba(232,184,75,.1); }
+.btn-request-header:hover { background: rgba(229,9,20,.1); }
 
 .btn-request {
   background: var(--accent);
@@ -763,12 +799,12 @@ body {
 
 /* ── Season Button ── */
 .season-btn {
-  background: rgba(232,184,75,.08) !important;
-  border-color: rgba(232,184,75,.25) !important;
+  background: rgba(229,9,20,.08) !important;
+  border-color: rgba(229,9,20,.25) !important;
 }
 .season-btn:hover {
-  background: rgba(232,184,75,.2) !important;
-  border-color: rgba(232,184,75,.5) !important;
+  background: rgba(229,9,20,.2) !important;
+  border-color: rgba(229,9,20,.5) !important;
 }
 .season-btn .ep-number {
   font-size: 1rem;
@@ -797,11 +833,11 @@ body {
 .btn-request-film {
   background: transparent !important;
   color: var(--accent) !important;
-  border: 1px solid rgba(232,184,75,.4) !important;
+  border: 1px solid rgba(229,9,20,.4) !important;
   font-size: .82rem !important;
 }
 .btn-request-film:hover {
-  background: rgba(232,184,75,.1) !important;
+  background: rgba(229,9,20,.1) !important;
 }
 
 /* ── Subtitle Bar ── */
@@ -970,7 +1006,7 @@ body {
 .btn-trailer {
   display: inline-flex; align-items: center; gap: .4rem;
   background: transparent;
-  border: 1px solid rgba(232,184,75,.4);
+  border: 1px solid rgba(229,9,20,.4);
   color: var(--accent);
   font-family: 'DM Sans', sans-serif;
   font-size: .82rem; font-weight: 500;
@@ -981,7 +1017,7 @@ body {
   transition: var(--transition);
   margin-right: .5rem;
 }
-.btn-trailer:hover { background: rgba(232,184,75,.1); }
+.btn-trailer:hover { background: rgba(229,9,20,.1); }
 
 /* ── Trailer Modal ── */
 .trailer-modal {
