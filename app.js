@@ -148,6 +148,28 @@ document.addEventListener('DOMContentLoaded', () => {
       watchBtn.onclick = () => { closeModal(); openRequestModal(); };
     }
 
+    // ── Download Button ──
+    const dlBtn = document.getElementById('modalDownloadBtn');
+    const isDirectMp4 = item.videoUrl && (
+      item.videoUrl.includes('.mp4') ||
+      item.videoUrl.includes('.mkv') ||
+      item.videoUrl.includes('.webm')
+    );
+    if (isDirectMp4) {
+      dlBtn.style.display = 'inline-flex';
+      dlBtn.onclick = () => {
+        const a = document.createElement('a');
+        a.href = item.videoUrl;
+        a.download = item.titulo + '.mp4';
+        a.target = '_blank';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      };
+    } else {
+      dlBtn.style.display = 'none';
+    }
+
     document.getElementById('modalOverlay').classList.add('open');
     document.body.style.overflow = 'hidden';
   };
