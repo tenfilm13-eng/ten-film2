@@ -26,6 +26,8 @@
   <!-- HEADER -->
   <header class="site-header">
     <div class="logo">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-word">TENFIM<small>Movie &amp; series</small></span>
       <svg class="logo-svg" viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg">
         <!-- Film strip -->
         <g transform="translate(2, 2) rotate(-20, 40, 20)">
@@ -64,14 +66,28 @@
           <circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/>
         </svg>
       </a>
-      <a href="https://www.tiktok.com/@ten.fim?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener" class="header-social-btn" title="TikTok @ten.film2026">
-        <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
-        </svg>
-      </a>
     </div>
     <button class="btn-request-header" onclick="openRequestModal()">📩 Request</button>
   </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tag">100% Free · Updated daily</span>
+      <h1 class="hero-title">Movies &amp; Series<br/><span>without limits</span></h1>
+      <p class="hero-desc">Watch the best titles in high quality, completely free. Pick your favourite and press play.</p>
+      <div class="hero-actions">
+        <button class="btn-play" onclick="document.getElementById('cardsGrid').scrollIntoView({behavior:'smooth', block:'start'})">▶ Start watching</button>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>400+</strong><span>Titles</span></div>
+        <div class="hero-stat"><strong>HD</strong><span>Quality</span></div>
+        <div class="hero-stat"><strong>Free</strong><span>Always</span></div>
+      </div>
+    </div>
+  </section>
 
   <!-- GRID -->
   <main class="content-section">
@@ -230,12 +246,6 @@
           <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
           <circle cx="12" cy="12" r="4.5"/>
           <circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/>
-        </svg>
-        @ten.film1
-      </a>
-      <a href="https://www.tiktok.com/@ten.film2026" target="_blank" rel="noopener" class="social-btn" title="TikTok">
-        <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
         </svg>
         @ten.film1
       </a>
